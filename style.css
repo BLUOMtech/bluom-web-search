@@ -1,15 +1,15 @@
 body {
   font-family: Arial, sans-serif;
-  background:#f0f2f5;
+  background:#1A1AC7; /* updated background */
   margin:0;
   padding:0;
-  color:#333;
+  color:#fff;
   text-align:center;
 }
 
 header {
   padding:2rem 1rem 1rem 1rem;
-  background:#1e90ff;
+  background:#1A1AC7; /* same as background for seamless look */
   color:#fff;
 }
 
@@ -26,7 +26,7 @@ header h1 {
 }
 
 header h1 .highlight {
-  color:#00bfff; /* bright blue for the "Search" part */
+  color:#1C7FEB; /* search in blue */
 }
 
 .search-bar {
@@ -48,17 +48,18 @@ header h1 .highlight {
 }
 
 .card {
-  background:#1A1AC7;
+  background:#fff;
   border-radius:10px;
-  box-shadow:0 4px 8px rgba(0,0,0,0.1);
+  box-shadow:0 4px 8px rgba(0,0,0,0.2);
   padding:15px;
   text-align:left;
+  color:#000;
   transition:transform .2s, box-shadow .2s;
 }
 
 .card:hover {
   transform:scale(1.02);
-  box-shadow:0 6px 12px rgba(0,0,0,0.15);
+  box-shadow:0 6px 12px rgba(0,0,0,0.25);
 }
 
 .card .title {
@@ -74,6 +75,12 @@ header h1 .highlight {
 
 .card .url {
   font-size:0.75rem;
-  color:#1e90ff;
+  color:#1C7FEB;
   word-break:break-all;
+}
+
+.no-results {
+  font-size:1rem;
+  color:#ccc;
+  padding:1rem;
 }
