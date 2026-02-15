@@ -5,49 +5,50 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>BLUOM Search</title>
 <link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/x-icon" href="assets/favicon.ico">
 </head>
 <body>
 
 <header>
   <img src="assets/logo.png" alt="BLUOM Logo" id="logo">
-  <h1>BLUOM Search</h1>
-  <input type="text" class="search-bar" placeholder="Search The Web" oninput="filterApps()">
+  <h1>BLUOM Search <span class="highlight">Search</span></h1>
+  <input type="text" class="search-bar" placeholder="Search the web..." oninput="filterResults()">
 </header>
 
-<div class="grid" id="appGrid"></div>
+<div class="grid" id="resultsGrid"></div>
 
 <script>
-// Load JSON data
-let apps = [];
+// Load search results JSON
+let results = [];
 fetch('data/index.json')
   .then(res => res.json())
-  .then(data => { apps = data; renderApps(apps); });
+  .then(data => { results = data; renderResults(results); });
 
-// Render apps to grid
-function renderApps(appList){
-  const grid = document.getElementById('appGrid');
+// Render search results
+function renderResults(list){
+  const grid = document.getElementById('resultsGrid');
   grid.innerHTML = '';
-  const maxRender = 50; // lazy load first 50
-  appList.slice(0, maxRender).forEach(app => {
+  list.slice(0, 50).forEach(item => {
     const card = document.createElement('div');
     card.className = 'card';
     card.innerHTML = `
-      <img src="${app.img || 'assets/logo.png'}" alt="${app.name}">
-      <div>${app.name}</div>
-      <div class="tags">${(app.tags||[]).join(', ')}</div>
+      <a href="${item.url}" target="_blank">
+        <div class="title">${item.title}</div>
+        <div class="snippet">${item.snippet}</div>
+        <div class="url">${item.url}</div>
+      </a>
     `;
-    card.onclick = () => window.open(app.url, "_blank");
     grid.appendChild(card);
   });
 }
 
-// Search filter
-function filterApps(){
+// Filter results based on search query
+function filterResults(){
   const q = document.querySelector('.search-bar').value.toLowerCase();
-  const filtered = apps.filter(app => {
-    return app.name.toLowerCase().includes(q) || (app.tags||[]).some(tag => tag.includes(q));
+  const filtered = results.filter(item => {
+    return item.title.toLowerCase().includes(q) || item.snippet.toLowerCase().includes(q);
   });
-  renderApps(filtered);
+  renderResults(filtered);
 }
 </script>
 
