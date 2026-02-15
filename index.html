@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>BLUOM Search</title>
+<title>BLUOM Web Search</title>
 <link rel="stylesheet" href="style.css">
 <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
 </head>
@@ -11,16 +11,16 @@
 
 <header>
   <img src="assets/logo.png" alt="BLUOM Logo" id="logo">
-  <h1>BLUOM Search <span class="highlight">Search</span></h1>
+  <h1>BLUOM <span class="highlight">Search</span></h1>
   <input type="text" class="search-bar" placeholder="Search the web..." oninput="filterResults()">
 </header>
 
 <div class="grid" id="resultsGrid"></div>
 
 <script>
-// Load search results JSON
+// Load search results JSON from root
 let results = [];
-fetch('data/index.json')
+fetch('index.json')
   .then(res => res.json())
   .then(data => { results = data; renderResults(results); });
 
@@ -28,6 +28,10 @@ fetch('data/index.json')
 function renderResults(list){
   const grid = document.getElementById('resultsGrid');
   grid.innerHTML = '';
+  if(list.length === 0){
+    grid.innerHTML = '<p class="no-results">No results found.</p>';
+    return;
+  }
   list.slice(0, 50).forEach(item => {
     const card = document.createElement('div');
     card.className = 'card';
@@ -42,7 +46,7 @@ function renderResults(list){
   });
 }
 
-// Filter results based on search query
+// Filter results
 function filterResults(){
   const q = document.querySelector('.search-bar').value.toLowerCase();
   const filtered = results.filter(item => {
