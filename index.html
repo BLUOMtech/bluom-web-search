@@ -5,12 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>BLUOM Web Search</title>
 <link rel="stylesheet" href="style.css">
+<!-- Favicon -->
 <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
 
 <header>
-  <img src="logo.png" alt="BLUOM Logo" id="logo">
+  <!-- BLUOM Logo -->
+<img src="logo.png" alt="BLUOM Logo" id="logo">
   <h1>BLUOM <span class="highlight">Search</span></h1>
   <input type="text" class="search-bar" placeholder="Search the web..." oninput="filterResults()">
 </header>
@@ -39,7 +41,7 @@ function renderNews(list){
   const topNews = list.sort((a,b)=> b.links - a.links).slice(0,5);
 
   topNews.forEach(item => {
-    const img = item.image || 'assets/placeholder.png'; // placeholder if no image
+    const img = item.image || 'placeholder.png'; // fallback if no image
 
     const card = document.createElement('div');
     card.className = 'news-card';
