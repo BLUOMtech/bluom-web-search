@@ -18,7 +18,7 @@
 <!-- AI Overview -->
 <div id="aiOverview" class="ai-overview" style="display:none;">
   <div class="label">Sarah AI — BLUOM Tech</div>
-  <div class="summary" id="aiSummary">Loading AI summary...</div>
+  <div class="summary" id="aiSummary"></div>
 </div>
 
 <!-- Channel Tabs -->
@@ -47,12 +47,13 @@ fetch('index.json')
 let currentChannel = 'web';
 let debounceTimer;
 
-// --- AI Overview using Gemini ---
+// --- Animated AI Summary ---
 async function fetchAISummary(query){
   const aiSummary = document.getElementById('aiSummary');
-  aiSummary.textContent = 'Loading AI summary...';
-  document.getElementById('aiOverview').style.display = 'block';
-
+  const overview = document.getElementById('aiOverview');
+  overview.style.display = 'block';
+  aiSummary.textContent = ''; // clear previous
+  
   try {
     const response = await fetch('https://api.generativeai.googleapis.com/v1beta2/models/text-bison-001:generateText', {
       method: 'POST',
@@ -67,7 +68,15 @@ async function fetchAISummary(query){
       })
     });
     const data = await response.json();
-    aiSummary.textContent = data?.candidates?.[0]?.output || "Sarah AI could not generate a summary.";
+    const output = data?.candidates?.[0]?.output || "Sarah AI could not generate a summary.";
+
+    // Animate typing
+    aiSummary.textContent = '';
+    for(let i=0;i<output.length;i++){
+      aiSummary.textContent += output[i];
+      await new Promise(r=>setTimeout(r, 25)); // 25ms per char
+    }
+
   } catch(e){
     aiSummary.textContent = "Error fetching AI summary.";
     console.error(e);
