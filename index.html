@@ -3,22 +3,34 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BLUOM Web Search</title>
+  <title>BLUOM Search</title>
   <link rel="icon" href="favicon.ico">
   <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-slate-50 text-slate-900 antialiased">
-  <header>
-    <h1>BLUOM Web Search</h1>
-  </header>
+<body>
+  <div class="container">
+    <header>
+      <img src="logo.png" alt="BLUOM Logo" class="logo">
+      <h1>BLUOM<span class="highlight">Search</span></h1>
+    </header>
 
-  <main>
-    <input type="text" id="searchInput" placeholder="Type your search..." />
-    <button onclick="search()">Search</button>
-    <div id="results"></div>
-  </main>
+    <main>
+      <input type="text" id="searchInput" placeholder="Search by keyword, domain, or authority...">
+      <button onclick="search()">Search</button>
+      <p class="tagline">Next-Gen Discovery Engine</p>
+      <p class="description">
+        Aggregating the web's most authoritative domains through automated
+        crawling and link analysis.
+      </p>
+      <div id="results"></div>
+    </main>
 
-  <!-- Include the JS logic -->
+    <footer>
+      <p>© 2026 BLUOM Web Search. Built for the distributed web.</p>
+      <p>Optimized for performance, authority, and discovery.</p>
+    </footer>
+  </div>
+
   <script src="search.js"></script>
 </body>
 </html>
