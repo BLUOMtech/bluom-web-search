@@ -6,6 +6,7 @@ body {
   padding:0;
   color:#fff;
   text-align:center;
+  overflow-x:hidden;
 }
 
 /* --- Header --- */
@@ -40,24 +41,35 @@ header h1 .highlight {
   font-size:1rem;
 }
 
-/* --- News / Trending Bar --- */
+/* --- News / Trending Vertical Scroll --- */
 .news-feed {
   display:flex;
-  overflow-x:auto;
+  flex-direction:column;
   gap:1rem;
-  padding:1rem;
-  max-width:1200px;
-  margin:0 auto 1rem auto;
+  padding:1rem 0;
+  max-width:600px;
+  margin:0 auto;
+  scroll-behavior: smooth;
+  overflow-y:auto;
+  height:50vh; /* visible part of screen */
+}
+
+/* Hide default scrollbar entirely */
+.news-feed::-webkit-scrollbar {
+  display:none;
+}
+.news-feed {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 .news-card {
-  min-width:150px;
+  min-height:200px;
   background:#fff;
   border-radius:10px;
-  padding:10px;
-  box-shadow:0 4px 8px rgba(0,0,0,0.1);
   text-align:center;
-  color:#000; /* text black */
+  color:#000;
+  box-shadow:0 4px 8px rgba(0,0,0,0.1);
   flex-shrink:0;
 }
 
@@ -68,15 +80,15 @@ header h1 .highlight {
 
 .news-card .news-img {
   width:100%;
-  height:100px;
+  height:140px;
   object-fit:cover;
-  border-radius:5px;
-  margin-bottom:5px;
+  border-radius:5px 5px 0 0;
 }
 
 .news-card .title {
   font-weight:bold;
-  font-size:0.9rem;
+  font-size:1rem;
+  padding:0.5rem;
 }
 
 /* --- Search Results Grid --- */
