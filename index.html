@@ -3,177 +3,99 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>BLUOM Web Search</title>
+<title>BLUOM web search</title>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
 <link rel="stylesheet" href="style.css">
-<link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
-<body>
-
-<header>
-  <img src="logo.png" alt="BLUOM Logo" id="logo">
-  <h1>BLUOM <span class="highlight">Search</span></h1>
-  <input type="text" class="search-bar" placeholder="Search the web..." oninput="filterResults()">
-</header>
-
-<!-- AI Overview -->
-<div id="aiOverview" class="ai-overview" style="display:none;">
-  <div class="label">Sarah AI — BLUOM Tech</div>
-  <div class="summary" id="aiSummary"></div>
-</div>
-
-<!-- Channel Tabs -->
-<div class="channels">
-  <button class="tab active" onclick="switchChannel('web')">Web</button>
-  <button class="tab" onclick="switchChannel('news')">News</button>
-  <button class="tab" onclick="switchChannel('images')">Images</button>
-</div>
-
-<!-- News container -->
-<div id="newsFeed" class="news-feed"></div>
-
-<!-- Search results -->
-<div id="resultsGrid" class="grid"></div>
-
+<script src="ai.js"></script>
 <script>
-let results = [];
-let chatHistory = [];
-fetch('index.json')
-  .then(res => res.json())
-  .then(data => {
-    results = data;
-    renderNews();
-    renderResults('web');
-  });
+let indexData = [];
 
-let currentChannel = 'web';
-let debounceTimer;
-
-// --- Animated AI Summary ---
-async function fetchAISummary(query){
-  const aiSummary = document.getElementById('aiSummary');
-  const overview = document.getElementById('aiOverview');
-  overview.style.display = 'block';
-  aiSummary.textContent = '';
-
-  chatHistory.push({role:'user', content: query});
-
+async function loadIndex() {
   try {
-    const response = await fetch('https://api.generativeai.googleapis.com/v1beta2/models/text-bison-001:generateText', {
-      method: 'POST',
-      headers: {
-        'Content-Type':'application/json',
-        'Authorization':'Bearer YOUR_GEMINI_API_KEY'
-      },
-      body: JSON.stringify({
-        "prompt": chatHistory.map(c=>c.content).join("\n") + "\nProvide a concise, fresh summary.",
-        "temperature": 0.85,
-        "maxOutputTokens": 200
-      })
-    });
-    const data = await response.json();
-    const output = data?.candidates?.[0]?.output || "Sarah AI could not generate a summary.";
-
-    chatHistory.push({role:'ai', content: output});
-
-    // Typing animation
-    aiSummary.textContent = '';
-    for(let i=0;i<output.length;i++){
-      aiSummary.textContent += output[i];
-      await new Promise(r=>setTimeout(r,25));
-    }
-
-  } catch(e){
-    aiSummary.textContent = "Error fetching AI summary.";
-    console.error(e);
-  }
+    const res = await fetch('index.json');
+    indexData = await res.json();
+    renderResults('');
+  } catch(e){ console.error('Failed to load index.json', e);}
 }
 
-// --- Render News ---
-function renderNews(){
-  const feed = document.getElementById('newsFeed');
-  feed.innerHTML = '';
-  const topNews = results.sort((a,b)=> b.links - a.links).slice(0,10);
-  topNews.forEach(item => {
-    const img = item.image || 'placeholder.png';
-    const card = document.createElement('div');
-    card.className = 'news-card';
-    card.innerHTML = `
-      <a href="${item.url}" target="_blank">
-        <img src="${img}" alt="News Image" class="news-img">
-        <div class="title">${item.title}</div>
-      </a>
-    `;
-    feed.appendChild(card);
-  });
-}
+function renderResults(query) {
+  const main = document.getElementById('results');
+  main.innerHTML = '';
 
-// --- Render results by channel ---
-function renderResults(channel){
-  const grid = document.getElementById('resultsGrid');
-  grid.innerHTML = '';
-  currentChannel = channel;
-  const q = document.querySelector('.search-bar').value.toLowerCase();
+  if(!query) query='';
 
-  let filtered = results.filter(item => 
-    (item.title && item.title.toLowerCase().includes(q)) || 
-    (item.snippet && item.snippet.toLowerCase().includes(q))
-  );
+  // --- Sarah AI Overview ---
+  const aiDiv = document.createElement('div');
+  aiDiv.id = 'sarah-ai';
+  aiDiv.innerHTML = `<h2>Sarah AI Overview</h2>
+    <div class="ai-box">BLUOM Tech's AI giving insights on "<strong>${query}</strong>"...</div>`;
+  main.appendChild(aiDiv);
 
-  if(channel==='news'){
-    renderNews();
-    document.getElementById('newsFeed').style.display = 'flex';
-    grid.style.display = 'none';
-    return;
-  } else {
-    document.getElementById('newsFeed').style.display = 'none';
-    grid.style.display = 'grid';
-  }
+  updateSarahAI(query); // live AI call
 
-  if(channel==='images'){
-    filtered.slice(0,50).forEach(item=>{
-      const card = document.createElement('div');
-      card.className='card image-card';
-      const img = item.image || 'placeholder.png';
-      card.innerHTML = `<a href="${item.url}" target="_blank"><img src="${img}" class="img-thumb" alt="${item.title}"></a>`;
-      grid.appendChild(card);
-    });
-  } else { // web
-    filtered.slice(0,50).forEach(item=>{
-      const card = document.createElement('div');
-      card.className='card';
-      card.innerHTML=`
-        <a href="${item.url}" target="_blank">
-          <div class="title">${item.title}</div>
-          <div class="snippet">${item.snippet || ''}</div>
-          <div class="url">${item.url}</div>
-        </a>
+  // --- News Section ---
+  const newsDiv = document.createElement('div');
+  newsDiv.id = 'news-section';
+  const newsItems = indexData.filter(item => item.news_date);
+  if(newsItems.length){
+    const newsTitle = document.createElement('h2');
+    newsTitle.textContent = 'News';
+    newsDiv.appendChild(newsTitle);
+    newsItems.forEach(item=>{
+      if(query && !item.title.toLowerCase().includes(query.toLowerCase())) return;
+      const newsItem = document.createElement('div');
+      newsItem.className='news-item';
+      newsItem.innerHTML = `
+        <img src="${item.image}" alt="news">
+        <div>
+          <a href="${item.url}" target="_blank">${item.title}</a>
+          <span class="news-date">${item.news_date.split('T')[0]}</span>
+        </div>
       `;
-      grid.appendChild(card);
+      newsDiv.appendChild(newsItem);
     });
+    main.appendChild(newsDiv);
+  }
+
+  // --- Web Results ---
+  const webDiv = document.createElement('div');
+  webDiv.id = 'web-section';
+  const webItems = indexData.filter(item => !item.news_date);
+  if(webItems.length){
+    const webTitle = document.createElement('h2');
+    webTitle.textContent = 'Web Results';
+    webDiv.appendChild(webTitle);
+    webItems.forEach(item=>{
+      if(query && !item.title.toLowerCase().includes(query.toLowerCase()) && !item.snippet.toLowerCase().includes(query.toLowerCase())) return;
+      const resultItem = document.createElement('div');
+      resultItem.className='result-item';
+      resultItem.innerHTML = `
+        <a href="${item.url}" target="_blank" class="result-title">${item.title}</a>
+        <p class="result-snippet">${item.snippet}</p>
+        <span class="result-url">${item.url}</span>
+      `;
+      webDiv.appendChild(resultItem);
+    });
+    main.appendChild(webDiv);
   }
 }
 
-// --- Filter search with debounce ---
-function filterResults(){
-  clearTimeout(debounceTimer);
-  debounceTimer = setTimeout(()=>{
-    const query = document.querySelector('.search-bar').value.trim();
-    if(query) fetchAISummary(query);
-    else {
-      document.getElementById('aiOverview').style.display = 'none';
-      chatHistory = [];
-    }
-    renderResults(currentChannel);
-  }, 500);
+function onSearch(e){
+  const val = e.target.value;
+  renderResults(val);
 }
 
-// --- Switch channels ---
-function switchChannel(channel){
-  document.querySelectorAll('.channels .tab').forEach(btn=>btn.classList.remove('active'));
-  document.querySelector(`.channels .tab[onclick="switchChannel('${channel}')"]`).classList.add('active');
-  renderResults(channel);
+window.onload = ()=>{
+  loadIndex();
+  document.getElementById('search-input').addEventListener('input', onSearch);
 }
 </script>
-
+</head>
+<body>
+  <header>
+    <h1>BLUOM <span>Search</span></h1>
+    <input type="text" id="search-input" placeholder="Search BLUOM web...">
+  </header>
+  <main id="results"></main>
 </body>
 </html>
