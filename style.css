@@ -1,177 +1,110 @@
-body {
+body{
+  margin:0;
   font-family: Arial, sans-serif;
-  background:#1A1AC7;
-  margin:0;
-  padding:0;
+  background-color:#1A1AC7;
   color:#fff;
+}
+
+header{
   text-align:center;
-  overflow-x:hidden;
+  padding:20px;
 }
 
-header {
-  padding:2rem 1rem 1rem 1rem;
-  background:#1A1AC7;
-  color:#fff;
+header h1{
+  font-size:2em;
 }
 
-header img#logo {
-  width:100px;
-  height:auto;
-  margin-bottom:1rem;
-}
-
-header h1 {
-  margin:0;
-  font-size:2rem;
-  margin-bottom:1rem;
-}
-
-header h1 .highlight {
+header h1 span{
   color:#1C7FEB;
 }
 
-.search-bar {
+#search-input{
+  margin-top:15px;
   width:80%;
   max-width:500px;
-  padding:.5rem 1rem;
+  padding:10px;
+  font-size:1em;
   border-radius:25px;
   border:none;
-  font-size:1rem;
+  outline:none;
 }
 
-/* --- AI Overview --- */
-.ai-overview {
-  background: linear-gradient(90deg, #1C7FEB, #5A1AF7);
-  color: #fff;
-  margin: 1rem auto;
-  padding: 1rem;
-  border-radius: 15px;
-  max-width: 600px;
-  text-align: left;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-  font-family: 'Arial', sans-serif;
-  font-size: 1rem;
-  min-height: 80px;
-  position: relative;
-  overflow: hidden;
+main{
+  padding:15px;
 }
 
-.ai-overview .label {
-  font-weight: bold;
-  margin-bottom: 0.5rem;
-  font-size: 0.9rem;
-  opacity: 0.8;
+#sarah-ai{
+  margin-bottom:25px;
+  background:rgba(255,255,255,0.1);
+  padding:15px;
+  border-radius:10px;
+  animation: fadeIn 1s ease;
 }
 
-.ai-overview .summary::after {
-  content: '|';
-  display: inline-block;
-  margin-left: 2px;
-  animation: blink 1s infinite;
-}
-
-@keyframes blink {
-  0%,50%,100%{opacity:1;}
-  25%,75%{opacity:0;}
-}
-
-/* --- Channels Tabs --- */
-.channels {
-  display:flex;
-  justify-content:center;
-  gap:1rem;
-  margin:1rem 0;
-}
-
-.channels .tab {
-  padding:.5rem 1rem;
-  border-radius:20px;
-  border:none;
-  cursor:pointer;
+.ai-box{
+  padding:10px;
   background:#1C7FEB;
+  border-radius:10px;
   color:#fff;
   font-weight:bold;
+  animation: pulse 2s infinite;
 }
 
-.channels .tab.active {
-  background:#fff;
-  color:#1C7FEB;
-}
-
-/* --- News Feed --- */
-.news-feed {
+.news-item{
   display:flex;
-  flex-direction:column;
-  gap:1rem;
-  padding:1rem 0;
-  max-width:600px;
-  margin:0 auto;
-  scroll-behavior: smooth;
-  overflow-y:auto;
-  height:50vh;
-}
-
-.news-feed::-webkit-scrollbar{display:none;}
-.news-feed{-ms-overflow-style:none;scrollbar-width:none;}
-
-.news-card {
-  min-height:200px;
-  background:#fff;
+  background:rgba(0,0,0,0.2);
+  margin-bottom:15px;
   border-radius:10px;
-  text-align:center;
-  color:#000;
-  flex-shrink:0;
-  box-shadow:0 4px 8px rgba(0,0,0,0.1);
+  overflow:hidden;
 }
 
-.news-card a {
-  text-decoration:none;
-  color:#000;
-}
-
-.news-card .news-img {
-  width:100%;
-  height:140px;
+.news-item img{
+  width:120px;
+  height:80px;
   object-fit:cover;
-  border-radius:5px 5px 0 0;
 }
 
-.news-card .title {
-  font-weight:bold;
-  font-size:1rem;
-  padding:0.5rem;
+.news-item div{
+  padding:10px;
 }
 
-/* --- Search Results Grid --- */
-.grid {
-  display:grid;
-  grid-template-columns:repeat(auto-fill,minmax(300px,1fr));
-  gap:1rem;
-  padding:1rem;
-  max-width:1200px;
-  margin:0 auto;
+.news-date{
+  display:block;
+  margin-top:5px;
+  font-size:0.8em;
+  color:#ccc;
 }
 
-.card {
-  background:#fff;
+.result-item{
+  background:rgba(0,0,0,0.2);
+  margin-bottom:15px;
+  padding:10px;
   border-radius:10px;
-  box-shadow:0 4px 8px rgba(0,0,0,0.2);
-  padding:15px;
-  text-align:left;
-  color:#000;
-  transition:transform .2s, box-shadow .2s;
 }
 
-.card:hover {
-  transform:scale(1.02);
-  box-shadow:0 6px 12px rgba(0,0,0,0.25);
+.result-title{
+  font-weight:bold;
+  font-size:1.1em;
+  color:#1C7FEB;
+  text-decoration:none;
 }
 
-.card .title{font-weight:bold;margin-bottom:5px;}
-.card .snippet{font-size:0.9rem;margin-bottom:5px;color:#555;}
-.card .url{font-size:0.75rem;color:#1C7FEB;word-break:break-all;}
+.result-snippet{
+  margin:5px 0;
+}
 
-.card.image-card{padding:0;}
-.card.image-card img.img-thumb{width:100%;border-radius:10px;object-fit:cover;}
+.result-url{
+  font-size:0.8em;
+  color:#ccc;
+}
 
-.no-results{font-size:1rem;color:#ccc;padding:1rem;}
+@keyframes pulse{
+  0%{opacity:1}
+  50%{opacity:0.7}
+  100%{opacity:1}
+}
+
+@keyframes fadeIn{
+  from{opacity:0}
+  to{opacity:1}
+}
