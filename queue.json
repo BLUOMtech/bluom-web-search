@@ -1,0 +1,4385 @@
+{
+  "https://ar.wikipedia.org/": {
+    "links": 13
+  },
+  "https://fa.wikipedia.org/": {
+    "links": 13
+  },
+  "https://arz.wikipedia.org/": {
+    "links": 6
+  },
+  "https://nl.wikipedia.org/": {
+    "links": 14
+  },
+  "https://ceb.wikipedia.org/": {
+    "links": 8
+  },
+  "https://sv.wikipedia.org/": {
+    "links": 14
+  },
+  "https://uk.wikipedia.org/": {
+    "links": 13
+  },
+  "https://vi.wikipedia.org/": {
+    "links": 13
+  },
+  "https://war.wikipedia.org/": {
+    "links": 6
+  },
+  "https://af.wikipedia.org/": {
+    "links": 6
+  },
+  "https://sq.wikipedia.org/": {
+    "links": 8
+  },
+  "https://ast.wikipedia.org/": {
+    "links": 8
+  },
+  "https://az.wikipedia.org/": {
+    "links": 9
+  },
+  "https://bg.wikipedia.org/": {
+    "links": 11
+  },
+  "https://zh-min-nan.wikipedia.org/": {
+    "links": 7
+  },
+  "https://bn.wikipedia.org/": {
+    "links": 8
+  },
+  "https://be.wikipedia.org/": {
+    "links": 9
+  },
+  "https://ca.wikipedia.org/": {
+    "links": 12
+  },
+  "https://cs.wikipedia.org/": {
+    "links": 13
+  },
+  "https://cy.wikipedia.org/": {
+    "links": 6
+  },
+  "https://da.wikipedia.org/": {
+    "links": 13
+  },
+  "https://et.wikipedia.org/": {
+    "links": 11
+  },
+  "https://el.wikipedia.org/": {
+    "links": 12
+  },
+  "https://eo.wikipedia.org/": {
+    "links": 10
+  },
+  "https://eu.wikipedia.org/": {
+    "links": 10
+  },
+  "https://gl.wikipedia.org/": {
+    "links": 10
+  },
+  "https://ko.wikipedia.org/": {
+    "links": 13
+  },
+  "https://hy.wikipedia.org/": {
+    "links": 9
+  },
+  "https://hi.wikipedia.org/": {
+    "links": 8
+  },
+  "https://hr.wikipedia.org/": {
+    "links": 12
+  },
+  "https://id.wikipedia.org/": {
+    "links": 12
+  },
+  "https://he.wikipedia.org/": {
+    "links": 12
+  },
+  "https://ka.wikipedia.org/": {
+    "links": 10
+  },
+  "https://lld.wikipedia.org/": {
+    "links": 6
+  },
+  "https://la.wikipedia.org/": {
+    "links": 10
+  },
+  "https://lv.wikipedia.org/": {
+    "links": 8
+  },
+  "https://lt.wikipedia.org/": {
+    "links": 11
+  },
+  "https://hu.wikipedia.org/": {
+    "links": 13
+  },
+  "https://mk.wikipedia.org/": {
+    "links": 9
+  },
+  "https://mg.wikipedia.org/": {
+    "links": 5
+  },
+  "https://mr.wikipedia.org/": {
+    "links": 5
+  },
+  "https://ms.wikipedia.org/": {
+    "links": 10
+  },
+  "https://min.wikipedia.org/": {
+    "links": 6
+  },
+  "https://my.wikipedia.org/": {
+    "links": 7
+  },
+  "https://no.wikipedia.org/": {
+    "links": 13
+  },
+  "https://nn.wikipedia.org/": {
+    "links": 10
+  },
+  "https://ce.wikipedia.org/": {
+    "links": 7
+  },
+  "https://uz.wikipedia.org/": {
+    "links": 8
+  },
+  "https://kk.wikipedia.org/": {
+    "links": 9
+  },
+  "https://ro.wikipedia.org/": {
+    "links": 12
+  },
+  "https://simple.wikipedia.org/": {
+    "links": 10
+  },
+  "https://sk.wikipedia.org/": {
+    "links": 11
+  },
+  "https://sl.wikipedia.org/": {
+    "links": 11
+  },
+  "https://sr.wikipedia.org/": {
+    "links": 13
+  },
+  "https://sh.wikipedia.org/": {
+    "links": 10
+  },
+  "https://fi.wikipedia.org/": {
+    "links": 13
+  },
+  "https://sw.wikipedia.org/": {
+    "links": 5
+  },
+  "https://ta.wikipedia.org/": {
+    "links": 6
+  },
+  "https://tt.wikipedia.org/": {
+    "links": 7
+  },
+  "https://te.wikipedia.org/": {
+    "links": 8
+  },
+  "https://th.wikipedia.org/": {
+    "links": 11
+  },
+  "https://tg.wikipedia.org/": {
+    "links": 6
+  },
+  "https://azb.wikipedia.org/": {
+    "links": 6
+  },
+  "https://tr.wikipedia.org/": {
+    "links": 13
+  },
+  "https://ur.wikipedia.org/": {
+    "links": 7
+  },
+  "https://zh-yue.wikipedia.org/": {
+    "links": 7
+  },
+  "https://ace.wikipedia.org/": {
+    "links": 5
+  },
+  "https://als.wikipedia.org/": {
+    "links": 6
+  },
+  "https://am.wikipedia.org/": {
+    "links": 5
+  },
+  "https://an.wikipedia.org/": {
+    "links": 6
+  },
+  "https://hyw.wikipedia.org/": {
+    "links": 5
+  },
+  "https://gor.wikipedia.org/": {
+    "links": 5
+  },
+  "https://ban.wikipedia.org/": {
+    "links": 5
+  },
+  "https://bjn.wikipedia.org/": {
+    "links": 5
+  },
+  "https://map-bms.wikipedia.org/": {
+    "links": 6
+  },
+  "https://ba.wikipedia.org/": {
+    "links": 6
+  },
+  "https://be-tarask.wikipedia.org/": {
+    "links": 7
+  },
+  "https://bcl.wikipedia.org/": {
+    "links": 5
+  },
+  "https://bpy.wikipedia.org/": {
+    "links": 6
+  },
+  "https://bar.wikipedia.org/": {
+    "links": 6
+  },
+  "https://bs.wikipedia.org/": {
+    "links": 8
+  },
+  "https://br.wikipedia.org/": {
+    "links": 6
+  },
+  "https://cv.wikipedia.org/": {
+    "links": 6
+  },
+  "https://dag.wikipedia.org/": {
+    "links": 5
+  },
+  "https://ary.wikipedia.org/": {
+    "links": 5
+  },
+  "https://nv.wikipedia.org/": {
+    "links": 6
+  },
+  "https://eml.wikipedia.org/": {
+    "links": 5
+  },
+  "https://hif.wikipedia.org/": {
+    "links": 5
+  },
+  "https://fo.wikipedia.org/": {
+    "links": 5
+  },
+  "https://fy.wikipedia.org/": {
+    "links": 7
+  },
+  "https://ff.wikipedia.org/": {
+    "links": 5
+  },
+  "https://ga.wikipedia.org/": {
+    "links": 6
+  },
+  "https://gd.wikipedia.org/": {
+    "links": 5
+  },
+  "https://glk.wikipedia.org/": {
+    "links": 5
+  },
+  "https://gu.wikipedia.org/": {
+    "links": 5
+  },
+  "https://hak.wikipedia.org/": {
+    "links": 5
+  },
+  "https://ha.wikipedia.org/": {
+    "links": 5
+  },
+  "https://hsb.wikipedia.org/": {
+    "links": 7
+  },
+  "https://io.wikipedia.org/": {
+    "links": 6
+  },
+  "https://ig.wikipedia.org/": {
+    "links": 6
+  },
+  "https://ilo.wikipedia.org/": {
+    "links": 5
+  },
+  "https://ia.wikipedia.org/": {
+    "links": 5
+  },
+  "https://ie.wikipedia.org/": {
+    "links": 6
+  },
+  "https://os.wikipedia.org/": {
+    "links": 6
+  },
+  "https://is.wikipedia.org/": {
+    "links": 6
+  },
+  "https://jv.wikipedia.org/": {
+    "links": 5
+  },
+  "https://kn.wikipedia.org/": {
+    "links": 5
+  },
+  "https://pam.wikipedia.org/": {
+    "links": 5
+  },
+  "https://km.wikipedia.org/": {
+    "links": 5
+  },
+  "https://avk.wikipedia.org/": {
+    "links": 5
+  },
+  "https://ht.wikipedia.org/": {
+    "links": 5
+  },
+  "https://ku.wikipedia.org/": {
+    "links": 6
+  },
+  "https://ckb.wikipedia.org/": {
+    "links": 6
+  },
+  "https://ky.wikipedia.org/": {
+    "links": 5
+  },
+  "https://mrj.wikipedia.org/": {
+    "links": 5
+  },
+  "https://lb.wikipedia.org/": {
+    "links": 7
+  },
+  "https://lij.wikipedia.org/": {
+    "links": 5
+  },
+  "https://li.wikipedia.org/": {
+    "links": 6
+  },
+  "https://lmo.wikipedia.org/": {
+    "links": 7
+  },
+  "https://mai.wikipedia.org/": {
+    "links": 5
+  },
+  "https://ml.wikipedia.org/": {
+    "links": 6
+  },
+  "https://xmf.wikipedia.org/": {
+    "links": 5
+  },
+  "https://mzn.wikipedia.org/": {
+    "links": 5
+  },
+  "https://cdo.wikipedia.org/": {
+    "links": 5
+  },
+  "https://mn.wikipedia.org/": {
+    "links": 5
+  },
+  "https://nap.wikipedia.org/": {
+    "links": 5
+  },
+  "https://new.wikipedia.org/": {
+    "links": 7
+  },
+  "https://frr.wikipedia.org/": {
+    "links": 6
+  },
+  "https://oc.wikipedia.org/": {
+    "links": 6
+  },
+  "https://mhr.wikipedia.org/": {
+    "links": 5
+  },
+  "https://or.wikipedia.org/": {
+    "links": 5
+  },
+  "https://as.wikipedia.org/": {
+    "links": 6
+  },
+  "https://pa.wikipedia.org/": {
+    "links": 6
+  },
+  "https://pnb.wikipedia.org/": {
+    "links": 5
+  },
+  "https://ps.wikipedia.org/": {
+    "links": 5
+  },
+  "https://pms.wikipedia.org/": {
+    "links": 5
+  },
+  "https://nds.wikipedia.org/": {
+    "links": 6
+  },
+  "https://kaa.wikipedia.org/": {
+    "links": 5
+  },
+  "https://crh.wikipedia.org/": {
+    "links": 5
+  },
+  "https://qu.wikipedia.org/": {
+    "links": 6
+  },
+  "https://rue.wikipedia.org/": {
+    "links": 5
+  },
+  "https://sa.wikipedia.org/": {
+    "links": 6
+  },
+  "https://sat.wikipedia.org/": {
+    "links": 5
+  },
+  "https://skr.wikipedia.org/": {
+    "links": 5
+  },
+  "https://sah.wikipedia.org/": {
+    "links": 6
+  },
+  "https://sco.wikipedia.org/": {
+    "links": 5
+  },
+  "https://sn.wikipedia.org/": {
+    "links": 5
+  },
+  "https://scn.wikipedia.org/": {
+    "links": 5
+  },
+  "https://si.wikipedia.org/": {
+    "links": 6
+  },
+  "https://sd.wikipedia.org/": {
+    "links": 5
+  },
+  "https://szl.wikipedia.org/": {
+    "links": 6
+  },
+  "https://so.wikipedia.org/": {
+    "links": 5
+  },
+  "https://su.wikipedia.org/": {
+    "links": 5
+  },
+  "https://shi.wikipedia.org/": {
+    "links": 5
+  },
+  "https://tl.wikipedia.org/": {
+    "links": 7
+  },
+  "https://shn.wikipedia.org/": {
+    "links": 5
+  },
+  "https://zgh.wikipedia.org/": {
+    "links": 5
+  },
+  "https://tly.wikipedia.org/": {
+    "links": 5
+  },
+  "https://tum.wikipedia.org/": {
+    "links": 5
+  },
+  "https://bug.wikipedia.org/": {
+    "links": 5
+  },
+  "https://vec.wikipedia.org/": {
+    "links": 5
+  },
+  "https://vo.wikipedia.org/": {
+    "links": 5
+  },
+  "https://wa.wikipedia.org/": {
+    "links": 5
+  },
+  "https://zh-classical.wikipedia.org/": {
+    "links": 5
+  },
+  "https://wuu.wikipedia.org/": {
+    "links": 5
+  },
+  "https://yi.wikipedia.org/": {
+    "links": 6
+  },
+  "https://yo.wikipedia.org/": {
+    "links": 5
+  },
+  "https://diq.wikipedia.org/": {
+    "links": 5
+  },
+  "https://bat-smg.wikipedia.org/": {
+    "links": 5
+  },
+  "https://zu.wikipedia.org/": {
+    "links": 5
+  },
+  "https://ne.wikipedia.org/": {
+    "links": 5
+  },
+  "https://mni.wikipedia.org/": {
+    "links": 5
+  },
+  "https://lad.wikipedia.org/": {
+    "links": 6
+  },
+  "https://kbd.wikipedia.org/": {
+    "links": 5
+  },
+  "https://ang.wikipedia.org/": {
+    "links": 5
+  },
+  "https://smn.wikipedia.org/": {
+    "links": 5
+  },
+  "https://anp.wikipedia.org/": {
+    "links": 5
+  },
+  "https://ab.wikipedia.org/": {
+    "links": 5
+  },
+  "https://roa-rup.wikipedia.org/": {
+    "links": 5
+  },
+  "https://frp.wikipedia.org/": {
+    "links": 6
+  },
+  "https://atj.wikipedia.org/": {
+    "links": 5
+  },
+  "https://arc.wikipedia.org/": {
+    "links": 5
+  },
+  "https://gn.wikipedia.org/": {
+    "links": 6
+  },
+  "https://av.wikipedia.org/": {
+    "links": 5
+  },
+  "https://ay.wikipedia.org/": {
+    "links": 6
+  },
+  "https://bbc.wikipedia.org/": {
+    "links": 5
+  },
+  "https://bew.wikipedia.org/": {
+    "links": 5
+  },
+  "https://bh.wikipedia.org/": {
+    "links": 5
+  },
+  "https://bi.wikipedia.org/": {
+    "links": 5
+  },
+  "https://bo.wikipedia.org/": {
+    "links": 5
+  },
+  "https://bxr.wikipedia.org/": {
+    "links": 5
+  },
+  "https://cbk-zam.wikipedia.org/": {
+    "links": 6
+  },
+  "https://ny.wikipedia.org/": {
+    "links": 5
+  },
+  "https://co.wikipedia.org/": {
+    "links": 6
+  },
+  "https://za.wikipedia.org/": {
+    "links": 6
+  },
+  "https://dga.wikipedia.org/": {
+    "links": 5
+  },
+  "https://se.wikipedia.org/": {
+    "links": 5
+  },
+  "https://pdc.wikipedia.org/": {
+    "links": 6
+  },
+  "https://dv.wikipedia.org/": {
+    "links": 5
+  },
+  "https://dsb.wikipedia.org/": {
+    "links": 7
+  },
+  "https://myv.wikipedia.org/": {
+    "links": 5
+  },
+  "https://ext.wikipedia.org/": {
+    "links": 7
+  },
+  "https://ee.wikipedia.org/": {
+    "links": 5
+  },
+  "https://gur.wikipedia.org/": {
+    "links": 5
+  },
+  "https://fon.wikipedia.org/": {
+    "links": 5
+  },
+  "https://fur.wikipedia.org/": {
+    "links": 5
+  },
+  "https://gv.wikipedia.org/": {
+    "links": 5
+  },
+  "https://gag.wikipedia.org/": {
+    "links": 5
+  },
+  "https://inh.wikipedia.org/": {
+    "links": 5
+  },
+  "https://gpe.wikipedia.org/": {
+    "links": 5
+  },
+  "https://ki.wikipedia.org/": {
+    "links": 5
+  },
+  "https://gan.wikipedia.org/": {
+    "links": 5
+  },
+  "https://guw.wikipedia.org/": {
+    "links": 5
+  },
+  "https://got.wikipedia.org/": {
+    "links": 5
+  },
+  "https://xal.wikipedia.org/": {
+    "links": 5
+  },
+  "https://haw.wikipedia.org/": {
+    "links": 5
+  },
+  "https://rw.wikipedia.org/": {
+    "links": 5
+  },
+  "https://iba.wikipedia.org/": {
+    "links": 5
+  },
+  "https://kbp.wikipedia.org/": {
+    "links": 5
+  },
+  "https://dtp.wikipedia.org/": {
+    "links": 5
+  },
+  "https://knc.wikipedia.org/": {
+    "links": 5
+  },
+  "https://csb.wikipedia.org/": {
+    "links": 6
+  },
+  "https://kw.wikipedia.org/": {
+    "links": 5
+  },
+  "https://kv.wikipedia.org/": {
+    "links": 5
+  },
+  "https://koi.wikipedia.org/": {
+    "links": 5
+  },
+  "https://kg.wikipedia.org/": {
+    "links": 5
+  },
+  "https://gom.wikipedia.org/": {
+    "links": 5
+  },
+  "https://ks.wikipedia.org/": {
+    "links": 5
+  },
+  "https://gcr.wikipedia.org/": {
+    "links": 5
+  },
+  "https://kge.wikipedia.org/": {
+    "links": 5
+  },
+  "https://kus.wikipedia.org/": {
+    "links": 5
+  },
+  "https://lo.wikipedia.org/": {
+    "links": 5
+  },
+  "https://lbe.wikipedia.org/": {
+    "links": 5
+  },
+  "https://ltg.wikipedia.org/": {
+    "links": 5
+  },
+  "https://lez.wikipedia.org/": {
+    "links": 5
+  },
+  "https://nia.wikipedia.org/": {
+    "links": 5
+  },
+  "https://ln.wikipedia.org/": {
+    "links": 5
+  },
+  "https://lfn.wikipedia.org/": {
+    "links": 5
+  },
+  "https://olo.wikipedia.org/": {
+    "links": 5
+  },
+  "https://jbo.wikipedia.org/": {
+    "links": 5
+  },
+  "https://lg.wikipedia.org/": {
+    "links": 5
+  },
+  "https://mad.wikipedia.org/": {
+    "links": 5
+  },
+  "https://mt.wikipedia.org/": {
+    "links": 5
+  },
+  "https://btm.wikipedia.org/": {
+    "links": 5
+  },
+  "https://mi.wikipedia.org/": {
+    "links": 5
+  },
+  "https://fat.wikipedia.org/": {
+    "links": 5
+  },
+  "https://mwl.wikipedia.org/": {
+    "links": 6
+  },
+  "https://mdf.wikipedia.org/": {
+    "links": 5
+  },
+  "https://mnw.wikipedia.org/": {
+    "links": 5
+  },
+  "https://mos.wikipedia.org/": {
+    "links": 5
+  },
+  "https://nqo.wikipedia.org/": {
+    "links": 5
+  },
+  "https://fj.wikipedia.org/": {
+    "links": 5
+  },
+  "https://nah.wikipedia.org/": {
+    "links": 6
+  },
+  "https://pcm.wikipedia.org/": {
+    "links": 5
+  },
+  "https://nds-nl.wikipedia.org/": {
+    "links": 5
+  },
+  "https://nrm.wikipedia.org/": {
+    "links": 5
+  },
+  "https://nov.wikipedia.org/": {
+    "links": 6
+  },
+  "https://om.wikipedia.org/": {
+    "links": 5
+  },
+  "https://blk.wikipedia.org/": {
+    "links": 5
+  },
+  "https://pag.wikipedia.org/": {
+    "links": 5
+  },
+  "https://ami.wikipedia.org/": {
+    "links": 5
+  },
+  "https://pap.wikipedia.org/": {
+    "links": 6
+  },
+  "https://jam.wikipedia.org/": {
+    "links": 5
+  },
+  "https://pfl.wikipedia.org/": {
+    "links": 5
+  },
+  "https://pcd.wikipedia.org/": {
+    "links": 5
+  },
+  "https://krc.wikipedia.org/": {
+    "links": 5
+  },
+  "https://ksh.wikipedia.org/": {
+    "links": 6
+  },
+  "https://rm.wikipedia.org/": {
+    "links": 6
+  },
+  "https://rsk.wikipedia.org/": {
+    "links": 5
+  },
+  "https://szy.wikipedia.org/": {
+    "links": 5
+  },
+  "https://sm.wikipedia.org/": {
+    "links": 5
+  },
+  "https://sc.wikipedia.org/": {
+    "links": 5
+  },
+  "https://trv.wikipedia.org/": {
+    "links": 5
+  },
+  "https://stq.wikipedia.org/": {
+    "links": 6
+  },
+  "https://st.wikipedia.org/": {
+    "links": 5
+  },
+  "https://nso.wikipedia.org/": {
+    "links": 5
+  },
+  "https://tn.wikipedia.org/": {
+    "links": 5
+  },
+  "https://syl.wikipedia.org/": {
+    "links": 5
+  },
+  "https://cu.wikipedia.org/": {
+    "links": 5
+  },
+  "https://srn.wikipedia.org/": {
+    "links": 5
+  },
+  "https://ss.wikipedia.org/": {
+    "links": 5
+  },
+  "https://ty.wikipedia.org/": {
+    "links": 5
+  },
+  "https://kab.wikipedia.org/": {
+    "links": 5
+  },
+  "https://roa-tara.wikipedia.org/": {
+    "links": 5
+  },
+  "https://tay.wikipedia.org/": {
+    "links": 5
+  },
+  "https://tet.wikipedia.org/": {
+    "links": 5
+  },
+  "https://tpi.wikipedia.org/": {
+    "links": 5
+  },
+  "https://tok.wikipedia.org/": {
+    "links": 5
+  },
+  "https://to.wikipedia.org/": {
+    "links": 5
+  },
+  "https://tk.wikipedia.org/": {
+    "links": 5
+  },
+  "https://tw.wikipedia.org/": {
+    "links": 5
+  },
+  "https://kcg.wikipedia.org/": {
+    "links": 5
+  },
+  "https://tyv.wikipedia.org/": {
+    "links": 5
+  },
+  "https://udm.wikipedia.org/": {
+    "links": 5
+  },
+  "https://ug.wikipedia.org/": {
+    "links": 5
+  },
+  "https://vep.wikipedia.org/": {
+    "links": 5
+  },
+  "https://fiu-vro.wikipedia.org/": {
+    "links": 5
+  },
+  "https://vls.wikipedia.org/": {
+    "links": 5
+  },
+  "https://wo.wikipedia.org/": {
+    "links": 5
+  },
+  "https://xh.wikipedia.org/": {
+    "links": 5
+  },
+  "https://zea.wikipedia.org/": {
+    "links": 5
+  },
+  "https://alt.wikipedia.org/": {
+    "links": 5
+  },
+  "https://awa.wikipedia.org/": {
+    "links": 5
+  },
+  "https://dty.wikipedia.org/": {
+    "links": 5
+  },
+  "https://tcy.wikipedia.org/": {
+    "links": 5
+  },
+  "https://rki.wikipedia.org/": {
+    "links": 5
+  },
+  "https://bdr.wikipedia.org/": {
+    "links": 5
+  },
+  "https://bm.wikipedia.org/": {
+    "links": 5
+  },
+  "https://ch.wikipedia.org/": {
+    "links": 6
+  },
+  "https://dz.wikipedia.org/": {
+    "links": 5
+  },
+  "https://igl.wikipedia.org/": {
+    "links": 5
+  },
+  "https://iu.wikipedia.org/": {
+    "links": 5
+  },
+  "https://ik.wikipedia.org/": {
+    "links": 5
+  },
+  "https://nr.wikipedia.org/": {
+    "links": 5
+  },
+  "https://nup.wikipedia.org/": {
+    "links": 5
+  },
+  "https://ann.wikipedia.org/": {
+    "links": 5
+  },
+  "https://pi.wikipedia.org/": {
+    "links": 5
+  },
+  "https://pwn.wikipedia.org/": {
+    "links": 5
+  },
+  "https://pnt.wikipedia.org/": {
+    "links": 5
+  },
+  "https://rmy.wikipedia.org/": {
+    "links": 5
+  },
+  "https://rn.wikipedia.org/": {
+    "links": 5
+  },
+  "https://sg.wikipedia.org/": {
+    "links": 5
+  },
+  "https://tdd.wikipedia.org/": {
+    "links": 5
+  },
+  "https://ti.wikipedia.org/": {
+    "links": 5
+  },
+  "https://din.wikipedia.org/": {
+    "links": 5
+  },
+  "https://chr.wikipedia.org/": {
+    "links": 5
+  },
+  "https://chy.wikipedia.org/": {
+    "links": 5
+  },
+  "https://ts.wikipedia.org/": {
+    "links": 5
+  },
+  "https://ve.wikipedia.org/": {
+    "links": 5
+  },
+  "https://guc.wikipedia.org/": {
+    "links": 5
+  },
+  "https://ady.wikipedia.org/": {
+    "links": 5
+  },
+  "https://donate.wikimedia.org/": {
+    "links": 31
+  },
+  "https://commons.wikimedia.org/": {
+    "links": 43
+  },
+  "https://wikivoyage.org/": {
+    "links": 3
+  },
+  "https://wiktionary.org/": {
+    "links": 3
+  },
+  "https://wikibooks.org/": {
+    "links": 3
+  },
+  "https://wikinews.org/": {
+    "links": 3
+  },
+  "https://wikidata.org/": {
+    "links": 52
+  },
+  "https://wikiversity.org/": {
+    "links": 3
+  },
+  "https://wikiquote.org/": {
+    "links": 3
+  },
+  "https://mediawiki.org/": {
+    "links": 43
+  },
+  "https://wikisource.org/": {
+    "links": 15
+  },
+  "https://species.wikimedia.org/": {
+    "links": 35
+  },
+  "https://wikifunctions.org/": {
+    "links": 26
+  },
+  "https://creativecommons.org/": {
+    "links": 13
+  },
+  "https://securitylab.github.com/": {
+    "links": 1
+  },
+  "https://maintainers.github.com/": {
+    "links": 1
+  },
+  "https://archiveprogram.github.com/": {
+    "links": 1
+  },
+  "https://gartner.com/": {
+    "links": 1
+  },
+  "https://partner.github.com/": {
+    "links": 2
+  },
+  "https://cli.github.com/": {
+    "links": 1
+  },
+  "https://desktop.github.com/": {
+    "links": 2
+  },
+  "https://github.community/": {
+    "links": 2
+  },
+  "https://services.github.com/": {
+    "links": 3
+  },
+  "https://githubstatus.com/": {
+    "links": 3
+  },
+  "https://github.careers/": {
+    "links": 1
+  },
+  "https://socialimpact.github.com/": {
+    "links": 1
+  },
+  "https://shop.github.com/": {
+    "links": 2
+  },
+  "https://realestate.com.au/": {
+    "links": 1
+  },
+  "https://cn.nytimes.com/": {
+    "links": 1
+  },
+  "https://nytimes.onelink.me/": {
+    "links": 1
+  },
+  "https://nytlicensing.com/": {
+    "links": 1
+  },
+  "https://nytimes.pressreader.com/": {
+    "links": 1
+  },
+  "https://store.nytimes.com/": {
+    "links": 2
+  },
+  "https://profile.theguardian.com/": {
+    "links": 1
+  },
+  "https://app.adjust.com/": {
+    "links": 1
+  },
+  "https://wordiply.com/": {
+    "links": 1
+  },
+  "https://manage.theguardian.com/": {
+    "links": 1
+  },
+  "https://uploads.guim.co.uk/": {
+    "links": 1
+  },
+  "https://ausadvertising.theguardian.com/": {
+    "links": 1
+  },
+  "https://workwithus.theguardian.com/": {
+    "links": 1
+  },
+  "https://session.bbc.com/": {
+    "links": 1
+  },
+  "https://shop.bbc.com/": {
+    "links": 1
+  },
+  "https://britbox.com/": {
+    "links": 1
+  },
+  "https://advertising.bbcstudios.com/": {
+    "links": 1
+  },
+  "https://help.bbc.com/": {
+    "links": 1
+  },
+  "https://help.cnn.com/": {
+    "links": 3
+  },
+  "https://w1.buysub.com/": {
+    "links": 22
+  },
+  "https://parsintl.com/": {
+    "links": 39
+  },
+  "https://forbesbooks.com/": {
+    "links": 1
+  },
+  "https://forbesbooksaudio.com/": {
+    "links": 1
+  },
+  "https://forbesglobalproperties.com/": {
+    "links": 1
+  },
+  "https://forbesglobaltalent.com/": {
+    "links": 1
+  },
+  "https://health1.aetna.com/": {
+    "links": 1
+  },
+  "https://uagc.edu/": {
+    "links": 1
+  },
+  "https://forbesafrica.com/": {
+    "links": 2
+  },
+  "https://forbesafrique.com/": {
+    "links": 2
+  },
+  "https://forbesargentina.com/": {
+    "links": 2
+  },
+  "https://forbes.com.au/": {
+    "links": 1
+  },
+  "https://forbes.at/": {
+    "links": 2
+  },
+  "https://forbes.be/": {
+    "links": 1
+  },
+  "https://forbes.n1info.ba/": {
+    "links": 1
+  },
+  "https://forbes.com.br/": {
+    "links": 2
+  },
+  "https://forbesbulgaria.com/": {
+    "links": 1
+  },
+  "https://forbescentroamerica.com/": {
+    "links": 1
+  },
+  "https://forbes.cl/": {
+    "links": 1
+  },
+  "https://forbes.co/": {
+    "links": 1
+  },
+  "https://forbes.n1info.hr/": {
+    "links": 1
+  },
+  "https://forbes.cz/": {
+    "links": 2
+  },
+  "https://forbes.do/": {
+    "links": 1
+  },
+  "https://forbes.com.ec/": {
+    "links": 1
+  },
+  "https://forbes.fr/": {
+    "links": 2
+  },
+  "https://forbes.ge/": {
+    "links": 2
+  },
+  "https://capital.gr/": {
+    "links": 1
+  },
+  "https://forbes.hu/": {
+    "links": 2
+  },
+  "https://forbesindia.com/": {
+    "links": 2
+  },
+  "https://forbes.co.il/": {
+    "links": 2
+  },
+  "https://forbes.it/": {
+    "links": 1
+  },
+  "https://forbesjapan.com/": {
+    "links": 2
+  },
+  "https://forbes.kz/": {
+    "links": 2
+  },
+  "https://jmagazine.joins.com/": {
+    "links": 1
+  },
+  "https://forbesafricalusofona.com/": {
+    "links": 1
+  },
+  "https://forbes.lu/": {
+    "links": 1
+  },
+  "https://forbes.com.mx/": {
+    "links": 2
+  },
+  "https://forbes.vijesti.me/": {
+    "links": 1
+  },
+  "https://forbes.com.py/": {
+    "links": 1
+  },
+  "https://forbes.pe/": {
+    "links": 1
+  },
+  "https://forbes.pl/": {
+    "links": 2
+  },
+  "https://forbespt.com/": {
+    "links": 1
+  },
+  "https://forbes.n1info.rs/": {
+    "links": 1
+  },
+  "https://forbes.sk/": {
+    "links": 2
+  },
+  "https://forbes.n1info.si/": {
+    "links": 1
+  },
+  "https://forbes.es/": {
+    "links": 1
+  },
+  "https://forbes.swiss/": {
+    "links": 1
+  },
+  "https://forbesthailand.com/": {
+    "links": 2
+  },
+  "https://forbes.com.tr/": {
+    "links": 1
+  },
+  "https://forbes.ua/": {
+    "links": 1
+  },
+  "https://forbesuruguay.com/": {
+    "links": 1
+  },
+  "https://forbes.vn/": {
+    "links": 1
+  },
+  "https://amzn.to/": {
+    "links": 1
+  },
+  "https://corporate.morningstar.com/": {
+    "links": 1
+  },
+  "https://forbesmedia.com/": {
+    "links": 1
+  },
+  "https://strictlyvc.com/": {
+    "links": 1
+  },
+  "https://mstdn.social/": {
+    "links": 1
+  },
+  "https://shop.theverge.com/": {
+    "links": 2
+  },
+  "https://downdetector.com/": {
+    "links": 2
+  },
+  "https://androidheadlines.com/": {
+    "links": 2
+  },
+  "https://businessinsider.com/": {
+    "links": 2
+  },
+  "https://sternpinball.com/": {
+    "links": 2
+  },
+  "https://wowstuff.com/": {
+    "links": 2
+  },
+  "https://insider-gaming.com/": {
+    "links": 2
+  },
+  "https://newsroom-deezer.com/": {
+    "links": 2
+  },
+  "https://hasbropulse.com/": {
+    "links": 2
+  },
+  "https://workspaceupdates.googleblog.com/": {
+    "links": 2
+  },
+  "https://status.voxmedia.com/": {
+    "links": 2
+  },
+  "https://shop.wired.com/": {
+    "links": 1
+  },
+  "https://wired.me/": {
+    "links": 1
+  },
+  "https://wirededucation.com/": {
+    "links": 1
+  },
+  "https://archive.wired.com/": {
+    "links": 1
+  },
+  "https://condenaststore.com/": {
+    "links": 1
+  },
+  "https://wired.it/": {
+    "links": 1
+  },
+  "https://wired.jp/": {
+    "links": 1
+  },
+  "https://wired.cz/": {
+    "links": 1
+  },
+  "https://mastodon.social/": {
+    "links": 2
+  },
+  "https://oidc.engadget.com/": {
+    "links": 1
+  },
+  "https://legal.aol.com/": {
+    "links": 1
+  },
+  "https://twitch.com/": {
+    "links": 2
+  },
+  "https://fosstodon.org/": {
+    "links": 1
+  },
+  "https://aistudio.google.com/": {
+    "links": 2
+  },
+  "https://neon.tech/": {
+    "links": 2
+  },
+  "https://stackoverflowteams.com/": {
+    "links": 5
+  },
+  "https://bicycles.stackexchange.com/": {
+    "links": 10
+  },
+  "https://scifi.stackexchange.com/": {
+    "links": 10
+  },
+  "https://unix.stackexchange.com/": {
+    "links": 15
+  },
+  "https://literature.stackexchange.com/": {
+    "links": 2
+  },
+  "https://ell.stackexchange.com/": {
+    "links": 12
+  },
+  "https://hermeneutics.stackexchange.com/": {
+    "links": 17
+  },
+  "https://gaming.stackexchange.com/": {
+    "links": 11
+  },
+  "https://cooking.stackexchange.com/": {
+    "links": 3
+  },
+  "https://aviation.stackexchange.com/": {
+    "links": 3
+  },
+  "https://math.stackexchange.com/": {
+    "links": 24
+  },
+  "https://mathematica.stackexchange.com/": {
+    "links": 2
+  },
+  "https://rpg.stackexchange.com/": {
+    "links": 5
+  },
+  "https://puzzling.stackexchange.com/": {
+    "links": 42
+  },
+  "https://worldbuilding.stackexchange.com/": {
+    "links": 17
+  },
+  "https://electronics.stackexchange.com/": {
+    "links": 18
+  },
+  "https://physics.stackexchange.com/": {
+    "links": 5
+  },
+  "https://academia.stackexchange.com/": {
+    "links": 19
+  },
+  "https://policies.stackoverflow.co/": {
+    "links": 9
+  },
+  "https://api.stackexchange.com/": {
+    "links": 6
+  },
+  "https://data.stackexchange.com/": {
+    "links": 6
+  },
+  "https://relay.firefox.com/": {
+    "links": 1
+  },
+  "https://thunderbird.net/": {
+    "links": 1
+  },
+  "https://soloist.ai/": {
+    "links": 1
+  },
+  "https://0din.ai/": {
+    "links": 1
+  },
+  "https://mozilla.ai/": {
+    "links": 1
+  },
+  "https://mozilla.vc/": {
+    "links": 1
+  },
+  "https://builders.mozilla.org/": {
+    "links": 1
+  },
+  "https://newproducts.mozilla.org/": {
+    "links": 1
+  },
+  "https://support.mozilla.org/": {
+    "links": 8
+  },
+  "https://bugzilla.mozilla.org/": {
+    "links": 1
+  },
+  "https://pontoon.mozilla.org/": {
+    "links": 1
+  },
+  "https://firefox-source-docs.mozilla.org/": {
+    "links": 1
+  },
+  "https://card.apple.com/": {
+    "links": 1
+  },
+  "https://wallet.apple.com/": {
+    "links": 1
+  },
+  "https://account.apple.com/": {
+    "links": 4
+  },
+  "https://icloud.com/": {
+    "links": 3
+  },
+  "https://investor.apple.com/": {
+    "links": 3
+  },
+  "https://locate.apple.com/": {
+    "links": 4
+  },
+  "https://account.microsoft.com/": {
+    "links": 7
+  },
+  "https://education.microsoft.com/": {
+    "links": 6
+  },
+  "https://careers.microsoft.com/": {
+    "links": 6
+  },
+  "https://news.microsoft.com/": {
+    "links": 6
+  },
+  "https://choice.microsoft.com/": {
+    "links": 8
+  },
+  "https://maps.google.com.au/": {
+    "links": 2
+  },
+  "https://mail.google.com/": {
+    "links": 2
+  },
+  "https://drive.google.com/": {
+    "links": 2
+  },
+  "https://accounts.google.com/": {
+    "links": 6
+  },
+  "https://zh-cn.facebook.com/": {
+    "links": 1
+  },
+  "https://ko-kr.facebook.com/": {
+    "links": 1
+  },
+  "https://ja-jp.facebook.com/": {
+    "links": 1
+  },
+  "https://fr-fr.facebook.com/": {
+    "links": 1
+  },
+  "https://es-la.facebook.com/": {
+    "links": 1
+  },
+  "https://de-de.facebook.com/": {
+    "links": 1
+  },
+  "https://it-it.facebook.com/": {
+    "links": 1
+  },
+  "https://pt-br.facebook.com/": {
+    "links": 1
+  },
+  "https://ar-ar.facebook.com/": {
+    "links": 1
+  },
+  "https://messenger.com/": {
+    "links": 1
+  },
+  "https://l.facebook.com/": {
+    "links": 4
+  },
+  "https://developers.facebook.com/": {
+    "links": 1
+  },
+  "https://grok.com/": {
+    "links": 3
+  },
+  "https://support.twitter.com/": {
+    "links": 2
+  },
+  "https://blog.twitter.com/": {
+    "links": 2
+  },
+  "https://careers.twitter.com/": {
+    "links": 2
+  },
+  "https://ads.twitter.com/": {
+    "links": 2
+  },
+  "https://marketing.twitter.com/": {
+    "links": 2
+  },
+  "https://developer.twitter.com/": {
+    "links": 2
+  },
+  "https://press.linkedin.com/": {
+    "links": 2
+  },
+  "https://blog.linkedin.com/": {
+    "links": 2
+  },
+  "https://developer.linkedin.com/": {
+    "links": 2
+  },
+  "https://members.linkedin.com/": {
+    "links": 2
+  },
+  "https://learning.linkedin.com/": {
+    "links": 12
+  },
+  "https://brand.linkedin.com/": {
+    "links": 3
+  },
+  "https://developers.google.com/": {
+    "links": 6
+  },
+  "https://versantmedia.com/": {
+    "links": 7
+  },
+  "https://metacritichelp.zendesk.com/": {
+    "links": 1
+  },
+  "https://about.fandom.com/": {
+    "links": 3
+  },
+  "https://tvguide.com/": {
+    "links": 9
+  },
+  "https://gamefaqs.gamespot.com/": {
+    "links": 1
+  },
+  "https://mapgenie.io/": {
+    "links": 1
+  },
+  "https://eurogamer.net/": {
+    "links": 1
+  },
+  "https://howlongtobeat.com/": {
+    "links": 1
+  },
+  "https://maxroll.gg/": {
+    "links": 1
+  },
+  "https://vg247.com/": {
+    "links": 1
+  },
+  "https://rockpapershotgun.com/": {
+    "links": 1
+  },
+  "https://corp.ign.com/": {
+    "links": 1
+  },
+  "https://steamcommunity.com/": {
+    "links": 1
+  },
+  "https://forums.pcgamer.com/": {
+    "links": 1
+  },
+  "https://pcgamingshow.com/": {
+    "links": 1
+  },
+  "https://go.future-advertising.com/": {
+    "links": 1
+  },
+  "https://keleops.com/": {
+    "links": 2
+  },
+  "https://canva.com/": {
+    "links": 2
+  },
+  "https://luminatedata.com/": {
+    "links": 2
+  },
+  "https://vscore.com/": {
+    "links": 1
+  },
+  "https://varietyinsight.com/": {
+    "links": 1
+  },
+  "https://cloud.email.hollywoodreporter.com/": {
+    "links": 1
+  },
+  "https://edition.pagesuite-professional.co.uk/": {
+    "links": 1
+  },
+  "https://thp.cloud.buysub.com/": {
+    "links": 1
+  },
+  "https://disneytermsofuse.com/": {
+    "links": 2
+  },
+  "https://disneyprivacycenter.com/": {
+    "links": 1
+  },
+  "https://nielsen.com/": {
+    "links": 2
+  },
+  "https://natgeomaps.com/": {
+    "links": 1
+  },
+  "https://kids.nationalgeographic.com/": {
+    "links": 1
+  },
+  "https://shopdisney.com/": {
+    "links": 1
+  },
+  "https://moe.nationalgeographic.org/": {
+    "links": 1
+  },
+  "https://nationalgeographic.org/": {
+    "links": 1
+  },
+  "https://dgepress.com/": {
+    "links": 1
+  },
+  "https://disneyadsales.com/": {
+    "links": 1
+  },
+  "https://help.nationalgeographic.com/": {
+    "links": 1
+  },
+  "https://ngmservice.com/": {
+    "links": 1
+  },
+  "https://give.nationalgeographic.org/": {
+    "links": 1
+  },
+  "https://hollandamerica.com/": {
+    "links": 1
+  },
+  "https://smithsonian.com/": {
+    "links": 3
+  },
+  "https://smithsonianchannel.com/": {
+    "links": 3
+  },
+  "https://smithsonianbooks.com/": {
+    "links": 3
+  },
+  "https://historymakerscommunity.com/": {
+    "links": 2
+  },
+  "https://aetv.com/": {
+    "links": 7
+  },
+  "https://fyi.tv/": {
+    "links": 4
+  },
+  "https://vicetv.com/": {
+    "links": 3
+  },
+  "https://crimeandinvestigationnetwork.com/": {
+    "links": 3
+  },
+  "https://lp.constantcontactpages.com/": {
+    "links": 2
+  },
+  "https://oig.nasa.gov/": {
+    "links": 4
+  },
+  "https://idp.nature.com/": {
+    "links": 1
+  },
+  "https://mts-nature.nature.com/": {
+    "links": 1
+  },
+  "https://press.nature.com/": {
+    "links": 1
+  },
+  "https://support.nature.com/": {
+    "links": 2
+  },
+  "https://protocols.io/": {
+    "links": 1
+  },
+  "https://natureindex.com/": {
+    "links": 1
+  },
+  "https://masterclasses.nature.com/": {
+    "links": 2
+  },
+  "https://solutions.springernature.com/": {
+    "links": 2
+  },
+  "https://conferences.nature.com/": {
+    "links": 2
+  },
+  "https://naturechina.com/": {
+    "links": 2
+  },
+  "https://natureasia.com/": {
+    "links": 5
+  },
+  "https://shop.newscientist.com/": {
+    "links": 2
+  },
+  "https://colab.newscientist.com/": {
+    "links": 3
+  },
+  "https://landing.newscientist.com/": {
+    "links": 4
+  },
+  "https://experience.newscientist.com/": {
+    "links": 1
+  },
+  "https://symptoms.webmd.com/": {
+    "links": 3
+  },
+  "https://surveys.webmd.com/": {
+    "links": 2
+  },
+  "https://youembody.com/": {
+    "links": 1
+  },
+  "https://customercare.webmd.com/": {
+    "links": 2
+  },
+  "https://jobs.jobvite.com/": {
+    "links": 2
+  },
+  "https://privacy.truste.com/": {
+    "links": 3
+  },
+  "https://internetbrands.com/": {
+    "links": 3
+  },
+  "https://connect.mayoclinic.org/": {
+    "links": 2
+  },
+  "https://mayocliniclabs.com/": {
+    "links": 2
+  },
+  "https://medprofvideos.mayoclinic.org/": {
+    "links": 2
+  },
+  "https://onlineservices.mayoclinic.org/": {
+    "links": 1
+  },
+  "https://mayoclinichealthsystem.org/": {
+    "links": 1
+  },
+  "https://mayoclinichealthcare.co.uk/": {
+    "links": 1
+  },
+  "https://links.e.response.mayoclinic.org/": {
+    "links": 1
+  },
+  "https://newsnetwork.mayoclinic.org/": {
+    "links": 3
+  },
+  "https://askmayoexpert.mayoclinic.org/": {
+    "links": 2
+  },
+  "https://businessdevelopment.mayoclinic.org/": {
+    "links": 2
+  },
+  "https://edlinkplus.mayo.edu/": {
+    "links": 4
+  },
+  "https://communityengagement.mayoclinic.org/": {
+    "links": 1
+  },
+  "https://learn.healthline.com/": {
+    "links": 1
+  },
+  "https://activation.healthline.com/": {
+    "links": 2
+  },
+  "https://bezzy.com/": {
+    "links": 4
+  },
+  "https://bezzyibd.com/": {
+    "links": 1
+  },
+  "https://bezzyms.com/": {
+    "links": 1
+  },
+  "https://bezzydepression.com/": {
+    "links": 1
+  },
+  "https://bezzymigraine.com/": {
+    "links": 1
+  },
+  "https://bezzyt2d.com/": {
+    "links": 1
+  },
+  "https://bezzypsoriasis.com/": {
+    "links": 1
+  },
+  "https://dailydose.healthline.com/": {
+    "links": 1
+  },
+  "https://rvohealth.com/": {
+    "links": 1
+  },
+  "https://medicalnewstoday.com/": {
+    "links": 3
+  },
+  "https://greatist.com/": {
+    "links": 3
+  },
+  "https://psychcentral.com/": {
+    "links": 3
+  },
+  "https://aacihealthcare.com/": {
+    "links": 1
+  },
+  "https://medlineplus.gov/": {
+    "links": 1
+  },
+  "https://science.education.nih.gov/": {
+    "links": 2
+  },
+  "https://newsinhealth.nih.gov/": {
+    "links": 2
+  },
+  "https://nexus.od.nih.gov/": {
+    "links": 1
+  },
+  "https://lrp.nih.gov/": {
+    "links": 1
+  },
+  "https://calendar.nih.gov/": {
+    "links": 1
+  },
+  "https://hr.nih.gov/": {
+    "links": 1
+  },
+  "https://salud.nih.gov/": {
+    "links": 2
+  },
+  "https://ncats.nih.gov/": {
+    "links": 1
+  },
+  "https://nei.nih.gov/": {
+    "links": 1
+  },
+  "https://irp.nih.gov/": {
+    "links": 1
+  },
+  "https://jobs.nih.gov/": {
+    "links": 1
+  },
+  "https://recovercovid.org/": {
+    "links": 1
+  },
+  "https://heal.nih.gov/": {
+    "links": 1
+  },
+  "https://flickr.com/": {
+    "links": 4
+  },
+  "https://hhs.gov/": {
+    "links": 5
+  },
+  "https://eeo.nih.gov/": {
+    "links": 1
+  },
+  "https://oig.hhs.gov/": {
+    "links": 1
+  },
+  "https://usa.gov/": {
+    "links": 2
+  },
+  "https://afro.who.int/": {
+    "links": 1
+  },
+  "https://paho.org/": {
+    "links": 1
+  },
+  "https://emro.who.int/": {
+    "links": 1
+  },
+  "https://data.who.int/": {
+    "links": 1
+  },
+  "https://snapchat.com/": {
+    "links": 1
+  },
+  "https://forms.office.com/": {
+    "links": 2
+  },
+  "https://unesco.us1.list-manage.com/": {
+    "links": 4
+  },
+  "https://ich.unesco.org/": {
+    "links": 6
+  },
+  "https://whc.unesco.org/": {
+    "links": 6
+  },
+  "https://unesco.sharepoint.com/": {
+    "links": 3
+  },
+  "https://uis.unesco.org/": {
+    "links": 6
+  },
+  "https://education-inequalities.org/": {
+    "links": 3
+  },
+  "https://shop.unesco.org/": {
+    "links": 6
+  },
+  "https://careers.unesco.org/": {
+    "links": 6
+  },
+  "https://un-cryosphere.org/": {
+    "links": 3
+  },
+  "https://diveintoheritage.unesco.org/": {
+    "links": 3
+  },
+  "https://g20techpolicy.unesco.org/": {
+    "links": 3
+  },
+  "https://ioc.unesco.org/": {
+    "links": 3
+  },
+  "https://un-sciences-decade.org/": {
+    "links": 3
+  },
+  "https://un-glaciers.org/": {
+    "links": 3
+  },
+  "https://uil.unesco.org/": {
+    "links": 3
+  },
+  "https://ibe.unesco.org/": {
+    "links": 3
+  },
+  "https://iiep.unesco.org/": {
+    "links": 3
+  },
+  "https://iesalc.unesco.org/": {
+    "links": 3
+  },
+  "https://iicba.unesco.org/": {
+    "links": 3
+  },
+  "https://museum.unesco.org/": {
+    "links": 3
+  },
+  "https://whatsapp.com/": {
+    "links": 6
+  },
+  "https://academy.amnesty.org/": {
+    "links": 1
+  },
+  "https://careers.amnesty.org/": {
+    "links": 1
+  },
+  "https://ff.hrw.org/": {
+    "links": 2
+  },
+  "https://legacy.hrw.org/": {
+    "links": 2
+  },
+  "https://bit.ly/": {
+    "links": 5
+  },
+  "https://text.hrw.org/": {
+    "links": 2
+  },
+  "https://live.worldbank.org/": {
+    "links": 1
+  },
+  "https://blogs.worldbank.org/": {
+    "links": 6
+  },
+  "https://data.worldbank.org/": {
+    "links": 1
+  },
+  "https://openknowledge.worldbank.org/": {
+    "links": 1
+  },
+  "https://hdl.handle.net/": {
+    "links": 1
+  },
+  "https://academy.worldbank.org/": {
+    "links": 1
+  },
+  "https://scorecard.worldbank.org/": {
+    "links": 1
+  },
+  "https://palgrave-journals.com/": {
+    "links": 1
+  },
+  "https://legacydata.imf.org/": {
+    "links": 1
+  },
+  "https://presscenter.imf.org/": {
+    "links": 2
+  },
+  "https://elibrary.imf.org/": {
+    "links": 2
+  },
+  "https://bookstore.imf.org/": {
+    "links": 1
+  },
+  "https://ieo.imf.org/": {
+    "links": 2
+  },
+  "https://audiocollective.ted.com/": {
+    "links": 1
+  },
+  "https://ideas.ted.com/": {
+    "links": 1
+  },
+  "https://tedlive.ted.com/": {
+    "links": 1
+  },
+  "https://courses.ted.com/": {
+    "links": 1
+  },
+  "https://blog.ted.com/": {
+    "links": 2
+  },
+  "https://tedatwork.ted.com/": {
+    "links": 1
+  },
+  "https://support.ted.com/": {
+    "links": 1
+  },
+  "https://careers.coursera.com/": {
+    "links": 1
+  },
+  "https://partnerships.coursera.org/": {
+    "links": 1
+  },
+  "https://airtable.com/": {
+    "links": 1
+  },
+  "https://coursera.community/": {
+    "links": 1
+  },
+  "https://coursera.support/": {
+    "links": 1
+  },
+  "https://blog.coursera.org/": {
+    "links": 1
+  },
+  "https://medium.com/": {
+    "links": 1
+  },
+  "https://investor.coursera.com/": {
+    "links": 1
+  },
+  "https://learner.coursera.help/": {
+    "links": 2
+  },
+  "https://coursera_assets.s3.amazonaws.com/": {
+    "links": 1
+  },
+  "https://open.edx.org/": {
+    "links": 1
+  },
+  "https://press.edx.org/": {
+    "links": 1
+  },
+  "https://courses.edx.org/": {
+    "links": 1
+  },
+  "https://support.edx.org/": {
+    "links": 1
+  },
+  "https://kids.britannica.com/": {
+    "links": 2
+  },
+  "https://explore.britannica.com/": {
+    "links": 1
+  },
+  "https://alainelkanninterviews.com/": {
+    "links": 1
+  },
+  "https://britannicalearn.com/": {
+    "links": 1
+  },
+  "https://melingo.com/": {
+    "links": 1
+  },
+  "https://books.britannica.com/": {
+    "links": 2
+  },
+  "https://escola.britannica.com.br/": {
+    "links": 1
+  },
+  "https://arabic.britannicaenglish.com/": {
+    "links": 1
+  },
+  "https://nglish.com/": {
+    "links": 2
+  },
+  "https://britannica.threadless.com/": {
+    "links": 2
+  },
+  "https://britannica.com.au/": {
+    "links": 1
+  },
+  "https://britannica.com.br/": {
+    "links": 1
+  },
+  "https://china.eb.com/": {
+    "links": 1
+  },
+  "https://britannica.co.jp/": {
+    "links": 1
+  },
+  "https://britannica.es/": {
+    "links": 1
+  },
+  "https://britannica.co.uk/": {
+    "links": 1
+  },
+  "https://encyclopediaapi.com/": {
+    "links": 1
+  },
+  "https://help.dictionary.com/": {
+    "links": 2
+  },
+  "https://dictionarymedia.com/": {
+    "links": 2
+  },
+  "https://vocabulary.com/": {
+    "links": 3
+  },
+  "https://words.com/": {
+    "links": 2
+  },
+  "https://ingles.com/": {
+    "links": 3
+  },
+  "https://spanishdict.com/": {
+    "links": 3
+  },
+  "https://frenchdictionary.com/": {
+    "links": 2
+  },
+  "https://rosettastone.com/": {
+    "links": 3
+  },
+  "https://teacherspayteachers.com/": {
+    "links": 3
+  },
+  "https://education.com/": {
+    "links": 3
+  },
+  "https://abcya.com/": {
+    "links": 3
+  },
+  "https://wyzant.com/": {
+    "links": 3
+  },
+  "https://multiplication.com/": {
+    "links": 2
+  },
+  "https://art19.com/": {
+    "links": 1
+  },
+  "https://unabridged.merriam-webster.com/": {
+    "links": 1
+  },
+  "https://scrabble.merriam.com/": {
+    "links": 1
+  },
+  "https://dictionaryapi.com/": {
+    "links": 2
+  },
+  "https://community.withairbnb.com/": {
+    "links": 1
+  },
+  "https://investors.airbnb.com/": {
+    "links": 1
+  },
+  "https://airbnb.org/": {
+    "links": 1
+  },
+  "https://support.lonelyplanet.com/": {
+    "links": 5
+  },
+  "https://redventures.com/": {
+    "links": 1
+  },
+  "https://yelp-ir.com/": {
+    "links": 1
+  },
+  "https://trust.yelp.com/": {
+    "links": 2
+  },
+  "https://blog.yelp.com/": {
+    "links": 3
+  },
+  "https://biz.yelp.com/": {
+    "links": 12
+  },
+  "https://help.zillowrentalmanager.com/": {
+    "links": 1
+  },
+  "https://dos.ny.gov/": {
+    "links": 1
+  },
+  "https://advocacy.zillowgroup.com/": {
+    "links": 1
+  },
+  "https://zillowgroup.com/": {
+    "links": 2
+  },
+  "https://trulia.com/": {
+    "links": 1
+  },
+  "https://streeteasy.com/": {
+    "links": 1
+  },
+  "https://hotpads.com/": {
+    "links": 1
+  },
+  "https://outeast.com/": {
+    "links": 1
+  },
+  "https://privacy.zillowgroup.com/": {
+    "links": 1
+  },
+  "https://nmlsconsumeraccess.org/": {
+    "links": 1
+  },
+  "https://zillowstatic.com/": {
+    "links": 2
+  },
+  "https://delivery.digitallibrary.zillowgroup.com/": {
+    "links": 1
+  },
+  "https://trec.texas.gov/": {
+    "links": 1
+  },
+  "https://hud.gov/": {
+    "links": 1
+  },
+  "https://signin.ebay.com/": {
+    "links": 2
+  },
+  "https://signup.ebay.com/": {
+    "links": 1
+  },
+  "https://ppcapp.ebay.com/": {
+    "links": 1
+  },
+  "https://mesg.ebay.com/": {
+    "links": 1
+  },
+  "https://cart.ebay.com/": {
+    "links": 1
+  },
+  "https://pages.ebay.com/": {
+    "links": 1
+  },
+  "https://themes.shopify.com/": {
+    "links": 2
+  },
+  "https://apps.shopify.com/": {
+    "links": 4
+  },
+  "https://shopifyacademy.com/": {
+    "links": 3
+  },
+  "https://glossier.com/": {
+    "links": 1
+  },
+  "https://thesill.com/": {
+    "links": 1
+  },
+  "https://vacation.inc/": {
+    "links": 1
+  },
+  "https://aurabora.com/": {
+    "links": 1
+  },
+  "https://kitandace.com/": {
+    "links": 1
+  },
+  "https://supersmalls.com/": {
+    "links": 1
+  },
+  "https://happymondaycoffee.com/": {
+    "links": 1
+  },
+  "https://onlyny.com/": {
+    "links": 1
+  },
+  "https://jp.bonaventura.shop/": {
+    "links": 1
+  },
+  "https://rowingblazers.com/": {
+    "links": 1
+  },
+  "https://kirrinfinch.com/": {
+    "links": 1
+  },
+  "https://brooklinen.com/": {
+    "links": 1
+  },
+  "https://shop.a-morir.com/": {
+    "links": 1
+  },
+  "https://carawayhome.com/": {
+    "links": 1
+  },
+  "https://thirstyturtl.com/": {
+    "links": 1
+  },
+  "https://hydrogen.shopify.dev/": {
+    "links": 1
+  },
+  "https://hellbabes.co/": {
+    "links": 1
+  },
+  "https://shopifystatus.com/": {
+    "links": 1
+  },
+  "https://community.shopify.com/": {
+    "links": 1
+  },
+  "https://devdegree.ca/": {
+    "links": 1
+  },
+  "https://shop.app/": {
+    "links": 1
+  },
+  "https://operationhope.org/": {
+    "links": 1
+  },
+  "https://privacy.shopify.com/": {
+    "links": 1
+  },
+  "https://careers.walmart.com/": {
+    "links": 2
+  },
+  "https://marketplace.walmart.com/": {
+    "links": 1
+  },
+  "https://walmart.onelink.me/": {
+    "links": 1
+  },
+  "https://msds.walmartstores.com/": {
+    "links": 1
+  },
+  "https://target.attn.tv/": {
+    "links": 1
+  },
+  "https://inter.ikea.com/": {
+    "links": 1
+  },
+  "https://ikeafoundation.org/": {
+    "links": 1
+  },
+  "https://ikeamuseum.com/": {
+    "links": 1
+  },
+  "https://ikeasocialentrepreneurship.org/": {
+    "links": 1
+  },
+  "https://ikea.pr/": {
+    "links": 2
+  },
+  "https://ikea.com.hk/": {
+    "links": 2
+  },
+  "https://ikea.com.do/": {
+    "links": 2
+  },
+  "https://ikea.gr/": {
+    "links": 2
+  },
+  "https://ikea.co.id/": {
+    "links": 2
+  },
+  "https://ikea.is/": {
+    "links": 2
+  },
+  "https://ikea.bg/": {
+    "links": 1
+  },
+  "https://ikea.com.tr/": {
+    "links": 2
+  },
+  "https://ikea.com.cy/": {
+    "links": 2
+  },
+  "https://ikea.cn/": {
+    "links": 2
+  },
+  "https://ikea.es/": {
+    "links": 1
+  },
+  "https://baleares.ikea.es/": {
+    "links": 1
+  },
+  "https://ikea.com.tw/": {
+    "links": 2
+  },
+  "https://canarias.ikea.es/": {
+    "links": 1
+  },
+  "https://about.nike.com/": {
+    "links": 2
+  },
+  "https://news.nike.com/": {
+    "links": 2
+  },
+  "https://jobs.nike.com/": {
+    "links": 2
+  },
+  "https://investors.nike.com/": {
+    "links": 2
+  },
+  "https://nike.com.ar/": {
+    "links": 1
+  },
+  "https://nike.com.br/": {
+    "links": 1
+  },
+  "https://nike.cl/": {
+    "links": 1
+  },
+  "https://nike.com.co/": {
+    "links": 1
+  },
+  "https://nike.com.pe/": {
+    "links": 1
+  },
+  "https://nike.com.uy/": {
+    "links": 1
+  },
+  "https://nike.com.cn/": {
+    "links": 1
+  },
+  "https://nike.com.hk/": {
+    "links": 2
+  },
+  "https://nike.in/": {
+    "links": 1
+  },
+  "https://nike.sa/": {
+    "links": 2
+  },
+  "https://nike.ae/": {
+    "links": 2
+  },
+  "https://nike.qa/": {
+    "links": 2
+  },
+  "https://nike.com.kw/": {
+    "links": 2
+  },
+  "https://enable-javascript.com/": {
+    "links": 4
+  },
+  "https://help.soundcloud.com/": {
+    "links": 2
+  },
+  "https://help.pandora.com/": {
+    "links": 1
+  },
+  "https://blog.pandora.com/": {
+    "links": 1
+  },
+  "https://support.last.fm/": {
+    "links": 1
+  },
+  "https://store.last.fm/": {
+    "links": 1
+  },
+  "https://cbsinteractive.com/": {
+    "links": 1
+  },
+  "https://careers.paramount.com/": {
+    "links": 1
+  },
+  "https://pitchforkmusicfestival.com/": {
+    "links": 1
+  },
+  "https://pitchforkmusicfestival.co.uk/": {
+    "links": 1
+  },
+  "https://pitchforkmusicfestival.fr/": {
+    "links": 1
+  },
+  "https://pitchforkmusicfestival.mx/": {
+    "links": 1
+  },
+  "https://council.rollingstone.com/": {
+    "links": 1
+  },
+  "https://brandstudio.rollingstone.com/": {
+    "links": 1
+  },
+  "https://cloud.email.billboard.com/": {
+    "links": 1
+  },
+  "https://shop.billboard.com/": {
+    "links": 1
+  },
+  "https://pinterest.co.uk/": {
+    "links": 1
+  },
+  "https://eepurl.com/": {
+    "links": 2
+  },
+  "https://bandlab.com/": {
+    "links": 1
+  },
+  "https://lonelyplanetguides.myshopify.com/": {
+    "links": 1
+  },
+  "https://science.data.nasa.gov/": {
+    "links": 1
+  },
+  "https://glassdoor.com/": {
+    "links": 1
+  },
+  "https://ampav.com/": {
+    "links": 1
+  },
+  "https://atxtv.co/": {
+    "links": 1
+  },
+  "https://bgr.com/": {
+    "links": 1
+  },
+  "https://dickclark.com/": {
+    "links": 1
+  },
+  "https://la3c.com/": {
+    "links": 1
+  },
+  "https://lifeisbeautiful.com/": {
+    "links": 1
+  },
+  "https://shemedia.com/": {
+    "links": 6
+  },
+  "https://spy.com/": {
+    "links": 1
+  },
+  "https://sxsw.com/": {
+    "links": 1
+  },
+  "https://tvline.com/": {
+    "links": 1
+  },
+  "https://optout.services.fandango.com/": {
+    "links": 1
+  },
+  "https://gowanderwell.com/": {
+    "links": 1
+  },
+  "https://adsales.wbd.com/": {
+    "links": 1
+  },
+  "https://support.bleacherreport.com/": {
+    "links": 1
+  },
+  "https://careers.bleacherreport.com/": {
+    "links": 1
+  },
+  "https://wbdprivacy.com/": {
+    "links": 1
+  },
+  "https://hbomax.com/": {
+    "links": 1
+  },
+  "https://creators.bleacherreport.com/": {
+    "links": 1
+  },
+  "https://feeds.bleacherreport.com/": {
+    "links": 1
+  },
+  "https://myaccount.google.com/": {
+    "links": 2
+  },
+  "https://safety.google/": {
+    "links": 2
+  },
+  "https://account.google.com/": {
+    "links": 1
+  },
+  "https://about.google/": {
+    "links": 3
+  },
+  "https://transparency.google/": {
+    "links": 1
+  },
+  "https://mccms.elluciancrmrecruit.com/": {
+    "links": 2
+  },
+  "https://mayo.medhub.com/": {
+    "links": 2
+  },
+  "https://learninghub.mayo.edu/": {
+    "links": 2
+  },
+  "https://education.mayo.edu/": {
+    "links": 1
+  },
+  "https://executiveeducation.mayo.edu/": {
+    "links": 1
+  },
+  "https://mayo.edu/": {
+    "links": 3
+  },
+  "https://cms.college.mayo.edu/": {
+    "links": 1
+  },
+  "https://internal.stackoverflow.help/": {
+    "links": 1
+  },
+  "https://survey.stackoverflow.co/": {
+    "links": 4
+  },
+  "https://devecosystem-2025.jetbrains.com/": {
+    "links": 1
+  },
+  "https://uber.com/": {
+    "links": 1
+  },
+  "https://stackoverflowteams.help/": {
+    "links": 2
+  },
+  "https://help.disneyplus.com/": {
+    "links": 12
+  },
+  "https://help.hulu.com/": {
+    "links": 1
+  },
+  "https://perks.disneyplus.com/": {
+    "links": 2
+  },
+  "https://hulu.com/": {
+    "links": 1
+  },
+  "https://terms.yelp.com/": {
+    "links": 2
+  },
+  "https://bsky.social/": {
+    "links": 1
+  },
+  "https://atproto.com/": {
+    "links": 1
+  },
+  "https://pages.repairpal.com/": {
+    "links": 10
+  },
+  "https://blog.repairpal-shops.com/": {
+    "links": 2
+  },
+  "https://news.repairpal.com/": {
+    "links": 2
+  },
+  "https://support.google.com/": {
+    "links": 6
+  },
+  "https://developer.android.com/": {
+    "links": 1
+  },
+  "https://store.google.com/": {
+    "links": 1
+  },
+  "https://code.condenast.com/": {
+    "links": 1
+  },
+  "https://strapi-bus-eng-prod.s3.us-east-1.amazonaws.com/": {
+    "links": 3
+  },
+  "https://businessprinciples.condenast.com/": {
+    "links": 1
+  },
+  "https://cta-service-cms2.hubspot.com/": {
+    "links": 2
+  },
+  "https://chat.stackexchange.com/": {
+    "links": 7
+  },
+  "https://codereview.stackexchange.com/": {
+    "links": 13
+  },
+  "https://english.stackexchange.com/": {
+    "links": 11
+  },
+  "https://stats.stackexchange.com/": {
+    "links": 12
+  },
+  "https://christianity.stackexchange.com/": {
+    "links": 10
+  },
+  "https://german.stackexchange.com/": {
+    "links": 10
+  },
+  "https://law.stackexchange.com/": {
+    "links": 11
+  },
+  "https://mathoverflow.net/": {
+    "links": 12
+  },
+  "https://money.stackexchange.com/": {
+    "links": 9
+  },
+  "https://writing.stackexchange.com/": {
+    "links": 13
+  },
+  "https://portuguese.stackexchange.com/": {
+    "links": 2
+  },
+  "https://superuser.com/": {
+    "links": 3
+  },
+  "https://askubuntu.com/": {
+    "links": 4
+  },
+  "https://serverfault.com/": {
+    "links": 2
+  },
+  "https://ru.stackoverflow.com/": {
+    "links": 1
+  },
+  "https://try.appletvapp.apple/": {
+    "links": 1
+  },
+  "https://codeql.github.com/": {
+    "links": 1
+  },
+  "https://electronjs.org/": {
+    "links": 2
+  },
+  "https://docs.npmjs.com/": {
+    "links": 1
+  },
+  "https://wellarchitected.github.com/": {
+    "links": 1
+  },
+  "https://warnermediaprivacy.com/": {
+    "links": 7
+  },
+  "https://risk.lexisnexis.co.uk/": {
+    "links": 1
+  },
+  "https://privacyportal.onetrust.com/": {
+    "links": 5
+  },
+  "https://cloud.email.sportico.com/": {
+    "links": 4
+  },
+  "https://cloud.email.artnews.com/": {
+    "links": 3
+  },
+  "https://artguide.pro/": {
+    "links": 1
+  },
+  "https://era.nih.gov/": {
+    "links": 2
+  },
+  "https://extramural-intranet.nih.gov/": {
+    "links": 2
+  },
+  "https://report.nih.gov/": {
+    "links": 1
+  },
+  "https://amazon.com/": {
+    "links": 8
+  },
+  "https://movies.stackexchange.com/": {
+    "links": 1
+  },
+  "https://podcasts.apple.com/": {
+    "links": 1
+  },
+  "https://overcast.fm/": {
+    "links": 1
+  },
+  "https://pca.st/": {
+    "links": 1
+  },
+  "https://css-doodle.com/": {
+    "links": 1
+  },
+  "https://theshamblog.com/": {
+    "links": 1
+  },
+  "https://nesbitt.io/": {
+    "links": 1
+  },
+  "https://o16g.com/": {
+    "links": 1
+  },
+  "https://tldraw.dev/": {
+    "links": 1
+  },
+  "https://visualrambling.space/": {
+    "links": 1
+  },
+  "https://blog.nono.io/": {
+    "links": 1
+  },
+  "https://jmoiron.net/": {
+    "links": 1
+  },
+  "https://computerhistory.org/": {
+    "links": 1
+  },
+  "https://matklad.github.io/": {
+    "links": 1
+  },
+  "https://skills.sh/": {
+    "links": 1
+  },
+  "https://research.checkpoint.com/": {
+    "links": 1
+  },
+  "https://insights.valnetinc.com/": {
+    "links": 2
+  },
+  "https://comscore.com/": {
+    "links": 1
+  },
+  "https://projects.banquemondiale.org/": {
+    "links": 2
+  },
+  "https://projects.albankaldawli.org/": {
+    "links": 2
+  },
+  "https://projects.vsemirnyjbank.org/": {
+    "links": 2
+  },
+  "https://projects.shihang.org/": {
+    "links": 2
+  },
+  "https://projects.bancomundial.org/": {
+    "links": 2
+  },
+  "https://maps.worldbank.org/": {
+    "links": 1
+  },
+  "https://documents.worldbank.org/": {
+    "links": 1
+  },
+  "https://datacatalog.worldbank.org/": {
+    "links": 9
+  },
+  "https://alerts.worldbank.org/": {
+    "links": 1
+  },
+  "https://one.walmart.com/": {
+    "links": 2
+  },
+  "https://stock.walmart.com/": {
+    "links": 2
+  },
+  "https://corporate.samsclub.com/": {
+    "links": 1
+  },
+  "https://cpa-ui.walmart.com/": {
+    "links": 2
+  },
+  "https://samsclub.com/": {
+    "links": 1
+  },
+  "https://diversity.voxmedia.com/": {
+    "links": 1
+  },
+  "https://thecut.com/": {
+    "links": 2
+  },
+  "https://thedodo.com/": {
+    "links": 2
+  },
+  "https://eater.com/": {
+    "links": 2
+  },
+  "https://grubstreet.com/": {
+    "links": 1
+  },
+  "https://nymag.com/": {
+    "links": 5
+  },
+  "https://popsugar.com/": {
+    "links": 2
+  },
+  "https://punchdrink.com/": {
+    "links": 1
+  },
+  "https://sbnation.com/": {
+    "links": 2
+  },
+  "https://thrillist.com/": {
+    "links": 2
+  },
+  "https://vox.com/": {
+    "links": 2
+  },
+  "https://vulture.com/": {
+    "links": 2
+  },
+  "https://studios.voxmedia.com/": {
+    "links": 1
+  },
+  "https://podcasts.voxmedia.com/": {
+    "links": 2
+  },
+  "https://concert.io/": {
+    "links": 1
+  },
+  "https://voxcreative.com/": {
+    "links": 1
+  },
+  "https://docs.google.com/": {
+    "links": 2
+  },
+  "https://cdn.vox-cdn.com/": {
+    "links": 3
+  },
+  "https://writersworkshop.voxmediaevents.com/": {
+    "links": 1
+  },
+  "https://thestrategist.com/": {
+    "links": 1
+  },
+  "https://yahooinc.com/": {
+    "links": 1
+  },
+  "https://beboundless.jp/": {
+    "links": 1
+  },
+  "https://cloud.email.vibe.com/": {
+    "links": 1
+  },
+  "https://link.springer.com/": {
+    "links": 4
+  },
+  "https://support.springernature.com/": {
+    "links": 5
+  },
+  "https://group.springernature.com/": {
+    "links": 2
+  },
+  "https://blog.ixl.com/": {
+    "links": 1
+  },
+  "https://au.ixl.com/": {
+    "links": 1
+  },
+  "https://br.ixl.com/": {
+    "links": 1
+  },
+  "https://ca.ixl.com/": {
+    "links": 1
+  },
+  "https://es.ixl.com/": {
+    "links": 1
+  },
+  "https://fr.ixl.com/": {
+    "links": 1
+  },
+  "https://in.ixl.com/": {
+    "links": 1
+  },
+  "https://ie.ixl.com/": {
+    "links": 1
+  },
+  "https://la.ixl.com/": {
+    "links": 1
+  },
+  "https://nz.ixl.com/": {
+    "links": 1
+  },
+  "https://za.ixl.com/": {
+    "links": 1
+  },
+  "https://uk.ixl.com/": {
+    "links": 1
+  },
+  "https://emmersion.ai/": {
+    "links": 1
+  },
+  "https://dev.shopify.com/": {
+    "links": 1
+  },
+  "https://community.shopify.dev/": {
+    "links": 2
+  },
+  "https://investors.shopify.com/": {
+    "links": 1
+  },
+  "https://addons.mozilla.org/": {
+    "links": 2
+  },
+  "https://download.mozilla.org/": {
+    "links": 6
+  },
+  "https://connect.mozilla.org/": {
+    "links": 1
+  },
+  "https://community.mozilla.org/": {
+    "links": 1
+  },
+  "https://support.xbox.com/": {
+    "links": 14
+  },
+  "https://docs.microsoft.com/": {
+    "links": 2
+  },
+  "https://answers.microsoft.com/": {
+    "links": 1
+  },
+  "https://portal.office.com/": {
+    "links": 1
+  },
+  "https://support.xbox.com                        /": {
+    "links": 1
+  },
+  "https://support.serviceshub.microsoft.com/": {
+    "links": 2
+  },
+  "https://store.fandango.com/": {
+    "links": 2
+  },
+  "https://fandangomovietickets.com/": {
+    "links": 14
+  },
+  "https://redeem.fandango.com/": {
+    "links": 5
+  },
+  "https://watchfandangoathome.com/": {
+    "links": 2
+  },
+  "https://tickets.fandango.com/": {
+    "links": 2
+  },
+  "https://support.fandango.com/": {
+    "links": 2
+  },
+  "https://flixster.com/": {
+    "links": 1
+  },
+  "https://movietickets.com/": {
+    "links": 1
+  },
+  "https://robbreport.winesavage.com/": {
+    "links": 2
+  },
+  "https://rr1.com/": {
+    "links": 4
+  },
+  "https://licensing.ygsgroup.com/": {
+    "links": 1
+  },
+  "https://cloud.email.robbreport.com/": {
+    "links": 1
+  },
+  "https://rbb.cloud.buysub.com/": {
+    "links": 4
+  },
+  "https://events.fairchildlive.com/": {
+    "links": 9
+  },
+  "https://read.wwd.com/": {
+    "links": 1
+  },
+  "https://cloud.email.sheknows.com/": {
+    "links": 1
+  },
+  "https://blog.google/": {
+    "links": 4
+  },
+  "https://marketingplatform.google.com/": {
+    "links": 2
+  },
+  "https://signup.withgoogle.com/": {
+    "links": 1
+  },
+  "https://analytics.google.com/": {
+    "links": 1
+  },
+  "https://skillshop.withgoogle.com/": {
+    "links": 1
+  },
+  "https://yourprimer.com/": {
+    "links": 1
+  },
+  "https://ads.google.com/": {
+    "links": 1
+  },
+  "https://adsense.google.com/": {
+    "links": 1
+  },
+  "https://admanager.google.com/": {
+    "links": 1
+  },
+  "https://cloud.google.com/": {
+    "links": 1
+  },
+  "https://firebase.google.com/": {
+    "links": 1
+  },
+  "https://thinkwithgoogle.com/": {
+    "links": 1
+  },
+  "https://workspace.google.com/": {
+    "links": 1
+  },
+  "https://core.unesco.org/": {
+    "links": 10
+  },
+  "https://unesdoc.unesco.org/": {
+    "links": 21
+  },
+  "https://smartlink.ausha.co/": {
+    "links": 3
+  },
+  "https://podcast.ausha.co/": {
+    "links": 1
+  },
+  "https://databank.worldbank.org/": {
+    "links": 3
+  },
+  "https://microdata.worldbank.org/": {
+    "links": 3
+  },
+  "https://datatopics.worldbank.org/": {
+    "links": 2
+  },
+  "https://datahelpdesk.worldbank.org/": {
+    "links": 2
+  },
+  "https://sdmx.org/": {
+    "links": 1
+  },
+  "https://goo.gl/": {
+    "links": 1
+  },
+  "https://ifc.org/": {
+    "links": 1
+  },
+  "https://miga.org/": {
+    "links": 1
+  },
+  "https://icsid.worldbank.org/": {
+    "links": 1
+  },
+  "https://datasupport.imf.org/": {
+    "links": 1
+  },
+  "https://caldecottmusic.com/": {
+    "links": 2
+  },
+  "https://apple.co/": {
+    "links": 1
+  },
+  "https://account.bbc.com/": {
+    "links": 1
+  },
+  "https://digitaladvertisingalliance.org/": {
+    "links": 2
+  },
+  "https://tex.meta.stackexchange.com/": {
+    "links": 3
+  },
+  "https://ux.stackexchange.com/": {
+    "links": 2
+  },
+  "https://mechanics.stackexchange.com/": {
+    "links": 3
+  },
+  "https://advertiser-success.awin.com/": {
+    "links": 2
+  },
+  "https://success.awin.com/": {
+    "links": 2
+  },
+  "https://ui.awin.com/": {
+    "links": 1
+  },
+  "https://awin.com/": {
+    "links": 4
+  },
+  "https://bkms-system.net/": {
+    "links": 1
+  },
+  "https://appmagshop.us/": {
+    "links": 1
+  },
+  "https://accelerate360.com/": {
+    "links": 10
+  },
+  "https://subscribe.womansworld.com/": {
+    "links": 2
+  },
+  "https://order.usmagazine.com/": {
+    "links": 2
+  },
+  "https://wpvip.com/": {
+    "links": 68
+  },
+  "https://learn.wpvip.com/": {
+    "links": 2
+  },
+  "https://docs.wpvip.com/": {
+    "links": 2
+  },
+  "https://wordpressvip.zendesk.com/": {
+    "links": 2
+  },
+  "https://dashboard.wpvip.com/": {
+    "links": 2
+  },
+  "https://automattic.com/": {
+    "links": 3
+  },
+  "https://privacyportal-de.onetrust.com/": {
+    "links": 1
+  },
+  "https://airspacemag.com/": {
+    "links": 1
+  },
+  "https://assets.science.nasa.gov/": {
+    "links": 1
+  },
+  "https://spaceplace.nasa.gov/": {
+    "links": 1
+  },
+  "https://doi.org/": {
+    "links": 7
+  },
+  "https://uk.linkedin.com/": {
+    "links": 1
+  },
+  "https://biomedcentral.com/": {
+    "links": 2
+  },
+  "https://springer.com/": {
+    "links": 2
+  },
+  "https://store.alumniassociation.mayo.edu/": {
+    "links": 8
+  },
+  "https://eventbrite.com/": {
+    "links": 8
+  },
+  "https://events.unesco.org/": {
+    "links": 1
+  },
+  "https://cultival.fr/": {
+    "links": 4
+  },
+  "https://maps.app.goo.gl/": {
+    "links": 1
+  },
+  "https://outreach.wikimedia.org/": {
+    "links": 19
+  },
+  "https://en.wikibooks.org/": {
+    "links": 7
+  },
+  "https://wikimania.wikimedia.org/": {
+    "links": 16
+  },
+  "https://en.wikinews.org/": {
+    "links": 7
+  },
+  "https://en.wikiquote.org/": {
+    "links": 7
+  },
+  "https://en.wikisource.org/": {
+    "links": 7
+  },
+  "https://en.wikiversity.org/": {
+    "links": 7
+  },
+  "https://en.wikivoyage.org/": {
+    "links": 8
+  },
+  "https://en.wiktionary.org/": {
+    "links": 8
+  },
+  "https://lists.wikimedia.org/": {
+    "links": 6
+  },
+  "https://wikimediafoundation.org/": {
+    "links": 31
+  },
+  "https://kaj.wikipedia.org/": {
+    "links": 4
+  },
+  "https://kl.wikipedia.org/": {
+    "links": 4
+  },
+  "https://ppl.wikipedia.org/": {
+    "links": 4
+  },
+  "https://cr.wikipedia.org/": {
+    "links": 4
+  },
+  "https://tig.wikipedia.org/": {
+    "links": 4
+  },
+  "https://developer.wikimedia.org/": {
+    "links": 12
+  },
+  "https://stats.wikimedia.org/": {
+    "links": 16
+  },
+  "https://wikimedia.org/": {
+    "links": 12
+  },
+  "https://the-github-podcast.simplecast.com/": {
+    "links": 1
+  },
+  "https://developer.github.com/": {
+    "links": 1
+  },
+  "https://atom.io/": {
+    "links": 1
+  },
+  "https://investor.redditinc.com/": {
+    "links": 3
+  },
+  "https://legalrequests.reddithelp.com/": {
+    "links": 2
+  },
+  "https://business.reddit.com/": {
+    "links": 1
+  },
+  "https://redditforcommunity.com/": {
+    "links": 1
+  },
+  "https://reddit.zendesk.com/": {
+    "links": 1
+  },
+  "https://whatismybrowser.com/": {
+    "links": 1
+  },
+  "https://ancestry.com/": {
+    "links": 3
+  },
+  "https://datacollective.mozillafoundation.org/": {
+    "links": 1
+  },
+  "https://one.apple.com/": {
+    "links": 3
+  },
+  "https://offers.applefitnessplus.apple/": {
+    "links": 1
+  },
+  "https://xboxdesignlab.xbox.com/": {
+    "links": 1
+  },
+  "https://account.xbox.com/": {
+    "links": 1
+  },
+  "https://partner.microsoft.com/": {
+    "links": 7
+  },
+  "https://portal.azure.com/": {
+    "links": 1
+  },
+  "https://premium.linkedin.com/": {
+    "links": 2
+  },
+  "https://slideshare.net/": {
+    "links": 1
+  },
+  "https://auth.fandom.com/": {
+    "links": 4
+  },
+  "https://community.fandom.com/": {
+    "links": 4
+  },
+  "https://createnewwiki-143.fandom.com/": {
+    "links": 1
+  },
+  "https://gamespot.com/": {
+    "links": 15
+  },
+  "https://terraria.fandom.com/": {
+    "links": 1
+  },
+  "https://minecraft.fandom.com/": {
+    "links": 1
+  },
+  "https://genshin-impact.fandom.com/": {
+    "links": 1
+  },
+  "https://starwars.fandom.com/": {
+    "links": 3
+  },
+  "https://harrypotter.fandom.com/": {
+    "links": 2
+  },
+  "https://marvel.fandom.com/": {
+    "links": 1
+  },
+  "https://memory-alpha.fandom.com/": {
+    "links": 1
+  },
+  "https://arrow.fandom.com/": {
+    "links": 1
+  },
+  "https://spongebob.fandom.com/": {
+    "links": 2
+  },
+  "https://onepiece.fandom.com/": {
+    "links": 1
+  },
+  "https://naruto.fandom.com/": {
+    "links": 1
+  },
+  "https://myheroacademia.fandom.com/": {
+    "links": 1
+  },
+  "https://matrix.fandom.com/": {
+    "links": 1
+  },
+  "https://dcextendeduniverse.fandom.com/": {
+    "links": 1
+  },
+  "https://gijoe.fandom.com/": {
+    "links": 1
+  },
+  "https://disney.fandom.com/": {
+    "links": 1
+  },
+  "https://monster-verse.fandom.com/": {
+    "links": 1
+  },
+  "https://thelastofus.fandom.com/": {
+    "links": 1
+  },
+  "https://tombraider.fandom.com/": {
+    "links": 1
+  },
+  "https://uncharted.fandom.com/": {
+    "links": 1
+  },
+  "https://zelda.fandom.com/": {
+    "links": 1
+  },
+  "https://pokemon.fandom.com/": {
+    "links": 1
+  },
+  "https://monsterhunter.fandom.com/": {
+    "links": 1
+  },
+  "https://mortalkombat.fandom.com/": {
+    "links": 1
+  },
+  "https://marvels-spider-man.fandom.com/": {
+    "links": 1
+  },
+  "https://witcher.fandom.com/": {
+    "links": 1
+  },
+  "https://the-boys.fandom.com/": {
+    "links": 1
+  },
+  "https://avatar.fandom.com/": {
+    "links": 1
+  },
+  "https://titans.fandom.com/": {
+    "links": 1
+  },
+  "https://sexeducation.fandom.com/": {
+    "links": 1
+  },
+  "https://fanatical.com/": {
+    "links": 1
+  },
+  "https://fandom.zendesk.com/": {
+    "links": 1
+  },
+  "https://cloud.email.artforum.com/": {
+    "links": 1
+  },
+  "https://subscribe.artforum.com/": {
+    "links": 4
+  },
+  "https://artguide.artforum.com/": {
+    "links": 3
+  },
+  "https://artforum.com.cn/": {
+    "links": 3
+  },
+  "https://atf.cloud.buysub.com/": {
+    "links": 1
+  },
+  "https://video.blogher.com/": {
+    "links": 5
+  },
+  "https://cloud.email.blogher.com/": {
+    "links": 3
+  },
+  "https://pages.email.blogher.com/": {
+    "links": 1
+  },
+  "https://apply.shemedia.com/": {
+    "links": 1
+  },
+  "https://issuu.com/": {
+    "links": 25
+  },
+  "https://fortheloveofdocs.deadline.com/": {
+    "links": 1
+  },
+  "https://cloud.email.deadline.com/": {
+    "links": 1
+  },
+  "https://insider.deadline.com/": {
+    "links": 1
+  },
+  "https://cloud.flow.shemedia.com/": {
+    "links": 2
+  },
+  "https://cloud.email.wwd.com/": {
+    "links": 1
+  },
+  "https://cloud.email.goldderby.com/": {
+    "links": 3
+  },
+  "https://poll.fm/": {
+    "links": 1
+  },
+  "https://cloud.email.indiewire.com/": {
+    "links": 3
+  },
+  "https://cloud.email.soaps.com/": {
+    "links": 2
+  },
+  "https://events.sourcingjournal.com/": {
+    "links": 3
+  },
+  "https://cloud.email.stylecaster.com/": {
+    "links": 2
+  },
+  "https://click.linksynergy.com/": {
+    "links": 12
+  },
+  "https://play.mylifetime.com/": {
+    "links": 14
+  },
+  "https://lifetimemovieclub.com/": {
+    "links": 4
+  },
+  "https://support.mylifetime.com/": {
+    "links": 3
+  },
+  "https://lifetimeloyals.com/": {
+    "links": 2
+  },
+  "https://viceland.com/": {
+    "links": 1
+  },
+  "https://authorservices.springernature.cn/": {
+    "links": 2
+  },
+  "https://desk.authorservices.springernature.com/": {
+    "links": 9
+  },
+  "https://secure.authorservices.springernature.com/": {
+    "links": 12
+  },
+  "https://palgrave.com/": {
+    "links": 1
+  },
+  "https://app.eightfold.ai/": {
+    "links": 3
+  },
+  "https://fa-euwp-saasfaprod1.fa.ocs.oraclecloud.com/": {
+    "links": 4
+  },
+  "https://careers.mayoclinic.org/": {
+    "links": 1
+  },
+  "https://nursingworld.org/": {
+    "links": 1
+  },
+  "https://eeoc.gov/": {
+    "links": 1
+  },
+  "https://e-verify.gov/": {
+    "links": 1
+  },
+  "https://dol.gov/": {
+    "links": 2
+  },
+  "https://tbcdn.talentbrew.com/": {
+    "links": 1
+  },
+  "https://mcforms.mayo.edu/": {
+    "links": 1
+  },
+  "https://fellows2024.ted.com/": {
+    "links": 1
+  },
+  "https://explore-catalog.edx.org/": {
+    "links": 2
+  },
+  "https://business-support.edx.org/": {
+    "links": 1
+  },
+  "https://harvard.edu/": {
+    "links": 2
+  },
+  "https://ox.ac.uk/": {
+    "links": 2
+  },
+  "https://stanford.edu/": {
+    "links": 2
+  },
+  "https://ibm.com/": {
+    "links": 4
+  },
+  "https://yale.edu/": {
+    "links": 2
+  },
+  "https://bbva.com/": {
+    "links": 2
+  },
+  "https://gsk.com/": {
+    "links": 2
+  },
+  "https://kpmg.com/": {
+    "links": 2
+  },
+  "https://innovation.ebayinc.com/": {
+    "links": 1
+  },
+  "https://investors.ebayinc.com/": {
+    "links": 10
+  },
+  "https://jobs.ebayinc.com/": {
+    "links": 13
+  },
+  "https://billboardlatinmusicweek.com/": {
+    "links": 2
+  },
+  "https://bbthrpridesummit.com/": {
+    "links": 1
+  },
+  "https://ja.wikibooks.org/": {
+    "links": 3
+  },
+  "https://ja.wikinews.org/": {
+    "links": 3
+  },
+  "https://ja.wikiquote.org/": {
+    "links": 3
+  },
+  "https://ja.wikisource.org/": {
+    "links": 3
+  },
+  "https://ja.wikiversity.org/": {
+    "links": 3
+  },
+  "https://ja.wikivoyage.org/": {
+    "links": 2
+  },
+  "https://ja.wiktionary.org/": {
+    "links": 3
+  },
+  "https://de.wikibooks.org/": {
+    "links": 3
+  },
+  "https://de.wikinews.org/": {
+    "links": 3
+  },
+  "https://de.wikiquote.org/": {
+    "links": 3
+  },
+  "https://de.wikisource.org/": {
+    "links": 3
+  },
+  "https://de.wikiversity.org/": {
+    "links": 3
+  },
+  "https://de.wikivoyage.org/": {
+    "links": 3
+  },
+  "https://de.wiktionary.org/": {
+    "links": 3
+  },
+  "https://pageviews.wmcloud.org/": {
+    "links": 1
+  },
+  "https://ru.wiktionary.org/": {
+    "links": 2
+  },
+  "https://ru.wikiquote.org/": {
+    "links": 2
+  },
+  "https://ru.wikibooks.org/": {
+    "links": 2
+  },
+  "https://ru.wikisource.org/": {
+    "links": 2
+  },
+  "https://ru.wikinews.org/": {
+    "links": 2
+  },
+  "https://ru.wikiversity.org/": {
+    "links": 2
+  },
+  "https://ru.wikivoyage.org/": {
+    "links": 2
+  },
+  "https://fr.wikibooks.org/": {
+    "links": 3
+  },
+  "https://fr.wikinews.org/": {
+    "links": 4
+  },
+  "https://fr.wikiquote.org/": {
+    "links": 3
+  },
+  "https://fr.wikisource.org/": {
+    "links": 3
+  },
+  "https://fr.wikiversity.org/": {
+    "links": 3
+  },
+  "https://fr.wikivoyage.org/": {
+    "links": 3
+  },
+  "https://fr.wiktionary.org/": {
+    "links": 3
+  },
+  "https://es.wikibooks.org/": {
+    "links": 3
+  },
+  "https://es.wikinews.org/": {
+    "links": 3
+  },
+  "https://es.wikiquote.org/": {
+    "links": 3
+  },
+  "https://es.wikisource.org/": {
+    "links": 3
+  },
+  "https://es.wikiversity.org/": {
+    "links": 3
+  },
+  "https://es.wikivoyage.org/": {
+    "links": 3
+  },
+  "https://es.wiktionary.org/": {
+    "links": 3
+  },
+  "https://it.wikibooks.org/": {
+    "links": 4
+  },
+  "https://it.wikinews.org/": {
+    "links": 11
+  },
+  "https://it.wikiquote.org/": {
+    "links": 6
+  },
+  "https://it.wikisource.org/": {
+    "links": 6
+  },
+  "https://it.wikiversity.org/": {
+    "links": 4
+  },
+  "https://it.wikivoyage.org/": {
+    "links": 9
+  },
+  "https://it.wiktionary.org/": {
+    "links": 3
+  },
+  "https://it.m.wikipedia.org/": {
+    "links": 1
+  },
+  "https://zh.wikibooks.org/": {
+    "links": 3
+  },
+  "https://zh.wikinews.org/": {
+    "links": 4
+  },
+  "https://zh.wikiquote.org/": {
+    "links": 3
+  },
+  "https://zh.wikisource.org/": {
+    "links": 3
+  },
+  "https://zh.wikiversity.org/": {
+    "links": 3
+  },
+  "https://zh.wikivoyage.org/": {
+    "links": 3
+  },
+  "https://zh.wiktionary.org/": {
+    "links": 3
+  },
+  "https://pt.wikibooks.org/": {
+    "links": 2
+  },
+  "https://pt.wikinews.org/": {
+    "links": 2
+  },
+  "https://pt.wikiquote.org/": {
+    "links": 2
+  },
+  "https://pt.wikisource.org/": {
+    "links": 2
+  },
+  "https://pt.wikiversity.org/": {
+    "links": 2
+  },
+  "https://pt.wikivoyage.org/": {
+    "links": 2
+  },
+  "https://pt.wiktionary.org/": {
+    "links": 2
+  },
+  "https://incubator.wikimedia.org/": {
+    "links": 5
+  },
+  "https://wikitech.wikimedia.org/": {
+    "links": 9
+  },
+  "https://pl.wikibooks.org/": {
+    "links": 2
+  },
+  "https://pl.wikinews.org/": {
+    "links": 2
+  },
+  "https://pl.wikiquote.org/": {
+    "links": 2
+  },
+  "https://pl.wikisource.org/": {
+    "links": 2
+  },
+  "https://pl.wikivoyage.org/": {
+    "links": 2
+  },
+  "https://pl.wiktionary.org/": {
+    "links": 2
+  },
+  "https://pl.wikimedia.org/": {
+    "links": 1
+  },
+  "https://beta.wikiversity.org/": {
+    "links": 1
+  },
+  "https://wikimedia.pl/": {
+    "links": 1
+  },
+  "https://en.planet.wikimedia.org/": {
+    "links": 1
+  },
+  "https://enterprise.wikimedia.com/": {
+    "links": 6
+  },
+  "https://phabricator.wikimedia.org/": {
+    "links": 4
+  },
+  "https://test.wikipedia.org/": {
+    "links": 4
+  },
+  "https://diff.wikimedia.org/": {
+    "links": 11
+  },
+  "https://wikimediaendowment.org/": {
+    "links": 4
+  },
+  "https://store.wikimedia.org/": {
+    "links": 4
+  },
+  "https://annual.wikimedia.org/": {
+    "links": 2
+  },
+  "https://transparency.wikimedia.org/": {
+    "links": 2
+  },
+  "https://learn.github.com/": {
+    "links": 1
+  },
+  "https://spiderbites.nytimes.com/": {
+    "links": 1
+  },
+  "https://nytimes.whsites.net/": {
+    "links": 1
+  },
+  "https://myaccount.nytimes.com/": {
+    "links": 1
+  },
+  "https://investors.nytco.com/": {
+    "links": 4
+  },
+  "https://nytco-assets.nytimes.com/": {
+    "links": 1
+  },
+  "https://shop.artgallery.nsw.gov.au/": {
+    "links": 3
+  },
+  "https://tickets.artgallery.nsw.gov.au/": {
+    "links": 1
+  },
+  "https://companion.art/": {
+    "links": 1
+  },
+  "https://agnsw.art/": {
+    "links": 1
+  },
+  "https://mp.weixin.qq.com/": {
+    "links": 1
+  },
+  "https://xiaohongshu.com/": {
+    "links": 1
+  },
+  "https://nsw.gov.au/": {
+    "links": 1
+  },
+  "https://dilate.com.au/": {
+    "links": 1
+  },
+  "https://pinterest.com.au/": {
+    "links": 1
+  },
+  "https://thomsonreuters.com/": {
+    "links": 7
+  },
+  "https://timebase.com.au/": {
+    "links": 1
+  },
+  "https://store.thomsonreuters.com.au/": {
+    "links": 28
+  },
+  "https://insight.thomsonreuters.com.au/": {
+    "links": 8
+  },
+  "https://cleardocs.com/": {
+    "links": 1
+  },
+  "https://legal.thomsonreuters.com.au/": {
+    "links": 1
+  },
+  "https://au.linkedin.com/": {
+    "links": 1
+  },
+  "https://cnn.onelink.me/": {
+    "links": 12
+  },
+  "https://cnnbusinessarabic.com/": {
+    "links": 3
+  },
+  "https://parsintldev1.wpengine.com/": {
+    "links": 5
+  },
+  "https://cookiedatabase.org/": {
+    "links": 1
+  },
+  "https://cds-global.com/": {
+    "links": 3
+  },
+  "https://forbeschina.com/": {
+    "links": 1
+  },
+  "https://forbes.ru/": {
+    "links": 1
+  },
+  "https://forbesvietnam.com/": {
+    "links": 1
+  },
+  "https://forbesgreece.com/": {
+    "links": 1
+  },
+  "https://forbesitalia.com/": {
+    "links": 1
+  },
+  "https://addtoany.com/": {
+    "links": 4
+  },
+  "https://termene.ro/": {
+    "links": 1
+  },
+  "https://vatis.tech/": {
+    "links": 1
+  },
+  "https://hosterion.ro/": {
+    "links": 2
+  },
+  "https://neovision.dev/": {
+    "links": 1
+  },
+  "https://substack.com/": {
+    "links": 3
+  },
+  "https://info.wrightsmedia.com/": {
+    "links": 1
+  },
+  "https://partners.algolia.com/": {
+    "links": 2
+  },
+  "https://support.algolia.com/": {
+    "links": 6
+  },
+  "https://dashboard.algolia.com/": {
+    "links": 7
+  },
+  "https://alg.li/": {
+    "links": 4
+  },
+  "https://status.algolia.com/": {
+    "links": 4
+  },
+  "https://changelog.algolia.com/": {
+    "links": 2
+  },
+  "https://academy.algolia.com/": {
+    "links": 2
+  },
+  "https://algolia.frontify.com/": {
+    "links": 1
+  },
+  "https://docsearch.algolia.com/": {
+    "links": 3
+  },
+  "https://gdpr.algolia.com/": {
+    "links": 2
+  },
+  "https://aiact.algolia.com/": {
+    "links": 2
+  },
+  "https://trust.algolia.com/": {
+    "links": 1
+  },
+  "https://future.forem.com/": {
+    "links": 4
+  },
+  "https://russian.stackexchange.com/": {
+    "links": 2
+  },
+  "https://chat.meta.stackexchange.com/": {
+    "links": 3
+  },
+  "https://vi.stackexchange.com/": {
+    "links": 1
+  },
+  "https://chemistry.stackexchange.com/": {
+    "links": 1
+  },
+  "https://philosophy.meta.stackexchange.com/": {
+    "links": 3
+  },
+  "https://workplace.stackexchange.com/": {
+    "links": 1
+  },
+  "https://dba.stackexchange.com/": {
+    "links": 1
+  },
+  "https://gamedev.stackexchange.com/": {
+    "links": 1
+  },
+  "https://hacks.mozilla.org/": {
+    "links": 1
+  },
+  "https://foundation.mozilla.org/": {
+    "links": 1
+  },
+  "https://mozilla.design/": {
+    "links": 1
+  },
+  "https://iforgot.apple.com/": {
+    "links": 1
+  },
+  "https://reportaproblem.apple.com/": {
+    "links": 1
+  },
+  "https://discussions.apple.com/": {
+    "links": 1
+  },
+  "https://dotnet.microsoft.com/": {
+    "links": 3
+  },
+  "https://typescriptlang.org/": {
+    "links": 2
+  },
+  "https://dynamics.microsoft.com/": {
+    "links": 2
+  },
+  "https://blogs.microsoft.com/": {
+    "links": 2
+  },
+  "https://about.ads.microsoft.com/": {
+    "links": 2
+  },
+  "https://code.visualstudio.com/": {
+    "links": 5
+  },
+  "https://globalai.community/": {
+    "links": 1
+  },
+  "https://devblogs.microsoft.com/": {
+    "links": 5
+  },
+  "https://meetup.com/": {
+    "links": 5
+  },
+  "https://info.microsoft.com/": {
+    "links": 1
+  },
+  "https://marketplace.visualstudio.com/": {
+    "links": 2
+  },
+  "https://manage.visualstudio.com/": {
+    "links": 1
+  },
+  "https://my.visualstudio.com/": {
+    "links": 1
+  },
+  "https://marketplace.microsoft.com/": {
+    "links": 4
+  },
+  "https://developercommunity.microsoft.com/": {
+    "links": 1
+  },
+  "https://docs.x.com/": {
+    "links": 1
+  },
+  "https://help.x.com/": {
+    "links": 8
+  },
+  "https://publish.x.com/": {
+    "links": 1
+  },
+  "https://privacy.x.com/": {
+    "links": 1
+  },
+  "https://transparency.x.com/": {
+    "links": 1
+  },
+  "https://about.x.com/": {
+    "links": 9
+  },
+  "https://blog.x.com/": {
+    "links": 3
+  },
+  "https://careers.x.com/": {
+    "links": 1
+  },
+  "https://investor.twitterinc.com/": {
+    "links": 1
+  },
+  "https://create.x.com/": {
+    "links": 1
+  },
+  "https://business.x.com/": {
+    "links": 4
+  },
+  "https://preferencecenter.x.com/": {
+    "links": 1
+  },
+  "https://developer.x.com/": {
+    "links": 4
+  },
+  "https://twittercommunity.com/": {
+    "links": 1
+  },
+  "https://marketing.x.com/": {
+    "links": 3
+  },
+  "https://xadsacademy.com/": {
+    "links": 1
+  },
+  "https://help.twitter.com/": {
+    "links": 1
+  },
+  "https://news.linkedin.com/": {
+    "links": 1
+  },
+  "https://investor.ziffdavis.com/": {
+    "links": 15
+  },
+  "https://events.q4inc.com/": {
+    "links": 1
+  },
+  "https://youtu.be/": {
+    "links": 2
+  },
+  "https://finance.yahoo.com/": {
+    "links": 4
+  },
+  "https://usatoday.com/": {
+    "links": 2
+  },
+  "https://about.flipboard.com/": {
+    "links": 7
+  },
+  "https://flipboard.helpshift.com/": {
+    "links": 1
+  },
+  "https://de.kotaku.com/": {
+    "links": 2
+  },
+  "https://variety.swoogo.com/": {
+    "links": 3
+  },
+  "https://vsrmahalia.splashthat.com/": {
+    "links": 1
+  },
+  "https://si.edu/": {
+    "links": 2
+  },
+  "https://smithsonianstore.com/": {
+    "links": 1
+  },
+  "https://generalipartner.com/": {
+    "links": 2
+  },
+  "https://netzero.salesforce.com/": {
+    "links": 1
+  },
+  "https://appexchange.salesforce.com/": {
+    "links": 4
+  },
+  "https://findpartners.salesforce.com/": {
+    "links": 2
+  },
+  "https://help.salesforce.com/": {
+    "links": 6
+  },
+  "https://tableau.com/": {
+    "links": 2
+  },
+  "https://mulesoft.com/": {
+    "links": 2
+  },
+  "https://slack.com/": {
+    "links": 2
+  },
+  "https://trailhead.salesforce.com/": {
+    "links": 16
+  },
+  "https://cs.salesforce.com/": {
+    "links": 2
+  },
+  "https://developer.salesforce.com/": {
+    "links": 3
+  },
+  "https://trailblazercommunitygroups.com/": {
+    "links": 2
+  },
+  "https://trailheadacademy.salesforce.com/": {
+    "links": 1
+  },
+  "https://trailblazer.me/": {
+    "links": 2
+  },
+  "https://trailblazer.salesforce.com/": {
+    "links": 1
+  },
+  "https://trailblazers.salesforce.com/": {
+    "links": 1
+  },
+  "https://partners.salesforce.com/": {
+    "links": 1
+  },
+  "https://ideas.salesforce.com/": {
+    "links": 1
+  },
+  "https://salesforcestore.com/": {
+    "links": 1
+  },
+  "https://investor.salesforce.com/": {
+    "links": 1
+  },
+  "https://trust.salesforce.com/": {
+    "links": 1
+  },
+  "https://careers.salesforce.com/": {
+    "links": 1
+  },
+  "https://heroku.com/": {
+    "links": 1
+  },
+  "https://salesforce.org/": {
+    "links": 1
+  },
+  "https://ad-sales-portfolio-website.webflow.io/": {
+    "links": 5
+  },
+  "https://homemade.aenetworks.com/": {
+    "links": 1
+  },
+  "https://mediavillage.com/": {
+    "links": 18
+  },
+  "https://idp-google-authenticator.nature.com/": {
+    "links": 2
+  },
+  "https://my-profile.springernature.com/": {
+    "links": 2
+  }
+}

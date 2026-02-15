@@ -1,0 +1,1682 @@
+[
+  {
+    "url": "https://wikipedia.org/",
+    "title": "Wikipedia",
+    "description": "Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.",
+    "links": 1006
+  },
+  {
+    "url": "https://github.com/",
+    "title": "GitHub · Change is constant. GitHub keeps you ahead. · GitHub",
+    "description": "Join the world's most widely adopted, AI-powered developer platform where millions of developers, businesses, and the largest open source community build software that advances humanity.",
+    "links": 1070
+  },
+  {
+    "url": "https://reddit.com/",
+    "title": "Reddit - The heart of the internet",
+    "description": "Reddit is where millions of people gather for conversations about the things they care about, in over 100,000 subreddit communities.",
+    "links": 950
+  },
+  {
+    "url": "https://nytimes.com/",
+    "title": "The New York Times - Breaking News, US News, World News and Videos",
+    "description": "Live news, investigations, opinion, photos and video by the journalists of The New York Times from more than 150 countries around the world. Subscribe for coverage of U.S. and international news, politics, business, technology, science, health, arts,",
+    "links": 1046
+  },
+  {
+    "url": "https://theguardian.com/",
+    "title": "Latest news, sport and opinion from the Guardian",
+    "description": "Latest news, sport, comment, analysis and reviews from Guardian Australia",
+    "links": 1130
+  },
+  {
+    "url": "https://bbc.com/",
+    "title": "BBC Home - Breaking News, World News, US News, Sports, Business, Innovation, Climate, Culture, Trave",
+    "description": "Visit BBC for trusted reporting on the latest world and US news, sports, business, climate, innovation, culture and much more.",
+    "links": 1065
+  },
+  {
+    "url": "https://cnn.com/",
+    "title": "Breaking News, Latest News and Videos | CNN",
+    "description": "View the latest news and breaking news today for U.S., world, weather, entertainment, politics and health at CNN.com.",
+    "links": 1867
+  },
+  {
+    "url": "https://forbes.com/",
+    "title": "Forbes",
+    "description": "Forbes is a global media company, focusing on business, investing, technology, entrepreneurship, leadership, and lifestyle.",
+    "links": 1198
+  },
+  {
+    "url": "https://techcrunch.com/",
+    "title": "TechCrunch | Startup and Technology News",
+    "description": "TechCrunch | Reporting on the business of technology, startups, venture capital funding, and Silicon Valley",
+    "links": 988
+  },
+  {
+    "url": "https://theverge.com/",
+    "title": "The Verge",
+    "description": "The Verge is about technology and how it makes us feel. Founded in 2011, we offer our audience everything from breaking news to reviews to award-winning features and investigations, on our site, in video, and in podcasts.",
+    "links": 969
+  },
+  {
+    "url": "https://wired.com/",
+    "title": "WIRED - The Latest in Technology, Science, Culture and Business | WIRED",
+    "description": "We bring you the future as it happens. From the latest in science and technology to the big stories in business and culture, we've got you covered.",
+    "links": 812
+  },
+  {
+    "url": "https://arstechnica.com/",
+    "title": "Ars Technica - Serving the Technologist since 1998. News, reviews, and analysis.",
+    "description": "News and reviews, covering IT, AI, science, space, health, gaming, cybersecurity, tech policy, computers, mobile devices, and operating systems.",
+    "links": 850
+  },
+  {
+    "url": "https://engadget.com/",
+    "title": "Engadget | Technology News & Reviews",
+    "description": "Find the latest technology news and expert tech product reviews. Learn about the latest gadgets and consumer tech products for entertainment, gaming, lifestyle and more.",
+    "links": 728
+  },
+  {
+    "url": "https://gizmodo.com/",
+    "title": "Gizmodo | The Future Is Here",
+    "description": "Dive into cutting-edge tech, reviews and the latest trends with the expert team at Gizmodo. Your ultimate source for all things tech.",
+    "links": 940
+  },
+  {
+    "url": "https://dev.to/",
+    "title": "DEV Community",
+    "description": "A space to discuss and keep up software development and manage your software career",
+    "links": 1063
+  },
+  {
+    "url": "https://stackoverflow.com/",
+    "title": "Newest Questions - Stack Overflow",
+    "description": "Stack Overflow | The World’s Largest Online Community for Developers",
+    "links": 1023
+  },
+  {
+    "url": "https://mozilla.org/",
+    "title": "Internet for people, not profit — Mozilla Global",
+    "description": "Mozilla is the not-for-profit behind the lightning fast Firefox browser. We put people over profit to give everyone more power online.",
+    "links": 739
+  },
+  {
+    "url": "https://apple.com/",
+    "title": "Apple",
+    "description": "Discover the innovative world of Apple and shop everything iPhone, iPad, Apple Watch, Mac, and Apple TV, plus explore accessories, entertainment, and expert device support.",
+    "links": 744
+  },
+  {
+    "url": "https://microsoft.com/",
+    "title": "Microsoft – AI, Cloud, Productivity, Computing, Gaming & Apps",
+    "description": "Explore Microsoft products and services and support for your home or business. Shop Microsoft 365, Copilot, Teams, Xbox, Windows, Azure, Surface and more.",
+    "links": 1117
+  },
+  {
+    "url": "https://google.com/",
+    "title": "Google",
+    "description": "© 2026 - Privacy - Terms",
+    "links": 593
+  },
+  {
+    "url": "https://facebook.com/",
+    "title": "Facebook – log in or sign up",
+    "description": "Log in to Facebook to start sharing and connecting with your friends, family and people you know.",
+    "links": 795
+  },
+  {
+    "url": "https://twitter.com/",
+    "title": "X. It’s what’s happening / X",
+    "description": "From breaking news and entertainment to sports and politics, get the full story with all the live commentary.",
+    "links": 699
+  },
+  {
+    "url": "https://linkedin.com/",
+    "title": "LinkedIn: Log In or Sign Up",
+    "description": "1 billion members | Manage your professional identity. Build and engage with your professional network. Access knowledge, insights and opportunities.",
+    "links": 946
+  },
+  {
+    "url": "https://instagram.com/",
+    "title": "Instagram",
+    "description": "Create an account or log in to Instagram - Share what you're into with the people who get you.",
+    "links": 753
+  },
+  {
+    "url": "https://youtube.com/",
+    "title": "YouTube",
+    "description": "Enjoy the videos and music that you love, upload original content and share it all with friends, family and the world on YouTube.",
+    "links": 701
+  },
+  {
+    "url": "https://vimeo.com/",
+    "title": "Vimeo - All-in-One Video Platform",
+    "description": "The video platform trusted by 287 million creatives, entrepreneurs, and businesses. Everything you need to create, manage, and share stunning videos.",
+    "links": 761
+  },
+  {
+    "url": "https://rottentomatoes.com/",
+    "title": "Rotten Tomatoes: Movies | TV Shows | Movie Trailers | Reviews | Rotten Tomatoes",
+    "description": "Rotten Tomatoes, home of the Tomatometer, is the most trusted measurement of quality for Movies & TV. The definitive site for Reviews, Trailers, Showtimes, and Tickets",
+    "links": 803
+  },
+  {
+    "url": "https://metacritic.com/",
+    "title": "Movie Reviews, TV Reviews, Game Reviews, and Music Reviews - Metacritic",
+    "description": "Metacritic aggregates music, game, tv, and movie reviews from the leading critics. Only Metacritic.com uses METASCORES, which let you know at a glance how each item was reviewed.",
+    "links": 629
+  },
+  {
+    "url": "https://ign.com/",
+    "title": "Video Game News, Reviews, and Walkthroughs - IGN",
+    "description": "IGN is your #1 destination for all video game news, expert reviews, and walkthroughs.",
+    "links": 586
+  },
+  {
+    "url": "https://pcgamer.com/",
+    "title": "PC Gamer",
+    "description": "PC Gamer is your source for exclusive reviews, demos, updates and news on all your favorite PC gaming franchises.",
+    "links": 583
+  },
+  {
+    "url": "https://kotaku.com/",
+    "title": "Kotaku - Gaming Reviews, News, Tips and More.",
+    "description": "The third-party company Discord could use for their ID collection is mired in surveillance concerns and links to Epstein via one of its investors",
+    "links": 550
+  },
+  {
+    "url": "https://polygon.com/",
+    "title": "Polygon: Gaming and Entertainment News, Culture, Reviews, and More",
+    "description": "Your source for the latest in video games, sci-fi, fantasy, tabletop games, anime, horror, books, and comics.",
+    "links": 653
+  },
+  {
+    "url": "https://variety.com/",
+    "title": "Variety - Entertainment news, film reviews, awards, film festivals, box office, entertainment indust",
+    "description": "Entertainment news, film reviews, awards, film festivals, box office, entertainment industry conferences",
+    "links": 1169
+  },
+  {
+    "url": "https://hollywoodreporter.com/",
+    "title": "The Hollywood Reporter – Movie news, TV news, awards news, lifestyle news, business news and more fr",
+    "description": "Movie news, TV news, awards news, lifestyle news, business news and more from The Hollywood Reporter.",
+    "links": 748
+  },
+  {
+    "url": "https://nationalgeographic.com/",
+    "title": "National Geographic | National Geographic",
+    "description": "Explore National Geographic. A world leader in geography, cartography and exploration.",
+    "links": 586
+  },
+  {
+    "url": "https://smithsonianmag.com/",
+    "title": "Smithsonian Magazine: Explore History, Science, Arts & Culture",
+    "description": "Discover the latest stories in history, archaeology, science, arts and culture from one of the top news magazines. Smithsonian Magazine brings you compelling, in-depth articles every day.",
+    "links": 601
+  },
+  {
+    "url": "https://history.com/",
+    "title": "HISTORY | Topics, Shows and This Day in History",
+    "description": "Fascinating stories from the past you can trust, plus hit shows.",
+    "links": 564
+  },
+  {
+    "url": "https://nasa.gov/",
+    "title": "NASA",
+    "description": "NASA.gov brings you the latest news, images and videos from America's space agency, pioneering the future in space exploration, scientific discovery and aeronautics research.",
+    "links": 938
+  },
+  {
+    "url": "https://nature.com/",
+    "title": "Nature",
+    "description": "First published in 1869, Nature is the world’s leading multidisciplinary science journal. Nature publishes the finest peer-reviewed research that drives ground-breaking discovery, and is read by thought-leaders and decision-makers around the world.",
+    "links": 461
+  },
+  {
+    "url": "https://scientificamerican.com/",
+    "title": "Scientific American",
+    "description": "Scientific American is the essential guide to the most awe-inspiring advances in science and technology, explaining how they change our understanding of the world and shape our lives.",
+    "links": 450
+  },
+  {
+    "url": "https://newscientist.com/",
+    "title": "New Scientist | Science news, articles, and features",
+    "description": "Science news and long reads from expert journalists, covering developments in science, technology, health and the environment on the website and the magazine.",
+    "links": 453
+  },
+  {
+    "url": "https://webmd.com/",
+    "title": "WebMD - Better information. Better health.",
+    "description": "The leading source for trustworthy and timely health and medical news and information. Providing credible health information, supportive community, and educational services by blending award-winning expertise in content, community services, expert co",
+    "links": 577
+  },
+  {
+    "url": "https://mayoclinic.org/",
+    "title": "The world's best hospital - Mayo Clinic",
+    "description": "Verizon users are currently unable to call Mayo Clinic phone numbers with a 507 area code. Verizon is working to resolve the issue. Please use Patient Portal me",
+    "links": 467
+  },
+  {
+    "url": "https://healthline.com/",
+    "title": "Healthline: Medical information and health advice you can trust.",
+    "description": "We're committed to being your source for expert health guidance. Come to us in your pursuit of wellness.",
+    "links": 452
+  },
+  {
+    "url": "https://nih.gov/",
+    "title": "National Institutes of Health (NIH) |",
+    "description": "Official website of the National Institutes of Health (NIH). NIH is one of the world's foremost medical research centers. An agency of the U.S. Department of Health and Human Services, the NIH is the Federal focal point for health and medical researc",
+    "links": 347
+  },
+  {
+    "url": "https://who.int/",
+    "title": "World Health Organization (WHO)",
+    "description": "The United Nations agency working to promote health, keep the world safe and serve the vulnerable.",
+    "links": 497
+  },
+  {
+    "url": "https://un.org/",
+    "title": "Welcome to the United Nations",
+    "description": "الأمم المتحدة",
+    "links": 272
+  },
+  {
+    "url": "https://unesco.org/",
+    "title": "UNESCO : Building Peace through Education, Science and Culture, communication and information",
+    "description": "Learn more about UNESCO's role, vision and results. UNESCO is the United Nations Educational, Scientific and Cultural Organization. Our aim is to promote peace and security through international cooperation",
+    "links": 681
+  },
+  {
+    "url": "https://amnesty.org/",
+    "title": "Amnesty International",
+    "description": "We are a global movement of more than 10 million people in over 150 countries who campaign campaign for a world where human rights are enjoyed by all.",
+    "links": 328
+  },
+  {
+    "url": "https://hrw.org/",
+    "title": "Human Rights Watch | Defending Human Rights Worldwide",
+    "description": "Human Rights Watch defends the rights of people in 100 countries worldwide, spotlighting abuses and bringing perpetrators to justice",
+    "links": 606
+  },
+  {
+    "url": "https://worldbank.org/",
+    "title": "World Bank Group - International Development, Poverty and Sustainability",
+    "description": "With 189 member countries, the World Bank Group is a unique global partnership fighting poverty worldwide through sustainable solutions.",
+    "links": 252
+  },
+  {
+    "url": "https://imf.org/",
+    "title": "International Monetary Fund | IMF",
+    "description": "The International Monetary Fund (IMF) works to achieve sustainable growth and prosperity for all of its 191 member countries. It does so by supporting economic policies that promote financial stability and monetary cooperation, which are essential to",
+    "links": 482
+  },
+  {
+    "url": "https://ted.com/",
+    "title": "TED: Ideas change everything",
+    "description": "Subscribe",
+    "links": 230
+  },
+  {
+    "url": "https://khanacademy.org/",
+    "title": "Khan Academy",
+    "description": "",
+    "links": 180
+  },
+  {
+    "url": "https://coursera.org/",
+    "title": "Coursera | Courses, Professional Certificates, and Degrees Online",
+    "description": "Learn in-demand skills with online courses and Professional Certificates from leading companies like Google, IBM, Meta, and Adobe. Explore flexible programs—from short courses to full degrees.",
+    "links": 311
+  },
+  {
+    "url": "https://edx.org/",
+    "title": "edX | Online Courses, Certificates & Degrees from Leading Institutions",
+    "description": "Find the online learning path for you, delivered by world-class institutions like Harvard, Google, Amazon, and more.",
+    "links": 235
+  },
+  {
+    "url": "https://duolingo.com/",
+    "title": "Duolingo",
+    "description": "Duolingo is the world's most popular way to learn a language. It's 100% free, fun and science-based. Practice online on duolingo.com or on the apps!",
+    "links": 130
+  },
+  {
+    "url": "https://britannica.com/",
+    "title": "Encyclopedia Britannica | Britannica",
+    "description": "Explore the fact-checked online encyclopedia from Encyclopaedia Britannica with hundreds of thousands of objective articles, biographies, videos, and images from experts.",
+    "links": 335
+  },
+  {
+    "url": "https://dictionary.com/",
+    "title": "Meanings & Definitions of English Words | Dictionary.com",
+    "description": "The world's leading online dictionary: English definitions, synonyms, word origins, example sentences, word games, and more. A trusted authority for 25+ years!",
+    "links": 160
+  },
+  {
+    "url": "https://thesaurus.com/",
+    "title": "Synonyms and Antonyms of Words | Thesaurus.com",
+    "description": "Thesaurus.com is the world's largest and most trusted online thesaurus for 25+ years. Join millions of people and grow your mastery of the English language.",
+    "links": 128
+  },
+  {
+    "url": "https://merriam-webster.com/",
+    "title": "Merriam-Webster: America's Most Trusted Dictionary",
+    "description": "Find definitions for over 300,000 words from the most authoritative English dictionary. Continuously updated with new words and meanings.",
+    "links": 280
+  },
+  {
+    "url": "https://airbnb.com/",
+    "title": "Airbnb: Holiday Rentals, Cabins, Beach Houses, Unique Homes & Experiences",
+    "description": "Get an Airbnb for every kind of trip → 7 million holiday rentals → 2 million Guest favourites → 220+ countries and regions worldwide",
+    "links": 182
+  },
+  {
+    "url": "https://lonelyplanet.com/",
+    "title": "Travel Guides & Travel Inspiration - Lonely Planet",
+    "description": "Love travel? Discover, plan and book your perfect trip with expert advice, travel guides, destination information and inspiration from Lonely Planet.",
+    "links": 810
+  },
+  {
+    "url": "https://yelp.com/",
+    "title": "Restaurants, Dentists, Bars, Beauty Salons, Doctors - Yelp",
+    "description": "User Reviews and Recommendations of Best Restaurants, Shopping, Nightlife, Food, Entertainment, Things to Do, Services and More at Yelp",
+    "links": 86
+  },
+  {
+    "url": "https://zillow.com/",
+    "title": "Zillow: Real Estate, Apartments, Mortgages & Home Values",
+    "description": "The leading real estate marketplace. Search millions of for-sale and rental listings, compare Zestimate® home values and connect with local professionals.",
+    "links": 312
+  },
+  {
+    "url": "https://ebay.com/",
+    "title": "Electronics, Cars, Fashion, Collectibles & More | eBay",
+    "description": "Buy & sell electronics, cars, clothes, collectibles & more on eBay, the world's online marketplace. Top brands, low prices & free shipping on many items.",
+    "links": 259
+  },
+  {
+    "url": "https://shopify.com/",
+    "title": "Shopify: The All-in-One Commerce Platform for Businesses - Shopify",
+    "description": "Try Shopify free and start a business or grow an existing one. Get more than ecommerce software with tools to manage every part of your business.",
+    "links": 300
+  },
+  {
+    "url": "https://walmart.com/",
+    "title": "Walmart | Save Money. Live better.",
+    "description": "Shop Walmart.com today for Every Day Low Prices. Join Walmart+ for unlimited free delivery from your store and free shipping with no order minimum. Start your free 30-day trial now!",
+    "links": 69
+  },
+  {
+    "url": "https://target.com/",
+    "title": "Target : Expect More. Pay Less.",
+    "description": "Shop Target online and in-store for everything from groceries and essentials to clothing and electronics. Choose contactless pickup or delivery today.",
+    "links": 78
+  },
+  {
+    "url": "https://lowes.com/",
+    "title": "Access Denied",
+    "description": "Reference #18.f6548795.1771127819.bffe35f\nhttps://errors.edgesuite.net/18.f6548795.1771127819.bffe35f",
+    "links": 10
+  },
+  {
+    "url": "https://ikea.com/",
+    "title": "Hej! Welcome to IKEA Global",
+    "description": "Furniture, home accessories, design ideas and inspiration for big dreams and small budgets. A better everyday life begins at home!",
+    "links": 159
+  },
+  {
+    "url": "https://nike.com/",
+    "title": "Nike. Just Do It. Nike AU",
+    "description": "Nike delivers innovative products, experiences and services to inspire athletes.",
+    "links": 460
+  },
+  {
+    "url": "https://spotify.com/",
+    "title": "Spotify - Web Player: Music for everyone",
+    "description": "Spotify is a digital music service that gives you access to millions of songs.",
+    "links": 10
+  },
+  {
+    "url": "https://soundcloud.com/",
+    "title": "Stream and listen to music online for free with SoundCloud",
+    "description": "Discover and play over 320 million music tracks. Join the world’s largest online community of artists, bands, DJs, and audio creators.",
+    "links": 13
+  },
+  {
+    "url": "https://pandora.com/",
+    "title": "Pandora",
+    "description": "",
+    "links": 14
+  },
+  {
+    "url": "https://last.fm/",
+    "title": "Last.fm | Play music, find songs, and discover artists",
+    "description": "The world's largest online music service. Listen online, find out more about your favourite artists, and get music recommendations, only at Last.fm",
+    "links": 50
+  },
+  {
+    "url": "https://pitchfork.com/",
+    "title": "Pitchfork | The Most Trusted Voice in Music. | Pitchfork",
+    "description": "The Most Trusted Voice in Music.",
+    "links": 103
+  },
+  {
+    "url": "https://rollingstone.com/",
+    "title": "Rolling Stone – Music, Film, TV and Political News Coverage",
+    "description": "Get the latest Rolling Stone news with exclusive stories and pictures from Rolling Stone.",
+    "links": 226
+  },
+  {
+    "url": "https://billboard.com/",
+    "title": "Billboard – Music Charts, News, Photos & Video",
+    "description": "Music Charts, News, Photos &amp;amp; Video",
+    "links": 459
+  },
+  {
+    "url": "https://nme.com/",
+    "title": "NME | Music, Film, TV, Gaming & Pop Culture News",
+    "description": "NME brings you the latest music and pop culture news and reviews, along with videos and galleries, band features, concert tickets, magazine, radio and more.",
+    "links": 250
+  },
+  {
+    "url": "https://shop.lonelyplanet.com/",
+    "title": "Lonely Planet Travel Guidebooks: Free Shipping & Immediate Delivery",
+    "description": "Love travel? Discover, plan and book your perfect trip with expert advice, travel guides, destination information and inspiration from Lonely Planet.",
+    "links": 417
+  },
+  {
+    "url": "https://science.nasa.gov/",
+    "title": "NASA Science",
+    "description": "NASA Science seeks to discover the secrets of space, the origins of the universe, search for life elsewhere, and protect and improve life on Earth.",
+    "links": 373
+  },
+  {
+    "url": "https://pmc.com/",
+    "title": "PMC: Penske Media Corporation",
+    "description": "Jay Penske's Penske Media Corporation (PMC) is a leading global media company with iconic brands like Variety, THR, Deadline, Rolling Stone, Billboard & more.",
+    "links": 385
+  },
+  {
+    "url": "https://editorial.rottentomatoes.com/",
+    "title": "Rotten Tomatoes",
+    "description": "35 Worst Romantic Comedies of All Time",
+    "links": 104
+  },
+  {
+    "url": "https://elsewhere.io/",
+    "title": "Lonely Planet Journeys | Wildly unique experiences. Positive impact travel.",
+    "description": "Craft your trip with local experts who know their destination better than anyone else.",
+    "links": 197
+  },
+  {
+    "url": "https://tiktok.com/",
+    "title": "https://tiktok.com/",
+    "description": "",
+    "links": 67
+  },
+  {
+    "url": "https://x.com/",
+    "title": "X. It’s what’s happening / X",
+    "description": "From breaking news and entertainment to sports and politics, get the full story with all the live commentary.",
+    "links": 87
+  },
+  {
+    "url": "https://bleacherreport.com/",
+    "title": "Bleacher Report | Sports. Highlights. News. Now.",
+    "description": "Fan easier, fan faster and fan better with Bleacher Report. Keep up with the latest storylines, expert analysis, highlights and scores for all your favorite sports.",
+    "links": 322
+  },
+  {
+    "url": "https://blogs.webmd.com/",
+    "title": "WebMD Blogs",
+    "description": "WebMD Blogs",
+    "links": 114
+  },
+  {
+    "url": "https://policies.google.com/",
+    "title": "Privacy & Terms – Google",
+    "description": "Explains what information we collect and why, how we use it, and how to review and update it.",
+    "links": 109
+  },
+  {
+    "url": "https://college.mayo.edu/",
+    "title": "Home - Mayo Clinic College of Medicine & Science",
+    "description": "Mayo Clinic College of Medicine and Science offers more than 400 medical, surgical, health sciences, and biomedical research training programs at locations across Minnesota, Arizona, Florida, and Wisconsin.",
+    "links": 110
+  },
+  {
+    "url": "https://stackoverflow.co/",
+    "title": "Stack Overflow Business: Solve work’s biggest challenges - Stack Overflow",
+    "description": "Unlock growth and shape progress. Get the community-powered knowledge and trusted tools technologists and enterprises need to succeed today.",
+    "links": 111
+  },
+  {
+    "url": "https://disneyplus.com/",
+    "title": "Disney+ | Stream Movies, TV Shows, Documentaries & More | U.S. Site",
+    "description": "Access your favorite entertainment with Disney+. Disney+ is the streaming home for Disney, Hulu, ESPN, Pixar, Marvel, Star Wars, Nat Geo, and so much more.",
+    "links": 82
+  },
+  {
+    "url": "https://aegm.com/",
+    "title": "https://aegm.com/",
+    "description": "",
+    "links": 46
+  },
+  {
+    "url": "https://business.yelp.com/",
+    "title": "Yelp for Business: Free and paid advertising solutions",
+    "description": "Find new customers with Yelp. Grow your business for free today!",
+    "links": 97
+  },
+  {
+    "url": "https://bsky.app/",
+    "title": "Bluesky",
+    "description": "Social media as it should be. Find your community among millions of users, unleash your creativity, and have some fun again.",
+    "links": 28
+  },
+  {
+    "url": "https://subscribe.smithsonianmag.com/",
+    "title": "Subscribe to Smithsonian Magazine",
+    "description": "Unable to contact processor, please reload page or check back later.",
+    "links": 16
+  },
+  {
+    "url": "https://repairpal.com/",
+    "title": "Car Repair Estimates | Auto Shop & Mechanic Reviews - RepairPal",
+    "description": "RepairPal is the leading provider of auto repair and maintenance information to consumers. Our RepairPal Certified shop network helps you find a repair shop you can trust, and our RepairPal Fair Price Estimator ensures you never pay more than you sho",
+    "links": 252
+  },
+  {
+    "url": "https://play.google.com/",
+    "title": "Android Apps on Google Play",
+    "description": "Enjoy millions of the latest Android apps, games, music, movies, TV, books, magazines & more. Anytime, anywhere, across your devices.",
+    "links": 133
+  },
+  {
+    "url": "https://condenast.com/",
+    "title": "Condé Nast",
+    "description": "We are here to entertain, surprise, and empower. From the iconic brands to the world-leading talents, we are committed to the best of the best.",
+    "links": 165
+  },
+  {
+    "url": "https://donate.hrw.org/",
+    "title": "Human Rights Watch | Defending Human Rights Worldwide",
+    "description": "Human Rights Watch defends the rights of people in 100 countries worldwide, spotlighting abuses and bringing perpetrators to justice",
+    "links": 400
+  },
+  {
+    "url": "https://councils.forbes.com/",
+    "title": "Forbes Councils",
+    "description": "Forbes Councils is made up of invitation-only communities for executive leaders in a variety of industries. Learn more and find your community today.",
+    "links": 117
+  },
+  {
+    "url": "https://stackexchange.com/",
+    "title": "Hot Questions - Stack Exchange",
+    "description": "We make Stack Overflow and 170+ other community-powered Q&A sites.",
+    "links": 94
+  },
+  {
+    "url": "https://tv.apple.com/",
+    "title": "‎Apple TV",
+    "description": "Browse all movies, TV shows, and more from Apple TV. Watch all Apple Originals here and on the Apple TV app across your devices.",
+    "links": 281
+  },
+  {
+    "url": "https://apps.apple.com/",
+    "title": "‎Today for iPhone - App Store",
+    "description": "Find apps and games for iPhone, iPad, Mac, and more on the App Store.",
+    "links": 311
+  },
+  {
+    "url": "https://futureplc.com/",
+    "title": "Global Leader in Specialist Media - Future",
+    "description": "We are Future, the global platform for specialist media, home to some of the world's most popular media brands and expert content.",
+    "links": 62
+  },
+  {
+    "url": "https://premium.britannica.com/",
+    "title": "Britannica Memberships for the Whole Family",
+    "description": "Britannica & Merriam-Webster Memberships",
+    "links": 44
+  },
+  {
+    "url": "https://docs.github.com/",
+    "title": "GitHub Docs",
+    "description": "Get started, troubleshoot, and make the most of GitHub. Documentation for new users, developers, administrators, and all of GitHub's products.",
+    "links": 78
+  },
+  {
+    "url": "https://versantprivacy.com/",
+    "title": "Privacy Policy | VERSANT MEDIA",
+    "description": "This Privacy Policy (“Privacy Policy” or “Policy”) explains how Versant Media, LLC  and its affiliates (“Versant Affiliates” or “Affiliates”) (collectively, “Ve",
+    "links": 69
+  },
+  {
+    "url": "https://sportico.com/",
+    "title": "Sportico.com – The Business of Sports",
+    "description": "The Business of Sports",
+    "links": 209
+  },
+  {
+    "url": "https://artnews.com/",
+    "title": "ARTnews.com – The Leading Source for Art News & Art Event Coverage",
+    "description": "ArtNews.com has been tracking the development of visual, contemporary, ancient and international art since 1902.",
+    "links": 181
+  },
+  {
+    "url": "https://grants.nih.gov/",
+    "title": "Home Page | Grants & Funding",
+    "description": "As the largest public funder of biomedical research in the world, NIH supports a variety of programs from grants and contracts to loan repayment. Learn about as",
+    "links": 100
+  },
+  {
+    "url": "https://corporate.britannica.com/",
+    "title": "Welcome to Britannica - Encyclopædia Britannica, Inc. Corporate Site",
+    "description": "For more than 250 years, Britannica has kindled the spark of curiosity with stories of discoveries, people and events that changed the world. Wait till you see what we do in the next 250 years. Get to Know Our Brands Britannica’s global reach 7B+ pag",
+    "links": 63
+  },
+  {
+    "url": "https://shop.merriam-webster.com/",
+    "title": "Merriam-Webster Dictionaries\n – Merriam-Webster Shop",
+    "description": "Our bookstore features our bestselling Merriam-Webster's Collegiate® Dictionary; the classic Webster's Third New International Dictionary, Unabridged; The Official SCRABBLE® Players Dictionary; and much more.",
+    "links": 73
+  },
+  {
+    "url": "https://help.nytimes.com/",
+    "title": "The New York Times Help Center Knowledge Base",
+    "description": "The New York Times Help Center Support Center helps you to find FAQ, how-to guides and step-by-step tutorials.",
+    "links": 40
+  },
+  {
+    "url": "https://platform.theverge.com/",
+    "title": "The Verge",
+    "description": "The Verge is about technology and how it makes us feel. Founded in 2011, we offer our audience everything from breaking news to reviews to award-winning features and investigations, on our site, in video, and in podcasts.",
+    "links": 167
+  },
+  {
+    "url": "https://stackoverflow.blog/",
+    "title": "The Stack Overflow Blog - Stack Overflow",
+    "description": "Essays, opinions, and advice on the act of computer programming, from Stack Overflow.",
+    "links": 178
+  },
+  {
+    "url": "https://valnetinc.com/",
+    "title": "Valnet - The Leading Publishing & Media Investment Company",
+    "description": "Valnet is a rapidly growing global digital publisher with 25+ authoritative brands across entertainment, technology, and lifestyle, reaching millions with engaging content. Explore our diverse portfolio.",
+    "links": 56
+  },
+  {
+    "url": "https://subscriptions.hollywoodreporter.com/",
+    "title": "Subscribe to The Hollywood Reporter",
+    "description": "The Definitive Voice of Entertainment News",
+    "links": 7
+  },
+  {
+    "url": "https://plus.nasa.gov/",
+    "title": "Home | NASA+",
+    "description": "With Artemis II on the horizon, four astronauts transition from years of training to mission-ready reality. This episode explores the physical and mental challe",
+    "links": 264
+  },
+  {
+    "url": "https://give.mayoclinic.org/",
+    "title": "https://give.mayoclinic.org/",
+    "description": "",
+    "links": 7
+  },
+  {
+    "url": "https://projects.worldbank.org/",
+    "title": "Projects & Operations | The World Bank",
+    "description": "",
+    "links": 18
+  },
+  {
+    "url": "https://corporate.walmart.com/",
+    "title": "Walmart Corporate News, Purpose & Leadership",
+    "description": "Explore Walmart’s corporate news, purpose, leadership, investor information and supplier resources—all in one place.",
+    "links": 170
+  },
+  {
+    "url": "https://threads.net/",
+    "title": "Threads",
+    "description": "Join Threads to share ideas, ask questions, post random thoughts, find your people and more. Log in with your Instagram.",
+    "links": 18
+  },
+  {
+    "url": "https://voxmedia.com/",
+    "title": "Vox Media",
+    "description": "Vox Media is where influence sparks action. Vox Media, the leader in modern media, is home to top talent, engaging editorial brands, and premium podcasts…",
+    "links": 34
+  },
+  {
+    "url": "https://pinterest.com/",
+    "title": "Pinterest",
+    "description": "Discover recipes, home ideas, style inspiration and other ideas to try.",
+    "links": 36
+  },
+  {
+    "url": "https://legal.yahoo.com/",
+    "title": "Yahoo Terms International | Yahoo",
+    "description": "To access the Yahoo Terms of Service, please choose your region from the list below.",
+    "links": 68
+  },
+  {
+    "url": "https://go.microsoft.com/",
+    "title": "Microsoft – AI, Cloud, Productivity, Computing, Gaming & Apps",
+    "description": "Explore Microsoft products and services and support for your home or business. Shop Microsoft 365, Copilot, Teams, Xbox, Windows, Azure, Surface and more.",
+    "links": 69
+  },
+  {
+    "url": "https://lnkd.in/",
+    "title": "LinkedIn: Log In or Sign Up",
+    "description": "1 billion members | Manage your professional identity. Build and engage with your professional network. Access knowledge, insights and opportunities.",
+    "links": 20
+  },
+  {
+    "url": "https://vibe.com/",
+    "title": "VIBE.com – Hip-Hop, R&B, Style, and Black Culture",
+    "description": "Hip-Hop, R&amp;B, Style, and Black Culture",
+    "links": 186
+  },
+  {
+    "url": "https://springernature.com/",
+    "title": "Springer Nature",
+    "description": "We are a global publisher dedicated to providing the best possible service to the whole research community. We help authors to share their discoveries; enable researchers to find, access and understand the work of others and support librarians and in",
+    "links": 106
+  },
+  {
+    "url": "https://ixl.com/",
+    "title": "IXL | Maths, English and Science Practice",
+    "description": "IXL is the world's most popular subscription-based learning site. Used by over 17 million students, IXL provides unlimited practice in more than 6400 maths, English and science topics. Interactive questions, awards and certificates keep kids motivate",
+    "links": 148
+  },
+  {
+    "url": "https://shopify.dev/",
+    "title": "Shopify Dev Docs",
+    "description": "Learn how to build an app, theme, custom storefront, or marketplace. Whether you're just getting started, deep in the development process, or ready to distribute and monetize your work, Shopify's docs, dev tools and frameworks make building easy and ",
+    "links": 26
+  },
+  {
+    "url": "https://threads.com/",
+    "title": "Threads",
+    "description": "Join Threads to share ideas, ask questions, post random thoughts, find your people and more. Log in with your Instagram.",
+    "links": 6
+  },
+  {
+    "url": "https://firefox.com/",
+    "title": "Get Firefox for desktop and mobile — Firefox.com",
+    "description": "Firefox is a free web browser backed by Mozilla, a non-profit dedicated to internet health and privacy.",
+    "links": 118
+  },
+  {
+    "url": "https://support.microsoft.com/",
+    "title": "Microsoft Support",
+    "description": "Microsoft Support is here to help you with Microsoft products. Find how-to articles, videos, and training for Microsoft Copilot, Microsoft 365, Windows 11, Surface, and more.",
+    "links": 74
+  },
+  {
+    "url": "https://fandango.com/",
+    "title": "Movie Tickets & Movie Times | Fandango",
+    "description": "Buy movie tickets in advance, find movie times, watch trailers, read movie reviews, and more at Fandango.",
+    "links": 96
+  },
+  {
+    "url": "https://robbreport.com/",
+    "title": "Robb Report – The Best Luxury Cars, Jets, Yachts, Travel, Watches",
+    "description": "The Best Luxury Cars, Jets, Yachts, Travel, Watches",
+    "links": 268
+  },
+  {
+    "url": "https://wwd.com/",
+    "title": "WWD – Women's Wear Daily brings you breaking news about the fashion industry, designers, celebrity t",
+    "description": "Women's Wear Daily brings you breaking news about the fashion industry, designers, celebrity trend setters, and extensive coverage of fashion week.",
+    "links": 475
+  },
+  {
+    "url": "https://optout.aboutads.info/",
+    "title": "WebChoices",
+    "description": "The new WebChoices consumer choice tool.",
+    "links": 33
+  },
+  {
+    "url": "https://sheknows.com/",
+    "title": "SheKnows – All Things Parenting",
+    "description": "SheKnows helps empower women through articles and discussion related to parenting, women's health, family-friendly recipes & relationship advice.",
+    "links": 256
+  },
+  {
+    "url": "https://ssl.drgnetwork.com/",
+    "title": "https://ssl.drgnetwork.com/",
+    "description": "",
+    "links": 7
+  },
+  {
+    "url": "https://play.history.com/",
+    "title": "HISTORY | Watch Full Episodes of Your Favorite Shows | HISTORY",
+    "description": "Home",
+    "links": 9
+  },
+  {
+    "url": "https://pubads.g.doubleclick.net/",
+    "title": "Enterprise Advertising & Analytics Solutions - Google Marketing Platform",
+    "description": "Google Marketing Platform offers an enterprise analytics solution to gain insights into your advertising, marketing, customers, and sales.",
+    "links": 57
+  },
+  {
+    "url": "https://courier.unesco.org/",
+    "title": "The UNESCO Courier | The UNESCO Courier",
+    "description": "UNESCO’s magazine – bringing you local perspectives on global issues since 1948. Available in 6+ languages.",
+    "links": 152
+  },
+  {
+    "url": "https://data360.worldbank.org/",
+    "title": "World Bank Open Data | Data",
+    "description": "World Bank Open Data from The World Bank: Data",
+    "links": 43
+  },
+  {
+    "url": "https://data.imf.org/",
+    "title": "Data Home",
+    "description": "",
+    "links": 32
+  },
+  {
+    "url": "https://nmenetworks.com/",
+    "title": "NME Networks",
+    "description": "We are a next generation global media network that views the wider world of pop culture through the lens of music.",
+    "links": 20
+  },
+  {
+    "url": "https://itunes.apple.com/",
+    "title": "iTunes - Apple",
+    "description": "The latest macOS offers the world’s best way to play — and add to — your collection of music, movies, TV shows, podcasts, audiobooks, and more.",
+    "links": 96
+  },
+  {
+    "url": "https://bbc.co.uk/",
+    "title": "BBC - Home",
+    "description": "The best of the BBC, with the latest news and sport headlines, weather, TV & radio highlights and much more from across the whole of BBC Online.",
+    "links": 172
+  },
+  {
+    "url": "https://youradchoices.com/",
+    "title": "YourAdChoices.com | Welcome to YourAdChoices.com",
+    "description": "When you click on the YourAdChoices Icon, you get control over how information about your interests is used for relevant advertising.",
+    "links": 31
+  },
+  {
+    "url": "https://tex.stackexchange.com/",
+    "title": "TeX - LaTeX Stack Exchange",
+    "description": "Q&A for users of TeX, LaTeX, ConTeXt, and related typesetting systems",
+    "links": 178
+  },
+  {
+    "url": "https://awin1.com/",
+    "title": "Join our global affiliate platform | Awin",
+    "description": "Affiliate marketing is a simple way to earn money online, using our affiliate platform. Join a global community of publishers and advertisers.",
+    "links": 62
+  },
+  {
+    "url": "https://magazineshop.us/",
+    "title": "Online Magazine Shop | New Magazines, Special Editions & Subscriptions\n– Magazine Shop US",
+    "description": "Magazine Shop is the leading distributor the most influential women’s lifestyle, celebrity and health & fitness media brands in the country, including Us Weekly, Woman’s World and First for Women. Buy back issues and popular special editions from the",
+    "links": 382
+  },
+  {
+    "url": "https://vip.wordpress.com/",
+    "title": "WordPress VIP - The leading enterprise content platform",
+    "description": "Build, publish, and scale without limits. WordPress VIP delivers the speed, security, and flexibility enterprises need for measurable results.",
+    "links": 44
+  },
+  {
+    "url": "https://privacy.thewaltdisneycompany.com/",
+    "title": "Disney Privacy Center Home - The Walt Disney Privacy Center",
+    "description": "The Walt Disney Company has a rich tradition of bringing great stories, characters, and experiences to our guests around the world, and our sites and applicatio",
+    "links": 53
+  },
+  {
+    "url": "https://photocontest.smithsonianmag.com/",
+    "title": "Welcome to the 2025 Smithsonian Magazine Photo Contest | Smithsonian Photo Contest | Smithsonian Mag",
+    "description": "Announcing 23rd  Annual Photo Contest Finalists in Spring 2026!",
+    "links": 103
+  },
+  {
+    "url": "https://historyvault.com/",
+    "title": "A+E Networks",
+    "description": "This content is not available in your area.",
+    "links": 5
+  },
+  {
+    "url": "https://ciencia.nasa.gov/",
+    "title": "Ciencia de la NASA en español - NASA Ciencia",
+    "description": "Últimas noticias, descubrimientos y ciencia de la NASA sobre planetas, astronomía y exploración en la web oficial en español. Explora en tu idioma.",
+    "links": 88
+  },
+  {
+    "url": "https://dx.doi.org/",
+    "title": "Resolve a DOI Name",
+    "description": "DOIs include a prefix (prefixes always start with 10.) and a suffix, separated by a forward\n                  slash (/). Prefacing the DOI with doi.org/ will tu",
+    "links": 5
+  },
+  {
+    "url": "https://partnerships.nature.com/",
+    "title": "Nature Partnerships",
+    "description": "Innovative solutions that connect academic institutions, research-led organisations and suppliers with the scientific community.",
+    "links": 98
+  },
+  {
+    "url": "https://subscription.newscientist.com/",
+    "title": "New Scientist Magazine Subscriptions - Subscribe to New Scientist magazine in print or digital subsc",
+    "description": "Download the app",
+    "links": 7
+  },
+  {
+    "url": "https://alumniassociation.mayo.edu/",
+    "title": "Mayo Clinic Alumni Association |",
+    "description": "Mayo Clinic Alumni Association promotes and preserves excellence in medical practice, education, and research, strengthen the bonds of Mayo Clinic heritage.",
+    "links": 129
+  },
+  {
+    "url": "https://house.unesco.org/",
+    "title": "UNESCO House | UNESCO House",
+    "description": "Where culture lives and moments matter.",
+    "links": 23
+  },
+  {
+    "url": "https://en.wikipedia.org/",
+    "title": "Wikipedia, the free encyclopedia",
+    "description": "The brass threepence, a twelve-sided coin dated between 1937 and 1970, was the first British coin that was not round. By the mid-1930s, the weight of the bronze",
+    "links": 208
+  },
+  {
+    "url": "https://github.blog/",
+    "title": "Home - The GitHub Blog",
+    "description": "Updates, ideas, and inspiration from GitHub to help developers build and design software.",
+    "links": 182
+  },
+  {
+    "url": "https://redditinc.com/",
+    "title": "Reddit Inc Homepage",
+    "description": "Homepage - Reddit",
+    "links": 66
+  },
+  {
+    "url": "https://support.theguardian.com/",
+    "title": "Support the Guardian",
+    "description": "Help us deliver the independent journalism the world needs. Support the Guardian by making a contribution.",
+    "links": 6
+  },
+  {
+    "url": "https://theguardian.newspapers.com/",
+    "title": "The past: read all about it.",
+    "description": "The largest online newspaper archive. Used by millions every month for historical research, family history, crime investigations, journalism, and more.",
+    "links": 41
+  },
+  {
+    "url": "https://aboutads.info/",
+    "title": "YourAdChoices.com | Welcome to YourAdChoices.com",
+    "description": "When you click on the YourAdChoices Icon, you get control over how information about your interests is used for relevant advertising.",
+    "links": 30
+  },
+  {
+    "url": "https://chat.stackoverflow.com/",
+    "title": "All | chat.stackoverflow.com",
+    "description": "A list of all community chat rooms on Stack Overflow. Need help? Visit our Chat FAQ.",
+    "links": 152
+  },
+  {
+    "url": "https://mozillafoundation.org/",
+    "title": "Welcome to Mozilla Foundation\n                \n            \n            \n                \n          ",
+    "description": "With over two decades of global impact, Mozilla Foundation continues to lead the movement for a better technology future—powered by people, open by design, and fueled by imagination.",
+    "links": 29
+  },
+  {
+    "url": "https://fitness.apple.com/",
+    "title": "Apple Fitness+ - Apple",
+    "description": "Apple Fitness+ has something for everyone, from Strength to Meditation. With new workouts every week and personalized recommendations. Try it free.",
+    "links": 168
+  },
+  {
+    "url": "https://music.apple.com/",
+    "title": "‎Apple Music - Web Player",
+    "description": "Listen to millions of songs, watch music videos, and experience live performances all on Apple Music. Play on web, in app, or on Android with your subscription.",
+    "links": 708
+  },
+  {
+    "url": "https://xbox.com/",
+    "title": "Xbox Official Site: Consoles, Games, and Community | Xbox",
+    "description": "Experience the new generation of games and entertainment with Xbox. Explore consoles, new and old Xbox games and accessories to start or add to your collection.",
+    "links": 103
+  },
+  {
+    "url": "https://azure.microsoft.com/",
+    "title": "Cloud Computing Services | Microsoft Azure",
+    "description": "Invent with purpose, realize cost savings, and make your organization more efficient with Microsoft Azure’s open and flexible cloud computing platform.",
+    "links": 270
+  },
+  {
+    "url": "https://news.google.com/",
+    "title": "Google News",
+    "description": "Comprehensive, up-to-date news coverage, aggregated from sources all over the world by Google News.",
+    "links": 38
+  },
+  {
+    "url": "https://meta.com/",
+    "title": "Meta – Shop AI glasses and VR headsets | Meta Store",
+    "description": "Shop the latest AI glasses and wearable technology from Meta. Explore Ray-Ban Meta, Oakley Meta, display glasses and cutting-edge VR headsets.",
+    "links": 14
+  },
+  {
+    "url": "https://business.linkedin.com/",
+    "title": "Business Solutions on LinkedIn I LinkedIn",
+    "description": "Discover LinkedIn business solutions with products to hire, market and sell powered by LinkedIn's powerful network.",
+    "links": 40
+  },
+  {
+    "url": "https://help.vimeo.com/",
+    "title": "Vimeo Help Center",
+    "description": "Click a topic below to get started, brush up on features and workflows, or troubleshoot an issue.",
+    "links": 35
+  },
+  {
+    "url": "https://developer.vimeo.com/",
+    "title": "Vimeo Developer API",
+    "description": "Build something great. Vimeo's API supports flexible, high-quality video integration with your custom apps.",
+    "links": 6
+  },
+  {
+    "url": "https://fandom.com/",
+    "title": "Fandom",
+    "description": "The entertainment site where fans come first. Your daily source for all things TV, movies, and games, including Star Wars, Fallout, Marvel, DC and more.",
+    "links": 32
+  },
+  {
+    "url": "https://artforum.com/",
+    "title": "Artforum",
+    "description": "Established in 1962, Artforum delivers informed and inspired criticism and analyses concerning the latest developments in modern and contemporary art and culture, both in print and online.",
+    "links": 180
+  },
+  {
+    "url": "https://blogher.com/",
+    "title": "Blogging Tips & Events for Content Creators Everywhere | Blogher",
+    "description": "BlogHer is the industry leader for helping bloggers and content creators grow their brands. Find our events and content on Blogher.com.",
+    "links": 76
+  },
+  {
+    "url": "https://deadline.com/",
+    "title": "Deadline – Hollywood Entertainment Breaking News",
+    "description": "Deadline.com is always the first to break up-to-the-minute entertainment, Hollywood and media news, with an unfiltered, no-holds-barred analysis of events.",
+    "links": 279
+  },
+  {
+    "url": "https://theflowspace.com/",
+    "title": "Flow Space",
+    "description": "By providing your information, you agree to our Terms of Use and our Privacy Policy.\n\t\t\t\tWe use vendors that may also process your information to help provide o",
+    "links": 249
+  },
+  {
+    "url": "https://footwearnews.com/",
+    "title": "Footwear News",
+    "description": "The 24,500-square-foot flagship, located at 609 Fifth Avenue, opened in 2019.",
+    "links": 104
+  },
+  {
+    "url": "https://goldderby.com/",
+    "title": "Gold Derby – Predict Oscars, Emmys and reality TV races",
+    "description": "Predict Oscars, Emmys and reality TV races",
+    "links": 170
+  },
+  {
+    "url": "https://indiewire.com/",
+    "title": "IndieWire – The Voice of Creative Independence",
+    "description": "IndieWire is an online publication covering film, TV, and digital news, reviews, and interviews for passionate fans and industry insiders.",
+    "links": 228
+  },
+  {
+    "url": "https://soaps.sheknows.com/",
+    "title": "Soaps.com | Soap Opera News and Updates",
+    "description": "Soaps.com is the only soap opera website with the most in depth daily updates, exclusive soap star interviews, late-breaking news articles, lively message boards and more!",
+    "links": 105
+  },
+  {
+    "url": "https://sourcingjournal.com/",
+    "title": "Sourcing Journal",
+    "description": "Receive Our Daily Newsletter & Special Offers",
+    "links": 235
+  },
+  {
+    "url": "https://stylecaster.com/",
+    "title": "StyleCaster – Style News, Fashion Trends & Beauty Tips",
+    "description": "Get the latest fashion trend reports, shopping guides and celebrity style news.",
+    "links": 147
+  },
+  {
+    "url": "https://mylifetime.com/",
+    "title": "Lifetime | Watch Your Favorite Shows & Original Movies",
+    "description": "Stream full episodes of Lifetime series and original movies, including Married At First Sight, Marrying Millions, Little Women Atlanta, and more.",
+    "links": 54
+  },
+  {
+    "url": "https://authorservices.springernature.com/",
+    "title": "Springer Nature author service | Editing, translation & support",
+    "description": "Enhance your research with professional author services from Springer Nature. Access expert editing, translation, formatting, and publication support to prepare your manuscript for success.",
+    "links": 51
+  },
+  {
+    "url": "https://member.webmd.com/",
+    "title": "WebMD - Better Information. Better Health.",
+    "description": "Don't have an account ? Sign Up",
+    "links": 7
+  },
+  {
+    "url": "https://jobs.mayoclinic.org/",
+    "title": "Working at Mayo Clinic",
+    "description": "Browse available job openings at Mayo Clinic",
+    "links": 98
+  },
+  {
+    "url": "https://healthlinemedia.com/",
+    "title": "Healthline Media | The #1 health information publisher in the US | Healthline Media",
+    "description": "Healthline Media is the #1 health information publisher in the US, with leading brands like Healthline.com, Medical News Today, Greatist, Psych Central and Bezzy",
+    "links": 36
+  },
+  {
+    "url": "https://fellows.ted.com/",
+    "title": "TED Fellows | The founders of a better future",
+    "description": "In a complicated world, it’s easy to believe that the future is out of our hands. But there are some who understand that the future doesn’t just happen — it’s made. These are the TED Fellows: optimists, activists. artists, inventors, and dreamers.",
+    "links": 28
+  },
+  {
+    "url": "https://business.edx.org/",
+    "title": "Home - Business edX",
+    "description": "Enterprise learning with impact Drive organizational success with smart, scalable, and credential-granting learning solutions. Chat with us View plans Enterprise learning with impact Drive organizational success with smart, scalable, and credential-g",
+    "links": 110
+  },
+  {
+    "url": "https://request.elsewhere.io/",
+    "title": "Journeys | Request to travel",
+    "description": "Where do you want to go?",
+    "links": 5
+  },
+  {
+    "url": "https://zillow.help/",
+    "title": "Zillow Help Center",
+    "description": "",
+    "links": 3
+  },
+  {
+    "url": "https://ebayinc.com/",
+    "title": "About eBay: Company Info, News, Careers, Investor Relations",
+    "description": "Information and news about eBay Inc. (Nasdaq: EBAY), a global commerce leader that connects millions of buyers and sellers in more than 190 markets around the world.",
+    "links": 42
+  },
+  {
+    "url": "https://billboardevents.com/",
+    "title": "Home - Billboard Events",
+    "description": "Billboard EVENTS hosts annual festivals, curating the most prolific artists & speakers from around the world",
+    "links": 25
+  },
+  {
+    "url": "https://ja.wikipedia.org/",
+    "title": "Wikipedia",
+    "description": "ハワイの歴史（history of Hawaii）では、アメリカ合衆国50番目の州として登録されているハワイ州を構成するハワイ諸島における歴史を詳述する。",
+    "links": 268
+  },
+  {
+    "url": "https://de.wikipedia.org/",
+    "title": "Wikipedia – Die freie Enzyklopädie",
+    "description": "Wikipedia ist ein Projekt zum Aufbau einer Enzyklopädie aus freien Inhalten, zu denen du sehr gern beitragen kannst. Seit März 2001 sind 3.097.140 Artikel in de",
+    "links": 155
+  },
+  {
+    "url": "https://ru.wikipedia.org/",
+    "title": "Википедия — свободная энциклопедия",
+    "description": "свободную энциклопедию, которую может редактировать каждый.",
+    "links": 290
+  },
+  {
+    "url": "https://fr.wikipedia.org/",
+    "title": "Wikipédia, l'encyclopédie libre",
+    "description": "L'encyclopédie libre que vous pouvez améliorer",
+    "links": 286
+  },
+  {
+    "url": "https://es.wikipedia.org/",
+    "title": "Wikipedia, la enciclopedia libre",
+    "description": "la enciclopedia de contenido libreque todos pueden editar.",
+    "links": 260
+  },
+  {
+    "url": "https://it.wikipedia.org/",
+    "title": "Wikipedia, l'enciclopedia libera",
+    "description": "Benvenuti su Wikipedia\n\nL'enciclopedia libera e collaborativa",
+    "links": 297
+  },
+  {
+    "url": "https://zh.wikipedia.org/",
+    "title": "维基百科，自由的百科全书",
+    "description": "",
+    "links": 253
+  },
+  {
+    "url": "https://pt.wikipedia.org/",
+    "title": "Wikipédia, a enciclopédia livre",
+    "description": "a enciclopédia livre que todos podem editar.",
+    "links": 283
+  },
+  {
+    "url": "https://pl.wikipedia.org/",
+    "title": "Wikipedia, wolna encyklopedia",
+    "description": "Z nowych i ostatnio rozbudowanych artykułów w Wikipedii:",
+    "links": 210
+  },
+  {
+    "url": "https://meta.wikimedia.org/",
+    "title": "Main Page - Meta-Wiki",
+    "description": "Welcome to Meta-Wiki, the global community site for the Wikimedia Foundation's projects and related projects, from coordination and documentation to planning an",
+    "links": 381
+  },
+  {
+    "url": "https://foundation.wikimedia.org/",
+    "title": "Wikimedia Foundation Governance Wiki",
+    "description": "Welcome to the Wikimedia Foundation Governance Wiki.",
+    "links": 226
+  },
+  {
+    "url": "https://skills.github.com/",
+    "title": "Redirecting to GitHub Learn",
+    "description": "Redirecting to GitHub Learn...",
+    "links": 2
+  },
+  {
+    "url": "https://support.github.com/",
+    "title": "Sign in for Software Support and Product Help - GitHub Support",
+    "description": "Access your support options and sign in to your account for GitHub software support and product assistance. Get the help you need from our dedicated support team.",
+    "links": 5
+  },
+  {
+    "url": "https://resources.github.com/",
+    "title": "Home - GitHub Resources",
+    "description": "From setup to optimization, learn how to use GitHub to get the job done.",
+    "links": 54
+  },
+  {
+    "url": "https://twitch.tv/",
+    "title": "Twitch",
+    "description": "Twitch is an interactive livestreaming service for content spanning gaming, entertainment, sports, music, and more.",
+    "links": 5
+  },
+  {
+    "url": "https://cooking.nytimes.com/",
+    "title": "NYT Cooking - Recipes and Cooking Guides From The New York Times",
+    "description": "NYT Cooking is the digital source for thousands of the best recipes from The New York Times along with how-to guides for home cooks at every skill level.",
+    "links": 428
+  },
+  {
+    "url": "https://timesmachine.nytimes.com/",
+    "title": "TimesMachine: Tuesday March 20, 1979 - NYTimes.com",
+    "description": "We use cookies and similar technologies to recognize your repeat visits and preferences. We also use them to measure ad campaign effectiveness, target ads and a",
+    "links": 5
+  },
+  {
+    "url": "https://nytco.com/",
+    "title": "The New York Times Company",
+    "description": "We seek the truth and help people understand the world.",
+    "links": 69
+  },
+  {
+    "url": "https://advertising.nytimes.com/",
+    "title": "New York Times Advertising",
+    "description": "Everything you need to know about advertising with The New York Times and the world’s most premium ad experiences. Learn more about our products, storytelling, audience targeting and more. Contact us to get started.",
+    "links": 58
+  },
+  {
+    "url": "https://licensing.theguardian.com/",
+    "title": "Home | The Guardian Licensing",
+    "description": "Guardian Licensing is responsible for the commercial licensing and distribution of Guardian and Observer content",
+    "links": 23
+  },
+  {
+    "url": "https://artgallery.nsw.gov.au/",
+    "title": "Art Gallery of NSW | Art Gallery of NSW",
+    "description": "Sydney’s must-see art museum, showcasing world-class Australian and international art across a dynamic campus overlooking Sydney Harbour. Free entry. Art for all.",
+    "links": 92
+  },
+  {
+    "url": "https://truenorth.com.au/",
+    "title": "Luxury Cruises in Australia - True North Adventure Cruises",
+    "description": "Experience the Adventure luxury cruises in Australia aboard the award-winning True North! Activity-based itineraries are designed to satisfy the adventurous traveler.",
+    "links": 152
+  },
+  {
+    "url": "https://visitsingapore.com/",
+    "title": "Visit Singapore: Official Singapore Tourism Board Site",
+    "description": "Uncover the beauty of a city in nature from must-visit places and attractions to off-the-beaten spots, neighbourhoods, and festive events. Visit Singapore now!",
+    "links": 2
+  },
+  {
+    "url": "https://thomsonreuters.com.au/",
+    "title": "Informing Australia’s legal, tax and risk professionals is our top priority | Australia | Thomson Re",
+    "description": "Trusted expertise, powerful technology, advanced AI and industry-leading insights.",
+    "links": 105
+  },
+  {
+    "url": "https://us.cnn.com/",
+    "title": "Breaking News, Latest News and Videos | CNN",
+    "description": "View the latest news and breaking news today for U.S., world, weather, entertainment, politics and health at CNN.com.",
+    "links": 188
+  },
+  {
+    "url": "https://edition.cnn.com/",
+    "title": "Breaking News, Latest News and Videos | CNN",
+    "description": "View the latest news and breaking news today for U.S., world, weather, entertainment, politics and health at CNN.com.",
+    "links": 474
+  },
+  {
+    "url": "https://arabic.cnn.com/",
+    "title": "آخر الأخبار السياسية والرياضية والفنية وأحدث تقارير الفيديو - CNN Arabic",
+    "description": "تُقدم CNN بالعربية تغطية بالصور والفيديو لأهم أخبار العالم والدول العربية والخليج والشرق الأوسط، مع موضوعات حصرية بينها سياسة وصحة ورياضة وسياحة وستايل وتكنولوجيا.",
+    "links": 105
+  },
+  {
+    "url": "https://cnnespanol.cnn.com/",
+    "title": "Últimas noticias de Estados Unidos, Latinoamérica y el mundo, hoy | CNN en Español | CNN",
+    "description": "Últimas hora y noticias recientes de Estados Unidos, México, Colombia, Argentina, Latinoamérica y el mundo. Actualidad de hoy sobre política, economía, salud, deporte, entretenimiento y más",
+    "links": 451
+  },
+  {
+    "url": "https://cnn.it/",
+    "title": "Breaking News, Latest News and Videos | CNN",
+    "description": "View the latest news and breaking news today for U.S., world, weather, entertainment, politics and health at CNN.com.",
+    "links": 188
+  },
+  {
+    "url": "https://careers.wbd.com/",
+    "title": "Careers at Warner Bros. Discovery",
+    "description": "Warner Bros. Discovery offers exciting and rewarding career opportunities across a multitude of disciplines. Join us as we step into the next chapter.",
+    "links": 15
+  },
+  {
+    "url": "https://forbesmagazine.com/",
+    "title": "Home | Forbes Magazine",
+    "description": "Forbes Magazine (Official Site) - Subscribe To Forbes - Manage Your Subscription - Order Back Issues",
+    "links": 54
+  },
+  {
+    "url": "https://forbesreprints.magreprints.com/",
+    "title": "Forbes - PARS",
+    "description": "PARS International is the authorized reprint, permissions & licensing agent for Forbes. Leverage your positive coverage today.",
+    "links": 39
+  },
+  {
+    "url": "https://subs.forbesmagazine.com/",
+    "title": "CDS Global : w1.buysub.com",
+    "description": "Buysub.com is one of the largest magazine subscription commerce sites on the web. We host sites for over 400 magazines and other retailers. When you order a sub",
+    "links": 14
+  },
+  {
+    "url": "https://forbesmiddleeast.com/",
+    "title": "Forbes Middle East",
+    "description": "Forbes Middle East – a vital source for the region’s latest business and financial news and analysis, with a focus on investing, technology, entrepreneurship, leadership and lifestyle.",
+    "links": 13
+  },
+  {
+    "url": "https://forbes.ro/",
+    "title": "Forbes Romania - Stiri, evenimente si anunturi",
+    "description": "Forbes Romania ➜ Stiri si evenimente nationale si internationale ✅Informatii de actualitate din diverse domenii✅Topuri si informatii din zona de afaceri",
+    "links": 316
+  },
+  {
+    "url": "https://riddance.ai/",
+    "title": "Riddance | Substack",
+    "description": "Analysis and news about AI-generated media and what's real on the internet. Click to read Riddance, a Substack publication with thousands of subscribers.",
+    "links": 4
+  },
+  {
+    "url": "https://gizmodo.de/",
+    "title": "Gizmodo auf Deutsch",
+    "description": "Was passiert, wenn ein Unternehmen für Überwachungskameras beschließt, mit seinen Kameras Musik zu machen? Es entsteht eine der unterhaltsamsten und originellst",
+    "links": 130
+  },
+  {
+    "url": "https://es.gizmodo.com/",
+    "title": "Gizmodo en Español | Tecnología, ciencia y cultura digital",
+    "description": "Sumérgete en tecnología de vanguardia, reseñas y las últimas tendencias con el equipo experto de Gizmodo.",
+    "links": 154
+  },
+  {
+    "url": "https://fr.gizmodo.com/",
+    "title": "Gizmodo en Français",
+    "description": "Ne vous contentez pas du même vieux papier peint tous les jours.",
+    "links": 116
+  },
+  {
+    "url": "https://gizmodo.com.br/",
+    "title": "Gizmodo em português | Tecnologia, ciência e cultura digital",
+    "description": "No embalo do Carnaval ou em qualquer época do ano, beijar pode parecer inofensivo. Mas a troca de saliva pode facilitar a transmissão de vírus e bactérias que p",
+    "links": 122
+  },
+  {
+    "url": "https://algolia.com/",
+    "title": "The AI search and retrieval platform -  Agentic | Generative | Search",
+    "description": "More than 18,000 organizations rely on Algolia. From Agentic to Generative to Search AI, Algolia gives teams the tools to build intuitive, adaptive, and high-performing digital experiences on a single AI search and retrieval platform.",
+    "links": 264
+  },
+  {
+    "url": "https://shop.forem.com/",
+    "title": "Forem Shop",
+    "description": "Shirts and gifts for your friends & loved ones brought to you by the Forem team.",
+    "links": 365
+  },
+  {
+    "url": "https://forem.com/",
+    "title": "Forem",
+    "description": "Your community HQ",
+    "links": 185
+  },
+  {
+    "url": "https://meta.stackoverflow.com/",
+    "title": "Meta Stack Overflow",
+    "description": "Q&A about the site for professional and enthusiast programmers",
+    "links": 397
+  },
+  {
+    "url": "https://meta.stackexchange.com/",
+    "title": "Meta Stack Exchange",
+    "description": "Q&A for meta-discussion of the Stack Exchange family of Q&A websites",
+    "links": 430
+  },
+  {
+    "url": "https://philosophy.stackexchange.com/",
+    "title": "Philosophy Stack Exchange",
+    "description": "Q&A for those interested in the study of the fundamental nature of knowledge, reality, and existence",
+    "links": 182
+  },
+  {
+    "url": "https://developer.mozilla.org/",
+    "title": "MDN Web Docs",
+    "description": "The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps.",
+    "links": 137
+  },
+  {
+    "url": "https://blog.mozilla.org/",
+    "title": "The Mozilla Blog",
+    "description": "Perspectives on the internet from Mozilla",
+    "links": 48
+  },
+  {
+    "url": "https://open.spotify.com/",
+    "title": "Spotify - Web Player: Music for everyone",
+    "description": "Spotify is a digital music service that gives you access to millions of songs.",
+    "links": 4
+  },
+  {
+    "url": "https://support.apple.com/",
+    "title": "Official Apple Support",
+    "description": "Learn more about popular features and topics, and find resources that will help you with all of your Apple products.",
+    "links": 55
+  },
+  {
+    "url": "https://copilot.microsoft.com/",
+    "title": "Microsoft Copilot: Your AI companion",
+    "description": "Microsoft Copilot is your companion to inform, entertain and inspire. Get advice, feedback and straightforward answers. Try Copilot now.",
+    "links": 12
+  },
+  {
+    "url": "https://apps.microsoft.com/",
+    "title": "Microsoft Store - Download apps, games & more for your Windows PC",
+    "description": "Explore the Microsoft Store for apps and games on Windows. Enjoy exclusive deals, new releases, and your favorite content all in one place.",
+    "links": 12
+  },
+  {
+    "url": "https://developer.microsoft.com/",
+    "title": "Microsoft Developer",
+    "description": "Any platform. Any language. Our tools. Develop solutions, on your terms, using Microsoft products and services.",
+    "links": 83
+  },
+  {
+    "url": "https://learn.microsoft.com/",
+    "title": "Microsoft Learn: Build skills that open doors in your career",
+    "description": "Gain technical skills through documentation and training, earn certifications and connect with the community",
+    "links": 79
+  },
+  {
+    "url": "https://techcommunity.microsoft.com/",
+    "title": "Home | Microsoft Community Hub",
+    "description": "Our community is a collaborative place to learn about our products and ask questions! Check out our most popular conversations!",
+    "links": 82
+  },
+  {
+    "url": "https://visualstudio.microsoft.com/",
+    "title": "Visual Studio: IDE and Code Editor for Software Development",
+    "description": "Visual Studio dev tools & services make app development easy for any developer, on any platform & language. Develop with our code editor or IDE anywhere for free.",
+    "links": 42
+  },
+  {
+    "url": "https://unlocked.microsoft.com/",
+    "title": "Microsoft Unlocked - Stories from the heart & soul of innovation",
+    "description": "Stories from the heart and soul of innovation.",
+    "links": 70
+  },
+  {
+    "url": "https://google.com.au/",
+    "title": "Google",
+    "description": "© 2026 - Privacy - Terms",
+    "links": 13
+  },
+  {
+    "url": "https://about.meta.com/",
+    "title": "About Meta | Social technology, VR, AR and innovation",
+    "description": "Learn more about Meta and stay updated on our role in social technology, virtual reality, augmented reality and the future of human connection.",
+    "links": 7
+  },
+  {
+    "url": "https://about.twitter.com/",
+    "title": "About X | Our company and priorities",
+    "description": "We serve the public conversation. Learn more about X the company, and how we ensure people have a free and safe place to talk.",
+    "links": 5
+  },
+  {
+    "url": "https://business.twitter.com/",
+    "title": "X Business",
+    "description": "Grow your business on X with powerful advertising tools, analytics, and monetization options. Connect with a global audience and achieve your goals.",
+    "links": 4
+  },
+  {
+    "url": "https://about.linkedin.com/",
+    "title": "About LinkedIn",
+    "description": "About LinkedIn",
+    "links": 6
+  },
+  {
+    "url": "https://investors.vimeo.com/",
+    "title": "Vimeo - All-in-One Video Platform",
+    "description": "The video platform trusted by 287 million creatives, entrepreneurs, and businesses. Everything you need to create, manage, and share stunning videos.",
+    "links": 212
+  },
+  {
+    "url": "https://athome.fandango.com/",
+    "title": "Service is not available in your region.",
+    "description": "",
+    "links": 26
+  },
+  {
+    "url": "https://justwatch.com/",
+    "title": "JustWatch - The Streaming Guide",
+    "description": "All your streaming services in one app.",
+    "links": 555
+  },
+  {
+    "url": "https://store.ign.com/",
+    "title": "IGN Store: Shirts, Collectibles, and Toys for What You're Into",
+    "description": "IGN Store offers high-quality gaming and entertainment products curated from the franchises you love. We're continually launching new, exclusive, and limited products you won't find anywhere else.",
+    "links": 367
+  },
+  {
+    "url": "https://ziffdavis.com/",
+    "title": "Ziff Davis",
+    "description": "Ziff Davis (Nasdaq: ZD) is a vertically focused digital media and internet company whose portfolio includes leading brands in technology, entertainment, shopping, health, cybersecurity, and martech.",
+    "links": 128
+  },
+  {
+    "url": "https://planetpokemon.com/",
+    "title": "Homepage | Planet Pokémon",
+    "description": "Planet Pokémon covers all things Pokemon including news, guides, checklists, Pokedexes, items, planners & more.",
+    "links": 42
+  },
+  {
+    "url": "https://flipboard.com/",
+    "title": "Flipboard: Your Social Magazine",
+    "description": "One place for all the stories you care about. Join the Flipboard community to discover and share what inspires you.",
+    "links": 85
+  },
+  {
+    "url": "https://es.kotaku.com/",
+    "title": "Kotaku en Español - Revisos de Juegos, Noticias, Consejos y Más.",
+    "description": "Den of Wolves aún no ha salido y sus desarrolladores ya están siendo despedidos",
+    "links": 66
+  },
+  {
+    "url": "https://read-archive.variety.com/",
+    "title": "Variety Archive",
+    "description": "Variety Archive - 2026/02/14SD",
+    "links": 4
+  },
+  {
+    "url": "https://events.variety.com/",
+    "title": "Variety Events",
+    "description": "Variety presents in-person and virtual events that span private screenings of upcoming projects in film and TV, exclusive Q&As with creators and talent and rele",
+    "links": 10
+  },
+  {
+    "url": "https://smithsonianjourneys.org/",
+    "title": "Home | Smithsonian Journeys",
+    "description": "Plan Now >",
+    "links": 128
+  },
+  {
+    "url": "https://salesforce.com/",
+    "title": "Salesforce: The #1 AI CRM | Salesforce AU",
+    "description": "Salesforce is the #1 AI CRM, helping companies become Agentic Enterprises where humans and agents drive success together through a unified AI, data, and Customer 360 platform.",
+    "links": 561
+  },
+  {
+    "url": "https://adsales.aegm.com/",
+    "title": "A+E Networks Ad Sales Portfolio",
+    "description": "A+E Networks Ad Sales offers best in class service, programmatic solutions an agency first targeted approach and custom tailored creative productions and for all your needs.",
+    "links": 32
+  },
+  {
+    "url": "https://aefactualstudios.com/",
+    "title": "A+E Factual Studios | Home",
+    "description": "A+E FACTUAL STUDIOS digital brochure site is intended for a commercial audience only. The studio develops and produces premium documentary films and unscripted television for the global marketplace. The studio has expertise in a broad range of genres",
+    "links": 18
+  },
+  {
+    "url": "https://journal-alerts.springernature.com/",
+    "title": "Springer Nature account - log in or register",
+    "description": "© 2026 Springer Nature",
+    "links": 3
+  }
+]
