@@ -28,7 +28,7 @@ fetch('index.json')
   .then(res => res.json())
   .then(data => {
     results = data;
-    renderNews(data);       // show news bar on load
+    renderNews(data); // show news bar on load
   });
 
 // --- Render news / trending (top 5 by links) ---
@@ -39,12 +39,14 @@ function renderNews(list){
   const topNews = list.sort((a,b)=> b.links - a.links).slice(0,5);
 
   topNews.forEach(item => {
+    const img = item.image || 'assets/placeholder.png'; // placeholder if no image
+
     const card = document.createElement('div');
     card.className = 'news-card';
     card.innerHTML = `
       <a href="${item.url}" target="_blank">
+        <img src="${img}" alt="News Image" class="news-img">
         <div class="title">${item.title}</div>
-        <div class="snippet">${item.snippet || 'No description available.'}</div>
       </a>
     `;
     feed.appendChild(card);
@@ -65,7 +67,7 @@ function renderResults(list){
     card.innerHTML=`
       <a href="${item.url}" target="_blank">
         <div class="title">${item.title}</div>
-        <div class="snippet">${item.snippet || 'No description available.'}</div>
+        <div class="snippet">${item.snippet || ''}</div>
         <div class="url">${item.url}</div>
       </a>
     `;
@@ -77,16 +79,17 @@ function renderResults(list){
 function filterResults(){
   const q = document.querySelector('.search-bar').value.toLowerCase();
   const newsFeed = document.getElementById('newsFeed');
+  const resultsGrid = document.getElementById('resultsGrid');
 
   if(!q) {
-    // Search bar empty → show news bar, hide results
+    // Empty → show news, hide results
     newsFeed.style.display = 'flex';
-    document.getElementById('resultsGrid').innerHTML = '';
+    resultsGrid.innerHTML = '';
     renderNews(results);
     return;
   }
 
-  // Typing → hide news bar
+  // Typing → hide news
   newsFeed.style.display = 'none';
 
   const filtered = results.filter(item=>{
@@ -97,9 +100,6 @@ function filterResults(){
   renderResults(filtered);
 }
 </script>
-
-</body>
-</html>
 
 </body>
 </html>
