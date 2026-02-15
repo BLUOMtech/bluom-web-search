@@ -5,44 +5,42 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>BLUOM Web Search</title>
 <link rel="stylesheet" href="style.css">
-<!-- Favicon -->
 <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
 
 <header>
-  <!-- BLUOM Logo -->
-<img src="logo.png" alt="BLUOM Logo" id="logo">
+  <img src="logo.png" alt="BLUOM Logo" id="logo">
   <h1>BLUOM <span class="highlight">Search</span></h1>
   <input type="text" class="search-bar" placeholder="Search the web..." oninput="filterResults()">
 </header>
 
-<!-- News / Trending bar -->
+<!-- News container -->
 <div id="newsFeed" class="news-feed"></div>
 
-<!-- Search results grid -->
+<!-- Search results -->
 <div class="grid" id="resultsGrid"></div>
 
 <script>
-// Load JSON data
+// Load index.json
 let results = [];
 fetch('index.json')
   .then(res => res.json())
   .then(data => {
     results = data;
-    renderNews(data); // show news bar on load
+    renderNews(data);
   });
 
-// --- Render news / trending (top 5 by links) ---
+// --- Render news (one card visible, vertical scroll) ---
 function renderNews(list){
   const feed = document.getElementById('newsFeed');
   feed.innerHTML = '';
 
-  const topNews = list.sort((a,b)=> b.links - a.links).slice(0,5);
+  // Top 10 trending by links
+  const topNews = list.sort((a,b)=> b.links - a.links).slice(0,10);
 
   topNews.forEach(item => {
-    const img = item.image || 'placeholder.png'; // fallback if no image
-
+    const img = item.image || 'placeholder.png';
     const card = document.createElement('div');
     card.className = 'news-card';
     card.innerHTML = `
@@ -77,31 +75,26 @@ function renderResults(list){
   });
 }
 
-// --- Filter results on search input ---
+// --- Filter search ---
 function filterResults(){
   const q = document.querySelector('.search-bar').value.toLowerCase();
   const newsFeed = document.getElementById('newsFeed');
   const resultsGrid = document.getElementById('resultsGrid');
 
   if(!q) {
-    // Empty → show news, hide results
-    newsFeed.style.display = 'flex';
+    newsFeed.style.display = 'block';
     resultsGrid.innerHTML = '';
     renderNews(results);
     return;
   }
 
-  // Typing → hide news
   newsFeed.style.display = 'none';
-
   const filtered = results.filter(item=>{
     return (item.title && item.title.toLowerCase().includes(q)) ||
            (item.snippet && item.snippet.toLowerCase().includes(q));
   });
-
   renderResults(filtered);
 }
 </script>
-
 </body>
 </html>
