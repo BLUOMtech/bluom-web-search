@@ -1,15 +1,17 @@
+/* --- Body & layout --- */
 body {
   font-family: Arial, sans-serif;
-  background:#1A1AC7; /* updated background */
+  background:#1A1AC7; /* dark blue background */
   margin:0;
   padding:0;
   color:#fff;
   text-align:center;
 }
 
+/* --- Header --- */
 header {
   padding:2rem 1rem 1rem 1rem;
-  background:#1A1AC7; /* same as background for seamless look */
+  background:#1A1AC7;
   color:#fff;
 }
 
@@ -26,7 +28,7 @@ header h1 {
 }
 
 header h1 .highlight {
-  color:#1C7FEB; /* search in blue */
+  color:#1C7FEB; /* blue for 'Search' */
 }
 
 .search-bar {
@@ -38,6 +40,38 @@ header h1 .highlight {
   font-size:1rem;
 }
 
+/* --- News / Trending Bar --- */
+.news-feed {
+  display:flex;
+  overflow-x:auto;
+  gap:1rem;
+  padding:1rem;
+  max-width:1200px;
+  margin:0 auto 1rem auto;
+}
+
+.news-card {
+  min-width:200px;
+  background:#fff;
+  border-radius:10px;
+  padding:10px;
+  box-shadow:0 4px 8px rgba(0,0,0,0.1);
+  text-align:left;
+  color:#000;
+  flex-shrink:0;
+}
+
+.news-card .title {
+  font-weight:bold;
+  margin-bottom:5px;
+}
+
+.news-card .snippet {
+  font-size:0.85rem;
+  color:#555;
+}
+
+/* --- Search Results Grid --- */
 .grid {
   display:grid;
   grid-template-columns:repeat(auto-fill,minmax(300px,1fr));
