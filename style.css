@@ -41,18 +41,39 @@ header h1 .highlight {
 
 /* --- AI Overview --- */
 .ai-overview {
-  background:#fff;
-  color:#000;
-  margin:1rem auto;
-  padding:1rem;
-  border-radius:10px;
-  max-width:600px;
-  text-align:left;
+  background: linear-gradient(90deg, #1C7FEB, #5A1AF7); /* Gemini-style gradient */
+  color: #fff;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 15px;
+  max-width: 600px;
+  text-align: left;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  font-family: 'Arial', sans-serif;
+  font-size: 1rem;
+  min-height: 80px;
+  position: relative;
+  overflow: hidden;
 }
 
 .ai-overview .label {
-  font-weight:bold;
-  margin-bottom:.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+/* Blinking cursor for typing effect */
+.ai-overview .summary::after {
+  content: '|';
+  display: inline-block;
+  margin-left: 2px;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 50%, 100% { opacity: 1; }
+  25%, 75% { opacity: 0; }
 }
 
 /* --- Channels Tabs --- */
