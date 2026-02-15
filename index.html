@@ -11,20 +11,47 @@
 
 <header>
   <img src="assets/logo.png" alt="BLUOM Logo" id="logo">
-  <h1>BLUOM <span class="highlight">Sea</span></h1>
+  <h1>BLUOM <span class="highlight">Search</span></h1>
   <input type="text" class="search-bar" placeholder="Search the web..." oninput="filterResults()">
 </header>
 
+<!-- News / Trending bar -->
+<div id="newsFeed" class="news-feed"></div>
+
+<!-- Search results grid -->
 <div class="grid" id="resultsGrid"></div>
 
 <script>
-// Load search results JSON from root
+// Load JSON data
 let results = [];
 fetch('index.json')
   .then(res => res.json())
-  .then(data => { results = data; renderResults(results); });
+  .then(data => {
+    results = data;
+    renderNews(data);       // show news bar on load
+  });
 
-// Render search results
+// --- Render news / trending (top 5 by links) ---
+function renderNews(list){
+  const feed = document.getElementById('newsFeed');
+  feed.innerHTML = '';
+
+  const topNews = list.sort((a,b)=> b.links - a.links).slice(0,5);
+
+  topNews.forEach(item => {
+    const card = document.createElement('div');
+    card.className = 'news-card';
+    card.innerHTML = `
+      <a href="${item.url}" target="_blank">
+        <div class="title">${item.title}</div>
+        <div class="snippet">${item.snippet || 'No description available.'}</div>
+      </a>
+    `;
+    feed.appendChild(card);
+  });
+}
+
+// --- Render search results ---
 function renderResults(list){
   const grid = document.getElementById('resultsGrid');
   grid.innerHTML = '';
@@ -32,13 +59,13 @@ function renderResults(list){
     grid.innerHTML = '<p class="no-results">No results found.</p>';
     return;
   }
-  list.slice(0, 50).forEach(item => {
+  list.slice(0,50).forEach(item=>{
     const card = document.createElement('div');
-    card.className = 'card';
-    card.innerHTML = `
+    card.className='card';
+    card.innerHTML=`
       <a href="${item.url}" target="_blank">
         <div class="title">${item.title}</div>
-        <div class="snippet">${item.description || 'No description available.'}</div>
+        <div class="snippet">${item.snippet || 'No description available.'}</div>
         <div class="url">${item.url}</div>
       </a>
     `;
@@ -46,12 +73,22 @@ function renderResults(list){
   });
 }
 
-// Filter results
+// --- Filter results on search input ---
 function filterResults(){
   const q = document.querySelector('.search-bar').value.toLowerCase();
-  const filtered = results.filter(item => {
-    return item.title.toLowerCase().includes(q) || item.snippet.toLowerCase().includes(q);
+
+  if(!q) {
+    // If search bar is empty, hide results
+    document.getElementById('resultsGrid').innerHTML = '';
+    renderNews(results); // show news bar
+    return;
+  }
+
+  const filtered = results.filter(item=>{
+    return (item.title && item.title.toLowerCase().includes(q)) ||
+           (item.snippet && item.snippet.toLowerCase().includes(q));
   });
+
   renderResults(filtered);
 }
 </script>
