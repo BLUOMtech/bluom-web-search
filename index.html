@@ -1,36 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BLUOM Search</title>
-  <link rel="icon" href="favicon.ico">
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BLUOM Search</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <header>
-      <img src="logo.png" alt="BLUOM Logo" class="logo">
-      <h1>BLUOM<span class="highlight">Search</span></h1>
-    </header>
 
-    <main>
-      <input type="text" id="searchInput" placeholder="Search by keyword, domain, or authority...">
-      <button onclick="search()">Search</button>
-      <p class="tagline">Next-Gen Discovery Engine</p>
-      <p class="description">
-        Aggregating the web's most authoritative domains through automated
-        crawling and link analysis.
-      </p>
-      <div id="results"></div>
-    </main>
+<header>
+  <img src="assets/logo.png" alt="BLUOM Logo" id="logo">
+  <h1>BLUOM Web Search</h1>
+  <input type="text" class="search-bar" placeholder="Search games or apps..." oninput="filterApps()">
+</header>
 
-    <footer>
-      <p>© 2026 BLUOM Web Search. Built for the distributed web.</p>
-      <p>Optimized for performance, authority, and discovery.</p>
-    </footer>
-  </div>
+<div class="grid" id="appGrid"></div>
 
-  <script src="search.js"></script>
+<script>
+// Load JSON data
+let apps = [];
+fetch('data/index.json')
+  .then(res => res.json())
+  .then(data => { apps = data; renderApps(apps); });
+
+// Render apps to grid
+function renderApps(appList){
+  const grid = document.getElementById('appGrid');
+  grid.innerHTML = '';
+  const maxRender = 50; // lazy load first 50
+  appList.slice(0, maxRender).forEach(app => {
+    const card = document.createElement('div');
+    card.className = 'card';
+    card.innerHTML = `
+      <img src="${app.img || 'assets/logo.png'}" alt="${app.name}">
+      <div>${app.name}</div>
+      <div class="tags">${(app.tags||[]).join(', ')}</div>
+    `;
+    card.onclick = () => window.open(app.url, "_blank");
+    grid.appendChild(card);
+  });
+}
+
+// Search filter
+function filterApps(){
+  const q = document.querySelector('.search-bar').value.toLowerCase();
+  const filtered = apps.filter(app => {
+    return app.name.toLowerCase().includes(q) || (app.tags||[]).some(tag => tag.includes(q));
+  });
+  renderApps(filtered);
+}
+</script>
+
 </body>
 </html>
