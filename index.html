@@ -76,13 +76,18 @@ function renderResults(list){
 // --- Filter results on search input ---
 function filterResults(){
   const q = document.querySelector('.search-bar').value.toLowerCase();
+  const newsFeed = document.getElementById('newsFeed');
 
   if(!q) {
-    // If search bar is empty, hide results
+    // Search bar empty → show news bar, hide results
+    newsFeed.style.display = 'flex';
     document.getElementById('resultsGrid').innerHTML = '';
-    renderNews(results); // show news bar
+    renderNews(results);
     return;
   }
+
+  // Typing → hide news bar
+  newsFeed.style.display = 'none';
 
   const filtered = results.filter(item=>{
     return (item.title && item.title.toLowerCase().includes(q)) ||
@@ -92,6 +97,9 @@ function filterResults(){
   renderResults(filtered);
 }
 </script>
+
+</body>
+</html>
 
 </body>
 </html>
