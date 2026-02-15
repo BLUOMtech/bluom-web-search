@@ -38,7 +38,7 @@ function renderResults(list){
     card.innerHTML = `
       <a href="${item.url}" target="_blank">
         <div class="title">${item.title}</div>
-        <div class="snippet">${item.snippet}</div>
+        <div class="snippet">${item.description || 'No description available.'}</div>
         <div class="url">${item.url}</div>
       </a>
     `;
