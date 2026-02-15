@@ -17,7 +17,7 @@
 
 <!-- AI Overview -->
 <div id="aiOverview" class="ai-overview" style="display:none;">
-  <div class="label">Sarah AI</div>
+  <div class="label">Sarah AI — BLUOM Tech</div>
   <div class="summary" id="aiSummary">Loading AI summary...</div>
 </div>
 
@@ -35,7 +35,6 @@
 <div id="resultsGrid" class="grid"></div>
 
 <script>
-// --- Load index.json ---
 let results = [];
 fetch('index.json')
   .then(res => res.json())
@@ -45,22 +44,37 @@ fetch('index.json')
     renderResults('web');
   });
 
-// --- Current active channel ---
 let currentChannel = 'web';
+let debounceTimer;
 
-// --- AI Overview (Gemini API call) ---
-function fetchAISummary(query){
+// --- AI Overview using Gemini ---
+async function fetchAISummary(query){
   const aiSummary = document.getElementById('aiSummary');
   aiSummary.textContent = 'Loading AI summary...';
   document.getElementById('aiOverview').style.display = 'block';
-  
-  // Example placeholder call — replace with Gemini API fetch
-  setTimeout(()=>{ 
-    aiSummary.textContent = `Sarah AI says: "${query}" is a topic covered in ${results.length} results. Here are key highlights...`; 
-  }, 500);
+
+  try {
+    const response = await fetch('https://api.generativeai.googleapis.com/v1beta2/models/text-bison-001:generateText', {
+      method: 'POST',
+      headers: {
+        'Content-Type':'application/json',
+        'Authorization':'Bearer AIzaSyAN9fZs84w-DqNv_LIbG4ahQzuLREIIMiE'
+      },
+      body: JSON.stringify({
+        "prompt": query,
+        "temperature": 0.7,
+        "maxOutputTokens": 200
+      })
+    });
+    const data = await response.json();
+    aiSummary.textContent = data?.candidates?.[0]?.output || "Sarah AI could not generate a summary.";
+  } catch(e){
+    aiSummary.textContent = "Error fetching AI summary.";
+    console.error(e);
+  }
 }
 
-// --- Render News (scrollable) ---
+// --- Render News ---
 function renderNews(){
   const feed = document.getElementById('newsFeed');
   feed.innerHTML = '';
@@ -79,14 +93,13 @@ function renderNews(){
   });
 }
 
-// --- Render Results by channel ---
+// --- Render results by channel ---
 function renderResults(channel){
   const grid = document.getElementById('resultsGrid');
   grid.innerHTML = '';
   currentChannel = channel;
   const q = document.querySelector('.search-bar').value.toLowerCase();
-  
-  // Filter based on search query
+
   let filtered = results.filter(item => 
     (item.title && item.title.toLowerCase().includes(q)) || 
     (item.snippet && item.snippet.toLowerCase().includes(q))
@@ -126,11 +139,15 @@ function renderResults(channel){
   }
 }
 
-// --- Filter search ---
+// --- Filter search with debounce ---
 function filterResults(){
-  const query = document.querySelector('.search-bar').value;
-  if(query) fetchAISummary(query);
-  renderResults(currentChannel);
+  clearTimeout(debounceTimer);
+  debounceTimer = setTimeout(()=>{
+    const query = document.querySelector('.search-bar').value.trim();
+    if(query) fetchAISummary(query);
+    else document.getElementById('aiOverview').style.display = 'none';
+    renderResults(currentChannel);
+  }, 500);
 }
 
 // --- Switch channels ---
