@@ -30,31 +30,9 @@ function renderResults(query) {
   aiDiv.innerHTML = `<h2>Sarah AI Overview</h2>
     <div class="ai-box">BLUOM Tech's AI giving insights on "<strong>${query}</strong>"...</div>`;
   main.appendChild(aiDiv);
-
   updateSarahAI(query);
 
-  // --- News Section ---
-  const newsDiv = document.createElement('div');
-  newsDiv.id = 'news-section';
-  const newsItems = indexData.filter(item => item.news_date);
-  if(newsItems.length){
-    newsItems.forEach(item=>{
-      if(query && !item.title.toLowerCase().includes(query.toLowerCase())) return;
-      const newsItem = document.createElement('div');
-      newsItem.className='news-item';
-      newsItem.innerHTML = `
-        <img src="${item.image || 'placeholder.png'}" alt="news">
-        <div class="news-content">
-          <a href="${item.url}" target="_blank" class="news-title">${item.title}</a>
-          <span class="news-date">${item.news_date.split('T')[0]}</span>
-        </div>
-      `;
-      newsDiv.appendChild(newsItem);
-    });
-    main.appendChild(newsDiv);
-  }
-
-  // --- Web Results ---
+  // --- Web Results (MAIN FOCUS) ---
   const webDiv = document.createElement('div');
   webDiv.id = 'web-section';
   const webItems = indexData.filter(item => !item.news_date);
@@ -71,6 +49,29 @@ function renderResults(query) {
       webDiv.appendChild(resultItem);
     });
     main.appendChild(webDiv);
+  }
+
+  // --- News Section ---
+  const newsDiv = document.createElement('div');
+  newsDiv.id = 'news-section';
+  const newsItems = indexData.filter(item => item.news_date);
+  if(newsItems.length){
+    const newsTitle = document.createElement('h2');
+    newsTitle.textContent = 'News';
+    newsDiv.appendChild(newsTitle);
+
+    newsItems.forEach(item=>{
+      if(query && !item.title.toLowerCase().includes(query.toLowerCase())) return;
+      const newsItem = document.createElement('div');
+      newsItem.className='news-item';
+      newsItem.innerHTML = `
+        <img src="${item.image || 'placeholder.png'}" alt="news">
+        <a href="${item.url}" target="_blank" class="news-title">${item.title}</a>
+      `;
+      newsDiv.appendChild(newsItem);
+    });
+
+    main.appendChild(newsDiv);
   }
 }
 
