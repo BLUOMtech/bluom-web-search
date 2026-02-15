@@ -1,4 +1,3 @@
-/* Root colors */
 :root {
   --bg: #1A1AC7;
   --search-color: #1C7FEB;
@@ -7,7 +6,6 @@
   --web-bg: rgba(255,255,255,0.08);
 }
 
-/* Body & Header */
 body{
   margin:0;
   font-family: Arial, sans-serif;
@@ -45,7 +43,7 @@ main{
   padding:15px;
   display:flex;
   flex-direction:column;
-  gap:20px;
+  gap:20px; /* SPACE between sections and news */
   max-width:800px;
   margin:0 auto;
   overflow-y: auto;
@@ -53,15 +51,12 @@ main{
   scrollbar-color: var(--search-color) rgba(255,255,255,0.2);
 }
 
-/* Custom scrollbar for Firefox */
 main::-webkit-scrollbar {
   width: 6px;
 }
-
 main::-webkit-scrollbar-track {
   background: rgba(255,255,255,0.2);
 }
-
 main::-webkit-scrollbar-thumb {
   background-color: var(--search-color);
   border-radius: 3px;
@@ -81,28 +76,37 @@ main::-webkit-scrollbar-thumb {
   border-radius:12px;
   font-weight:bold;
   color:#fff;
+  position:relative;
+  min-height:40px;
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
   animation: pulse 2s infinite;
+}
+
+.typing-line{
+  width:4px;
+  height:30px;
+  background: #fff;
+  margin-right:5px;
+  animation: blink 1s step-start infinite;
 }
 
 /* News */
 .news-item{
   display:flex;
+  flex-direction:column;
   background: var(--news-bg);
   border-radius:12px;
   overflow:hidden;
+  gap:8px; /* space between image and title */
+  padding:10px;
 }
 
 .news-item img{
-  width:140px;
-  height:90px;
+  width:100%;
+  height:150px;
   object-fit:cover;
-}
-
-.news-content{
-  padding:10px;
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
 }
 
 .news-title{
@@ -110,12 +114,6 @@ main::-webkit-scrollbar-thumb {
   font-size:1em;
   text-decoration:none;
   color:#fff;
-}
-
-.news-date{
-  font-size:0.75em;
-  color:#ccc;
-  margin-top:5px;
 }
 
 /* Web Results */
@@ -151,4 +149,9 @@ main::-webkit-scrollbar-thumb {
 @keyframes fadeIn{
   from{opacity:0}
   to{opacity:1}
+}
+
+@keyframes blink{
+  0%,50%,100%{opacity:1}
+  25%,75%{opacity:0}
 }
