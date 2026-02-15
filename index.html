@@ -15,30 +15,56 @@
   <input type="text" class="search-bar" placeholder="Search the web..." oninput="filterResults()">
 </header>
 
+<!-- AI Overview -->
+<div id="aiOverview" class="ai-overview" style="display:none;">
+  <div class="label">Sarah AI</div>
+  <div class="summary" id="aiSummary">Loading AI summary...</div>
+</div>
+
+<!-- Channel Tabs -->
+<div class="channels">
+  <button class="tab active" onclick="switchChannel('web')">Web</button>
+  <button class="tab" onclick="switchChannel('news')">News</button>
+  <button class="tab" onclick="switchChannel('images')">Images</button>
+</div>
+
 <!-- News container -->
 <div id="newsFeed" class="news-feed"></div>
 
 <!-- Search results -->
-<div class="grid" id="resultsGrid"></div>
+<div id="resultsGrid" class="grid"></div>
 
 <script>
-// Load index.json
+// --- Load index.json ---
 let results = [];
 fetch('index.json')
   .then(res => res.json())
   .then(data => {
     results = data;
-    renderNews(data);
+    renderNews();
+    renderResults('web');
   });
 
-// --- Render news (one card visible, vertical scroll) ---
-function renderNews(list){
+// --- Current active channel ---
+let currentChannel = 'web';
+
+// --- AI Overview (Gemini API call) ---
+function fetchAISummary(query){
+  const aiSummary = document.getElementById('aiSummary');
+  aiSummary.textContent = 'Loading AI summary...';
+  document.getElementById('aiOverview').style.display = 'block';
+  
+  // Example placeholder call — replace with Gemini API fetch
+  setTimeout(()=>{ 
+    aiSummary.textContent = `Sarah AI says: "${query}" is a topic covered in ${results.length} results. Here are key highlights...`; 
+  }, 500);
+}
+
+// --- Render News (scrollable) ---
+function renderNews(){
   const feed = document.getElementById('newsFeed');
   feed.innerHTML = '';
-
-  // Top 10 trending by links
-  const topNews = list.sort((a,b)=> b.links - a.links).slice(0,10);
-
+  const topNews = results.sort((a,b)=> b.links - a.links).slice(0,10);
   topNews.forEach(item => {
     const img = item.image || 'placeholder.png';
     const card = document.createElement('div');
@@ -53,48 +79,67 @@ function renderNews(list){
   });
 }
 
-// --- Render search results ---
-function renderResults(list){
+// --- Render Results by channel ---
+function renderResults(channel){
   const grid = document.getElementById('resultsGrid');
   grid.innerHTML = '';
-  if(list.length === 0){
-    grid.innerHTML = '<p class="no-results">No results found.</p>';
+  currentChannel = channel;
+  const q = document.querySelector('.search-bar').value.toLowerCase();
+  
+  // Filter based on search query
+  let filtered = results.filter(item => 
+    (item.title && item.title.toLowerCase().includes(q)) || 
+    (item.snippet && item.snippet.toLowerCase().includes(q))
+  );
+
+  if(channel==='news'){
+    renderNews();
+    document.getElementById('newsFeed').style.display = 'flex';
+    grid.style.display = 'none';
     return;
+  } else {
+    document.getElementById('newsFeed').style.display = 'none';
+    grid.style.display = 'grid';
   }
-  list.slice(0,50).forEach(item=>{
-    const card = document.createElement('div');
-    card.className='card';
-    card.innerHTML=`
-      <a href="${item.url}" target="_blank">
-        <div class="title">${item.title}</div>
-        <div class="snippet">${item.snippet || ''}</div>
-        <div class="url">${item.url}</div>
-      </a>
-    `;
-    grid.appendChild(card);
-  });
+
+  if(channel==='images'){
+    filtered.slice(0,50).forEach(item=>{
+      const card = document.createElement('div');
+      card.className='card image-card';
+      const img = item.image || 'placeholder.png';
+      card.innerHTML = `<a href="${item.url}" target="_blank"><img src="${img}" class="img-thumb" alt="${item.title}"></a>`;
+      grid.appendChild(card);
+    });
+  } else { // web
+    filtered.slice(0,50).forEach(item=>{
+      const card = document.createElement('div');
+      card.className='card';
+      card.innerHTML=`
+        <a href="${item.url}" target="_blank">
+          <div class="title">${item.title}</div>
+          <div class="snippet">${item.snippet || ''}</div>
+          <div class="url">${item.url}</div>
+        </a>
+      `;
+      grid.appendChild(card);
+    });
+  }
 }
 
 // --- Filter search ---
 function filterResults(){
-  const q = document.querySelector('.search-bar').value.toLowerCase();
-  const newsFeed = document.getElementById('newsFeed');
-  const resultsGrid = document.getElementById('resultsGrid');
+  const query = document.querySelector('.search-bar').value;
+  if(query) fetchAISummary(query);
+  renderResults(currentChannel);
+}
 
-  if(!q) {
-    newsFeed.style.display = 'block';
-    resultsGrid.innerHTML = '';
-    renderNews(results);
-    return;
-  }
-
-  newsFeed.style.display = 'none';
-  const filtered = results.filter(item=>{
-    return (item.title && item.title.toLowerCase().includes(q)) ||
-           (item.snippet && item.snippet.toLowerCase().includes(q));
-  });
-  renderResults(filtered);
+// --- Switch channels ---
+function switchChannel(channel){
+  document.querySelectorAll('.channels .tab').forEach(btn=>btn.classList.remove('active'));
+  document.querySelector(`.channels .tab[onclick="switchChannel('${channel}')"]`).classList.add('active');
+  renderResults(channel);
 }
 </script>
+
 </body>
 </html>
